@@ -63,7 +63,7 @@ export default function Home() {
         </h1>
 
         {/* Subtext */}
-        <h3 className="mt-8 max-w-xl text-xl tracking-tight opacity-100">
+        <h3 className="mt-8 max-w-xl text-lg md:text-xl tracking-tight opacity-100">
           Darwin will continuously source leads, craft personalized & persuasive
           messages that book meetings with buyers.
         </h3>
@@ -171,7 +171,7 @@ export default function Home() {
         <h2 className="max-w-xl text-center text-3xl font-medium  tracking-tight sm:text-5xl">
           The next step in Evolution. Introducing AI-colleagues.
         </h2>
-        <p className="mt-8 max-w-xl text-center text-xl tracking-tight opacity-100">
+        <p className="mt-8 max-w-xl text-center text-lg md:text-xl tracking-tight opacity-100">
           Darwin is the first AI BDR that learns over time and answers your
           questions prospects without human interference.
         </p>
