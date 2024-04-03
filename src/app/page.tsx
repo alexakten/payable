@@ -104,7 +104,7 @@ export default function Home() {
 
       {/* Top BDR Section */}
       <section className="mt-48 flex w-full max-w-6xl flex-col items-center ">
-        <h2 className="max-w-xl text-center text-3xl font-medium tracking-tight sm:text-5xl">
+        <h2 className="max-w-xl text-center text-3xl leading-[1.05] font-medium tracking-tight sm:text-5xl">
           Darwin is a top 1% BDR and is 96% cheaper.{" "}
         </h2>
         {/* <p className="mt-8 max-w-xs text-center text-xl tracking-tight opacity-100">
