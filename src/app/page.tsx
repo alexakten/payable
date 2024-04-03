@@ -1,6 +1,7 @@
 import Navbar from "./components/ui/Navbar";
 import StepCard from "./components/ui/StepCard";
 import ButtonPrimary from "./components/ui/ButtonPrimary";
+import Image from "next/image";
 import Link from "next/link";
 
 const steps = [
@@ -79,7 +80,16 @@ export default function Home() {
       <section className="mt-32 flex w-full max-w-6xl flex-col items-center ">
         <div className="grid w-full grid-cols-6 gap-4">
           <div className="col-span-2 flex flex-col">
-            <div className="h-[32rem] rounded-xl bg-zinc-100"></div>
+            <div className="relative h-[32rem] rounded-xl overflow-hidden bg-zinc-100">
+              <Image
+                src="/images/darwin.webp"
+                alt="Portrait of Darwin"
+                layout="fill"
+                objectFit="cover"
+                priority
+                className="scale-x-[-1]"
+              />
+            </div>
             <p className="mt-4 text-sm ">Introducing Darwin — your AI colleague.</p>
           </div>
 
