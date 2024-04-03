@@ -135,7 +135,7 @@ export default function Home() {
         <p className="mt-8 max-w-xs text-center text-xl tracking-tight opacity-100">
           Getting your own AI agent has never been easier.
         </p>
-        <div className="mt-16 grid grid-cols-6 w-full grid-rows-4 gap-4">
+        <div className="mt-16 grid grid-cols-6 w-full grid-rows-2 gap-4">
           <div className="col-span-4 row-span-1">
             <StepCard tagColor="blue" tagText="Feature" title="Title" description="Desc" />
           </div>
