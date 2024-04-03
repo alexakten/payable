@@ -102,7 +102,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Integrate Section */}
+      {/* Wins Deals Section */}
       <section className="mt-48 flex w-full max-w-6xl flex-col items-center ">
         <h2 className="max-w-xl text-center text-5xl font-medium tracking-tight">
           Darwin wins deals — fast.
@@ -127,27 +127,38 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Integrate Section */}
-      <section className="m-48 flex w-full max-w-6xl flex-col items-center ">
+      {/* Workflow Section */}
+      <section className="mt-48 max-w-6xl flex w-full flex-col items-center ">
         <h2 className="max-w-xl text-center text-5xl font-medium tracking-tight">
           Introduce Darwin directly into your workflow.
         </h2>
         <p className="mt-8 max-w-xs text-center text-xl tracking-tight opacity-100">
           Getting your own AI agent has never been easier.
         </p>
-        <div className="mt-16 grid grid-cols-4 gap-4">
-          {steps.map((step, index) => (
-            <StepCard
-              key={index}
-              tagColor={step.tagColor}
-              tagText={step.tagText}
-              title={step.title}
-              description={step.description}
-            />
-          ))}
+        <div className="mt-16 grid grid-cols-6 w-full grid-rows-4 gap-4">
+          <div className="col-span-4 row-span-1">
+            <StepCard tagColor="blue" tagText="Feature" title="Title" description="Desc" />
+          </div>
+          <div className="col-span-2 row-span-1">
+            <StepCard tagColor="blue" tagText="Feature" title="Title" description="Desc" />
+          </div>
+          <div className="col-span-2 row-span-1">
+            <StepCard tagColor="blue" tagText="Feature" title="Title" description="Desc" />
+          </div>
+          <div className="col-span-4 row-span-1">
+            <StepCard tagColor="blue" tagText="Feature" title="Title" description="Desc" />
+          </div>
         </div>
+      </section>
 
-        <div className="mt-20">
+      <section className="m-48 flex w-full flex-col items-center ">
+        <h2 className="max-w-xl text-center text-5xl font-medium tracking-tight">
+          Hire Darwin today.
+        </h2>
+        <p className="mt-8 max-w-sm text-center text-xl tracking-tight opacity-100">
+          Book a demo to see Darwin in action.
+        </p>
+        <div className="mt-16">
           <ButtonPrimary />
         </div>
       </section>
