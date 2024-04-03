@@ -58,16 +58,14 @@ export default function Home() {
         </div>
 
         {/* H1 */}
-        <h1 className="mt-6 max-w-5xl text-8xl tracking-tighter">
-          Hi, I&apos;m Darwin — <br /> your new AI colleague.
+        <h1 className="mt-6 max-w-5xl text-7xl tracking-tighter">
+          Hi, I&apos;m Darwin — <br /> your new BDR colleague.
         </h1>
 
         {/* Subtext */}
-        <h3 className="mt-8 max-w-lg text-xl tracking-tight opacity-100">
-          Automate your sales outeach and close more deals.{" "}
-          <span className="font-normal">
-            Darwin works 24/7 so you don&apos;t have to.
-          </span>
+        <h3 className="mt-8 max-w-xl text-xl tracking-tight opacity-100">
+          Darwin will continuously source leads, craft personalized & persuasive
+          messages that book meetings with buyers.
         </h3>
 
         {/* Button */}
@@ -80,7 +78,7 @@ export default function Home() {
       <section className="mt-32 flex w-full max-w-6xl flex-col items-center ">
         <div className="grid w-full grid-cols-6 gap-4">
           <div className="col-span-2 flex flex-col">
-            <div className="relative z-10 h-[32rem] rounded-xl overflow-hidden bg-zinc-100">
+            <div className="relative z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
                 src="/images/darwin.webp"
                 alt="Portrait of Darwin"
@@ -90,7 +88,9 @@ export default function Home() {
                 className="scale-x-[-1]"
               />
             </div>
-            <p className="mt-4 text-sm ">Introducing Darwin — your AI colleague.</p>
+            <p className="mt-4 text-sm ">
+              Introducing Darwin — your AI colleague.
+            </p>
           </div>
 
           <div className="col-span-4 flex flex-col">
@@ -102,7 +102,47 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Wins Deals Section */}
+      {/* Top BDR Section */}
+      <section className="mt-48 flex w-full max-w-6xl flex-col items-center ">
+        <h2 className="max-w-xl text-center text-5xl font-medium tracking-tight">
+          Darwin is a top 1% BDR and is 96% cheaper.{" "}
+        </h2>
+        {/* <p className="mt-8 max-w-xs text-center text-xl tracking-tight opacity-100">
+          Getting your own AI agent has never been easier.
+        </p> */}
+        <div className="mt-16 grid w-full grid-cols-3 gap-4">
+          <div className="col-span-1">
+            <StepCard
+              tagColor="purple"
+              tagText="Research"
+              title="The right person"
+              description="Darwin does in-depth research of your product & finds buyers which pain-point your product solves."
+            />
+          </div>
+          <div className="col-span-1">
+            <StepCard
+              tagColor="blue"
+              tagText="Messaging"
+              title="The right message"
+              description="Human personalization and persuasion. No ChatGPT sounding bullshit  Darwin writes value driven messages that books meetings.
+              "
+            />
+          </div>
+          <div className="col-span-1">
+            <StepCard
+              tagColor="green"
+              tagText="Timing"
+              title="The right time"
+              description="Darwin finds triggers of buyers to contact them at the right time, such as job changes, news, and data found on the web."
+            />
+          </div>
+        </div>
+        <div className="mt-20">
+          <ButtonPrimary />
+        </div>
+      </section>
+
+      {/* Wins Deals Section
       <section className="mt-48 flex w-full max-w-6xl flex-col items-center ">
         <h2 className="max-w-xl text-center text-5xl font-medium tracking-tight">
           Darwin wins deals — fast.
@@ -125,38 +165,16 @@ export default function Home() {
         <div className="mt-20">
           <ButtonPrimary />
         </div>
-      </section>
+      </section> */}
 
-      {/* Workflow Section */}
-      <section className="mt-48 max-w-6xl flex w-full flex-col items-center ">
-        <h2 className="max-w-xl text-center text-5xl font-medium tracking-tight">
-          Introduce Darwin directly into your workflow.
-        </h2>
-        <p className="mt-8 max-w-xs text-center text-xl tracking-tight opacity-100">
-          Getting your own AI agent has never been easier.
-        </p>
-        <div className="mt-16 grid grid-cols-6 w-full grid-rows-2 gap-4">
-          <div className="col-span-4 row-span-1">
-            <StepCard tagColor="blue" tagText="Feature" title="Title" description="Desc" />
-          </div>
-          <div className="col-span-2 row-span-1">
-            <StepCard tagColor="blue" tagText="Feature" title="Title" description="Desc" />
-          </div>
-          <div className="col-span-2 row-span-1">
-            <StepCard tagColor="blue" tagText="Feature" title="Title" description="Desc" />
-          </div>
-          <div className="col-span-4 row-span-1">
-            <StepCard tagColor="blue" tagText="Feature" title="Title" description="Desc" />
-          </div>
-        </div>
-      </section>
+
 
       <section className="m-48 flex w-full flex-col items-center ">
         <h2 className="max-w-xl text-center text-5xl font-medium tracking-tight">
-          Hire Darwin today.
+          The next step in Evolution. Introducing AI-colleagues.
         </h2>
-        <p className="mt-8 max-w-sm text-center text-xl tracking-tight opacity-100">
-          Book a demo to see Darwin in action.
+        <p className="mt-8 max-w-xl text-center text-xl tracking-tight opacity-100">
+          Darwin is the first AI BDR that learns over time and answers your questions prospects without human interference.
         </p>
         <div className="mt-16">
           <ButtonPrimary />
