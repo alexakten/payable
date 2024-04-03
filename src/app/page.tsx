@@ -137,9 +137,9 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="mt-20">
+        {/* <div className="mt-20">
           <ButtonPrimary />
-        </div>
+        </div> */}
       </section>
 
       {/* Wins Deals Section
