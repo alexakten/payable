@@ -37,7 +37,7 @@ const steps = [
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center bg-white tracking-tight text-zinc-950">
+    <main className="flex flex-col px-3 sm:px-8 items-center bg-white tracking-tight text-zinc-950">
       <Navbar />
 
       {/* Hero Section */}
