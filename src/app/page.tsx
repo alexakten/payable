@@ -116,7 +116,7 @@ export default function Home() {
               tagColor="purple"
               tagText="Research"
               title="The right person"
-              description="Darwin does in-depth research of your product & finds buyers which pain-point your product solves."
+              description="Darwin does in-depth research of your product & finds buyers whose pain-point your product solves."
             />
           </div>
           <div className="col-span-1">
@@ -124,7 +124,7 @@ export default function Home() {
               tagColor="blue"
               tagText="Messaging"
               title="The right message"
-              description="Human personalization and persuasion. No ChatGPT sounding bullshit  Darwin writes value driven messages that books meetings.
+              description="Human personalization and persuasion. No ChatGPT sounding bullshit. Darwin writes value driven messages that books meetings.
               "
             />
           </div>
