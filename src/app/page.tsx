@@ -104,13 +104,13 @@ export default function Home() {
 
       {/* Top BDR Section */}
       <section className="mt-48 flex w-full max-w-6xl flex-col items-center ">
-        <h2 className="max-w-xl text-center text-5xl font-medium tracking-tight">
+        <h2 className="max-w-xl text-center text-3xl sm:text-5xl font-medium tracking-tight">
           Darwin is a top 1% BDR and is 96% cheaper.{" "}
         </h2>
         {/* <p className="mt-8 max-w-xs text-center text-xl tracking-tight opacity-100">
           Getting your own AI agent has never been easier.
         </p> */}
-        <div className="mt-16 grid w-full grid-cols-3 gap-4">
+        <div className="mt-16 grid w-full grid-cols-1 md:grid-cols-3 gap-4">
           <div className="col-span-1">
             <StepCard
               tagColor="purple"
@@ -170,7 +170,7 @@ export default function Home() {
 
 
       <section className="m-48 flex w-full flex-col items-center ">
-        <h2 className="max-w-xl text-center text-5xl font-medium tracking-tight">
+        <h2 className="max-w-xl text-center text-3xl sm:text-5xl  font-medium tracking-tight">
           The next step in Evolution. Introducing AI-colleagues.
         </h2>
         <p className="mt-8 max-w-xl text-center text-xl tracking-tight opacity-100">

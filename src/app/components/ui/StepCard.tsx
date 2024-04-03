@@ -18,7 +18,7 @@ const StepCard: React.FC<StepCardProps> = ({
 
   return (
     <div
-      className={`bg-white border border-zinc-100 shadow-md justify-between text-left items-start flex flex-col p-6 w-full rounded-xl transform transition duration-300 ease-in-out hover:-translate-y-2`}
+      className={`bg-white h-full border border-zinc-100 shadow-md justify-between text-left items-start flex flex-col p-6 w-full rounded-xl transform transition duration-300 ease-in-out hover:-translate-y-2`}
     >
       <div className="flex items-center gap-2">
         <div className={`w-2.5 h-2.5 ${bgColorClass} rounded-full`}></div>
