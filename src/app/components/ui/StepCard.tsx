@@ -1,12 +1,12 @@
 
-interface FeatureCardProps {
+interface StepCardProps {
   tagColor: string;
   tagText: string;
   title: string;
   description: string;
 }
 
-const FeatureCard: React.FC<FeatureCardProps> = ({
+const StepCard: React.FC<StepCardProps> = ({
   tagColor,
   tagText,
   title,
@@ -18,7 +18,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
 
   return (
     <div
-      className={`bg-[#fff] shadow-lg justify-between text-left items-start flex flex-col p-6 w-full rounded-xl transform transition duration-300 ease-in-out hover:-translate-y-2`}
+      className={`bg-white border border-zinc-100 shadow-md justify-between text-left items-start flex flex-col p-6 w-full rounded-xl transform transition duration-300 ease-in-out hover:-translate-y-2`}
     >
       <div className="flex items-center gap-2">
         <div className={`w-2.5 h-2.5 ${bgColorClass} rounded-full`}></div>
@@ -27,12 +27,9 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
       <div className="mt-16">
         <h3 className="text-lg font-medium">{title}</h3>
         <p className="mt-2 opacity-40">{description}</p>
-        {/* <button className="mt-4 text-sm">
-          Learn more <span className={inter.className}>-&gt;</span>
-        </button> */}
       </div>
     </div>
   );
 };
 
-export default FeatureCard;
+export default StepCard;

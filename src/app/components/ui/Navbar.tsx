@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 flex w-full justify-between px-8 py-8">
+    <nav className="fixed top-0 flex w-full bg-white justify-between px-8 py-8">
       {/* Logo */}
-      <div className="text-xl font-medium tracking-tight">Darwin</div>
+      <div className="text-xl relative font-medium tracking-tight">Darwin<span className='text-[10px] absolute -right-2 bottom-3'>®</span></div>
 
       {/* Buttons */}
       <div className="flex gap-4">
