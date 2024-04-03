@@ -175,7 +175,7 @@ export default function Home() {
           Darwin is the first AI BDR that learns over time and answers your
           questions prospects without human interference.
         </p>
-        <div className="mt-16">
+        <div className="mt-8">
           <ButtonPrimary />
         </div>
       </section>
