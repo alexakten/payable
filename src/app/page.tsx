@@ -37,7 +37,7 @@ const steps = [
 
 export default function Home() {
   return (
-    <main className="flex flex-col px-3 sm:px-8 items-center bg-white tracking-tight text-zinc-950">
+    <main className="flex flex-col items-center bg-white px-3 tracking-tight text-zinc-950 sm:px-8">
       <Navbar />
 
       {/* Hero Section */}
@@ -58,7 +58,7 @@ export default function Home() {
         </div>
 
         {/* H1 */}
-        <h1 className="mt-6 max-w-5xl text-[clamp(36px,5.5vw,72px)] leading-[1.05] tracking-tighter">
+        <h1 className="mt-6 max-w-5xl text-[clamp(36px,5.5vw,72px)] leading-[1.05] font-medium tracking-tighter">
           Hi, I&apos;m Darwin — <br /> your new BDR colleague.
         </h1>
 
@@ -104,13 +104,13 @@ export default function Home() {
 
       {/* Top BDR Section */}
       <section className="mt-48 flex w-full max-w-6xl flex-col items-center ">
-        <h2 className="max-w-xl text-center text-3xl sm:text-5xl font-medium tracking-tight">
+        <h2 className="max-w-xl text-center text-3xl font-medium tracking-tight sm:text-5xl">
           Darwin is a top 1% BDR and is 96% cheaper.{" "}
         </h2>
         {/* <p className="mt-8 max-w-xs text-center text-xl tracking-tight opacity-100">
           Getting your own AI agent has never been easier.
         </p> */}
-        <div className="mt-16 grid w-full grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="mt-16 grid w-full grid-cols-1 gap-4 md:grid-cols-3">
           <div className="col-span-1">
             <StepCard
               tagColor="purple"
@@ -167,14 +167,13 @@ export default function Home() {
         </div>
       </section> */}
 
-
-
       <section className="m-48 flex w-full flex-col items-center ">
-        <h2 className="max-w-xl text-center text-3xl sm:text-5xl  font-medium tracking-tight">
+        <h2 className="max-w-xl text-center text-3xl font-medium  tracking-tight sm:text-5xl">
           The next step in Evolution. Introducing AI-colleagues.
         </h2>
         <p className="mt-8 max-w-xl text-center text-xl tracking-tight opacity-100">
-          Darwin is the first AI BDR that learns over time and answers your questions prospects without human interference.
+          Darwin is the first AI BDR that learns over time and answers your
+          questions prospects without human interference.
         </p>
         <div className="mt-16">
           <ButtonPrimary />
