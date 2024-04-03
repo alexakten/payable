@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 flex w-full bg-white justify-between px-8 pt-8 pb-2">
+    <nav className="fixed z-50 top-0 flex w-full bg-white justify-between px-8 pt-8 pb-2">
       {/* Logo */}
       <div className="text-xl relative font-medium tracking-tight">Darwin<span className='text-[10px] absolute -right-2 bottom-3'>®</span></div>
 

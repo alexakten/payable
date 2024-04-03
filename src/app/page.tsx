@@ -80,7 +80,7 @@ export default function Home() {
       <section className="mt-32 flex w-full max-w-6xl flex-col items-center ">
         <div className="grid w-full grid-cols-6 gap-4">
           <div className="col-span-2 flex flex-col">
-            <div className="relative h-[32rem] rounded-xl overflow-hidden bg-zinc-100">
+            <div className="relative z-10 h-[32rem] rounded-xl overflow-hidden bg-zinc-100">
               <Image
                 src="/images/darwin.webp"
                 alt="Portrait of Darwin"
@@ -108,7 +108,7 @@ export default function Home() {
           Darwin wins deals — fast.
         </h2>
         <p className="mt-8 max-w-xs text-center text-xl tracking-tight opacity-100">
-          Let your AI agent take over.
+          Let your AI employee take over.
         </p>
         <div className="mt-16 grid grid-cols-4 gap-4">
           {steps.map((step, index) => (
