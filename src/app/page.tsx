@@ -76,8 +76,8 @@ export default function Home() {
 
       {/* Images Section */}
       <section className="mt-32 flex w-full max-w-6xl flex-col items-center ">
-        <div className="grid w-full grid-cols-6 gap-4">
-          <div className="col-span-2 flex flex-col">
+        <div className="grid w-full grid-cols-1 md:grid-cols-6 gap-4">
+          <div className="col-span-1 md:col-span-2 flex flex-col">
             <div className="relative z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
                 src="/images/darwin.webp"
@@ -93,7 +93,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="col-span-4 flex flex-col">
+          <div className="col-span-1 md:col-span-4 flex flex-col">
             <div className="h-[32rem] rounded-xl bg-zinc-100"></div>
             <p className="mt-4 text-sm ">
               Get a complete overview with the sales dashboard.
