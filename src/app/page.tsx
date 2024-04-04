@@ -113,7 +113,7 @@ export default function Home() {
                     />
                   </div>
 
-                  <div className="ml-32">
+                  <div className="ml-16 md:ml-32">
                     <MessageCard
                       imageUrl="/images/darwin-profile.png"
                       name="Alex"
@@ -144,7 +144,7 @@ export default function Home() {
         {/* <p className="mt-8 max-w-xs text-center text-xl tracking-tight opacity-100">
           This is how Darwin works.
         </p> */}
-        <div className="mt-12 grid grid-cols-4 gap-4">
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {steps.map((step, index) => (
             <StepCard
               showTag={true}
