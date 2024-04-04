@@ -128,7 +128,7 @@ export default function Home() {
                       message={[
                         "Hey Darwin, sounds interesting. Could you tell me more ? ",
                       ]}
-                      messageBgColor="bg-orange-100"
+                      messageBgColor="bg-zinc-200"
                       imagePosition="right"
                     />
                   </div>
