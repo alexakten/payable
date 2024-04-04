@@ -58,12 +58,12 @@ export default function Home() {
         </div>
 
         {/* H1 */}
-        <h1 className="mt-6 max-w-5xl text-[clamp(36px,5.5vw,72px)] leading-[1.05] font-medium tracking-tighter">
+        <h1 className="mt-6 max-w-5xl text-[clamp(36px,5.5vw,72px)] font-medium leading-[1.05] tracking-tighter">
           Hi, I&apos;m Darwin — <br /> your new BDR colleague.
         </h1>
 
         {/* Subtext */}
-        <h3 className="mt-8 max-w-xl text-lg md:text-xl tracking-tight opacity-100">
+        <h3 className="mt-8 max-w-xl text-lg tracking-tight opacity-100 md:text-xl">
           Darwin will continuously source leads, craft personalized & persuasive
           messages that book meetings with buyers.
         </h3>
@@ -76,8 +76,8 @@ export default function Home() {
 
       {/* Images Section */}
       <section className="mt-32 flex w-full max-w-6xl flex-col items-center ">
-        <div className="grid w-full grid-cols-1 md:grid-cols-6 gap-4">
-          <div className="col-span-1 md:col-span-2 flex flex-col">
+        <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-6">
+          <div className="col-span-1 flex flex-col md:col-span-2">
             <div className="relative z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
                 src="/images/darwin.webp"
@@ -93,10 +93,17 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="col-span-1 md:col-span-4 flex flex-col">
-            <div className="h-[32rem] rounded-xl bg-zinc-100"></div>
-            <p className="mt-4 text-sm ">
-              Get a complete overview with the sales dashboard.
+          <div className="col-span-1 flex flex-col md:col-span-4">
+            <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
+              {/* Screen */}
+              <div className="bg absolute -bottom-6 -right-6 flex h-4/5 w-4/5 rounded-3xl border-[12px] border-black p-8">
+                <div>
+                  <div className="h-8 w-8 rounded-full bg-red-400"></div>
+                </div>
+              </div>
+            </div>
+            <p className="mt-4 text-sm">
+              Darwin takes care of outreach for you.
             </p>
           </div>
         </div>
@@ -104,7 +111,7 @@ export default function Home() {
 
       {/* Top BDR Section */}
       <section className="mt-48 flex w-full max-w-6xl flex-col items-center ">
-        <h2 className="max-w-xl text-center text-3xl leading-[1.05] font-medium tracking-tight sm:text-5xl">
+        <h2 className="max-w-xl text-center text-3xl font-medium leading-[1.05] tracking-tight sm:text-5xl">
           Darwin is a top 1% BDR and is 96% cheaper.{" "}
         </h2>
         {/* <p className="mt-8 max-w-xs text-center text-xl tracking-tight opacity-100">
@@ -171,7 +178,7 @@ export default function Home() {
         <h2 className="max-w-xl text-center text-3xl font-medium  tracking-tight sm:text-5xl">
           The next step in Evolution. Introducing AI-colleagues.
         </h2>
-        <p className="mt-8 max-w-xl text-center text-lg md:text-xl tracking-tight opacity-100">
+        <p className="mt-8 max-w-xl text-center text-lg tracking-tight opacity-100 md:text-xl">
           Darwin is the first AI BDR that learns over time and answers your
           questions prospects without human interference.
         </p>
