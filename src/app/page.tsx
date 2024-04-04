@@ -101,6 +101,12 @@ export default function Home() {
                   <div className="h-8 w-8 rounded-full bg-zinc-400"></div>
                   <div className="flex flex-col">
                     <p className="text-sm font-medium">Darwin</p>
+                    <div className="flex items-center gap-1">
+                      <div className="bg-green rounded-full w-1 h-1"></div>
+                      <p className="text-[8px]">Online</p>
+
+                    </div>
+
                   </div>
                 </div>
               </div>
