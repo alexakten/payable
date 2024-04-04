@@ -96,9 +96,12 @@ export default function Home() {
           <div className="col-span-1 flex flex-col md:col-span-4">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               {/* Screen */}
-              <div className="bg absolute -bottom-6 -right-6 flex h-4/5 w-4/5 rounded-3xl border-[12px] border-black p-8">
-                <div>
-                  <div className="h-8 w-8 rounded-full bg-red-400"></div>
+              <div className="bg absolute -bottom-6 -right-6 flex items-start h-4/5 w-4/5 rounded-3xl border-[12px] border-black p-8">
+                <div className="flex items-center gap-2">
+                  <div className="h-8 w-8 rounded-full bg-zinc-400"></div>
+                  <div className="flex flex-col">
+                    <p className="text-sm font-medium">Darwin</p>
+                  </div>
                 </div>
               </div>
             </div>
