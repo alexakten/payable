@@ -13,7 +13,7 @@ const MessageCard: React.FC<MessageCardProps> = ({ imageUrl, name, date, message
   return (
     <div className={`flex items-end gap-2 ${imagePosition === 'right' ? 'flex-row-reverse' : ''}`}>
       {/* Profile Image */}
-      <div className="relative h-8 w-8 overflow-hidden rounded-full bg-zinc-400">
+      <div className="relative h-8 w-8 overflow-hidden min-w-[32px] rounded-full bg-zinc-400">
         <Image
           src={imageUrl}
           alt={`Portrait of ${name}`}
