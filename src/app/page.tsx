@@ -108,9 +108,8 @@ export default function Home() {
                         " ",
                         "Kindred Lab has helped leading climate tech companies amplify their brand aligned with their mission.", // No line break after this line
                         " ",
-                        "After a quick look on your website, I’ve some ideas for potential improvements.",
-                        " ",
-                        "Worth a discussion?",
+                        "After a quick look on your website, I’ve some ideas for potential improvements. Worth a discussion?",
+                        "",
                         " ",
                         "Cheers,",
                         "",
@@ -128,9 +127,7 @@ export default function Home() {
                       name="Alex"
                       date="15:12"
                       message={[
-                        "Hey Darwin,",
-                        " ",
-                        "Sounds interesting. Could you tell me more?",
+                        "Hey Darwin, sounds interesting. Could you tell me more ? ",
                       ]}
                       imagePosition="right"
                     />
