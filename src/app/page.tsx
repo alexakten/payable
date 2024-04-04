@@ -113,10 +113,9 @@ export default function Home() {
                         " ",
                         "Cheers,",
                         "",
-                        "Darwin"
-
-
+                        "Darwin",
                       ]}
+                      messageBgColor="bg-indigo-100"
                       imagePosition="left"
                     />
                   </div>
@@ -129,6 +128,7 @@ export default function Home() {
                       message={[
                         "Hey Darwin, sounds interesting. Could you tell me more ? ",
                       ]}
+                      messageBgColor="bg-orange-100"
                       imagePosition="right"
                     />
                   </div>
@@ -210,7 +210,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <section className="m-48 flex w-full rounded-xl max-w-6xl flex-col items-center bg-zinc-100 p-32 ">
+      <section className="m-48 flex w-full max-w-6xl flex-col items-center rounded-xl bg-zinc-100 p-32 ">
         <h2 className="max-w-xl text-center text-3xl font-medium  tracking-tight sm:text-5xl">
           The next step in Evolution. Introducing AI-colleagues.
         </h2>
