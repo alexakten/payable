@@ -102,12 +102,21 @@ export default function Home() {
                       name="Darwin"
                       date="14:20"
                       message={[
-                        "Hey Alex, really impressed by your climate tech work 🌍",
+                        "Hey Alex - congrats on your pre-seed round of $1M! ",
                         " ",
-                        "I'm Darwin, I design websites that amplify missions like yours. Thought a new website could enhance your impact. How does Monday look for a quick chat?",
+                        "Noticed on LinkedIn that you’re hiring designers.",
                         " ",
-                        "Cheers,", // No line break after this line
-                        "Darwin",
+                        "Kindred Lab has helped leading climate tech companies amplify their brand aligned with their mission.", // No line break after this line
+                        " ",
+                        "After a quick look on your website, I’ve some ideas for potential improvements.",
+                        " ",
+                        "Worth a discussion?",
+                        " ",
+                        "Cheers,",
+                        "",
+                        "Darwin"
+
+
                       ]}
                       imagePosition="left"
                     />
@@ -119,9 +128,9 @@ export default function Home() {
                       name="Alex"
                       date="15:12"
                       message={[
-                        "Hi Darwin, I'm free around 10:00 on Monday. Let me know if that works for you.",
+                        "Hey Darwin,",
                         " ",
-                        "Alex",
+                        "Sounds interesting. Could you tell me more?",
                       ]}
                       imagePosition="right"
                     />

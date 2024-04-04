@@ -24,7 +24,7 @@ const MessageCard: React.FC<MessageCardProps> = ({ imageUrl, name, date, message
         />
       </div>
       {/* Message Wrapper */}
-      <div className={`flex max-w-xs flex-col rounded-xl ${imagePosition === 'right' ? 'rounded-br-none' : 'rounded-bl-none'} bg-zinc-200 p-3`}>
+      <div className={`flex max-w-sm flex-col rounded-xl ${imagePosition === 'right' ? 'rounded-br-none' : 'rounded-bl-none'} bg-zinc-200 p-3`}>
         {/* Name and Status Wrapper */}
         <div className="flex gap-2">
           <p className="text-xs font-medium">{name}</p>
