@@ -198,7 +198,7 @@ export default function Home() {
         </h2>
         <p className="mt-8 max-w-xl text-center text-lg tracking-tight opacity-100 md:text-xl">
           Darwin is the first AI BDR that learns over time and answers your
-          questions prospects without human interference.
+        prospects&apos; questions without human interference.
         </p>
         <div className="mt-8">
           <ButtonPrimary />
