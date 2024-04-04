@@ -144,7 +144,7 @@ export default function Home() {
         {/* <p className="mt-8 max-w-xs text-center text-xl tracking-tight opacity-100">
           This is how Darwin works.
         </p> */}
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="mt-12 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
           {steps.map((step, index) => (
             <StepCard
               showTag={true}
@@ -203,7 +203,8 @@ export default function Home() {
         </div> */}
       </section>
 
-      <section className="m-48 flex w-full flex-col items-center ">
+      {/* Footer */}
+      <section className="m-48 flex w-full rounded-xl max-w-6xl flex-col items-center bg-zinc-100 p-32 ">
         <h2 className="max-w-xl text-center text-3xl font-medium  tracking-tight sm:text-5xl">
           The next step in Evolution. Introducing AI-colleagues.
         </h2>
