@@ -122,7 +122,7 @@ export default function Home() {
 
                   <div className="ml-16 md:ml-32">
                     <MessageCard
-                      imageUrl="/images/darwin-profile.png"
+                      imageUrl="/images/darwin-profile.webp"
                       name="Alex"
                       date="15:12"
                       message={[
