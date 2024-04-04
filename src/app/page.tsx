@@ -1,6 +1,7 @@
 import Navbar from "./components/ui/Navbar";
 import StepCard from "./components/ui/StepCard";
 import ButtonPrimary from "./components/ui/ButtonPrimary";
+import MessageCard from "./components/ui/MessageBox";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -96,26 +97,40 @@ export default function Home() {
           <div className="col-span-1 flex flex-col md:col-span-4">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               {/* Screen */}
-              <div className="absolute -bottom-6 -right-6 flex h-4/5 w-4/5 items-start rounded-3xl border-[12px] border-black p-8 shadow-md">
-                <div className="flex items-center gap-2">
-                  {/* Profile Image */}
-                  <div className="h-8 w-8 overflow-hidden relative rounded-full bg-zinc-400">
-                    <Image
-                      src="/images/darwin-profile.png"
-                      alt="Portrait of Darwin"
-                      layout="fill"
-                      objectFit="cover"
-                      priority
-                      className="scale-x-[-1]"
-                    />
-                  </div>
-                  {/* Name and Status */}
+              <div className="absolute -bottom-6 -right-6 flex h-4/5 w-4/5 items-start rounded-3xl border-[12px] border-black px-8 py-10 shadow-md">
+                {/* Chat Wrapper */}
+                <div className="flex flex-col gap-4">
                   <div>
-                    <p className="text-sm font-medium">Darwin</p>
-                    <div className="flex items-center gap-1">
-                      <div className="bg-green h-1 w-1 rounded-full"></div>
-                      <p className="text-[8px]">Online</p>
-                    </div>
+                    <MessageCard
+                      imageUrl="/images/darwin-profile.png"
+                      name="Darwin"
+                      date="14:20"
+                      message={[
+                        "Hey Alex, really impressed by your climate tech work 🌍",
+                        " ",
+                        "I'm Darwin, I design websites that amplify missions like yours. Thought a new website could enhance your impact. How does Monday look for a quick chat?",
+                        " ",
+                        "Cheers,", // No line break after this line
+                        "Darwin"
+                      ]}
+                      imagePosition="left"
+                    />
+
+
+                  </div>
+
+                  <div className="ml-32">
+                    <MessageCard
+                      imageUrl="/images/darwin-profile.png"
+                      name="Alex"
+                      date="15:12"
+                      message={[
+                        "Hi Darwin, I'm free around 10:00 on Monday. Let me know if that works for you.",
+                        " ",
+                        "Alex"
+                      ]}
+                      imagePosition="right"
+                    />
                   </div>
                 </div>
               </div>
@@ -198,7 +213,7 @@ export default function Home() {
         </h2>
         <p className="mt-8 max-w-xl text-center text-lg tracking-tight opacity-100 md:text-xl">
           Darwin is the first AI BDR that learns over time and answers your
-        prospects&apos; questions without human interference.
+          prospects&apos; questions without human interference.
         </p>
         <div className="mt-8">
           <ButtonPrimary />
