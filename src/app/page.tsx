@@ -96,7 +96,7 @@ export default function Home() {
           <div className="col-span-1 flex flex-col md:col-span-4">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               {/* Screen */}
-              <div className="bg absolute -bottom-6 -right-6 flex items-start h-4/5 w-4/5 rounded-3xl border-[12px] border-black p-8">
+              <div className="shadow-md absolute -bottom-6 -right-6 flex items-start h-4/5 w-4/5 rounded-3xl border-[12px] border-black p-8">
                 <div className="flex items-center gap-2">
                   <div className="h-8 w-8 rounded-full bg-zinc-400"></div>
                   <div className="flex flex-col">
@@ -152,13 +152,13 @@ export default function Home() {
         </div> */}
       </section>
 
-      {/* Wins Deals Section
+      {/* Wins Deals Section */}
       <section className="mt-48 flex w-full max-w-6xl flex-col items-center ">
         <h2 className="max-w-xl text-center text-5xl font-medium tracking-tight">
           Darwin wins deals — fast.
         </h2>
         <p className="mt-8 max-w-xs text-center text-xl tracking-tight opacity-100">
-          Let your AI employee take over.
+          This is how Darwin works.
         </p>
         <div className="mt-16 grid grid-cols-4 gap-4">
           {steps.map((step, index) => (
@@ -175,7 +175,7 @@ export default function Home() {
         <div className="mt-20">
           <ButtonPrimary />
         </div>
-      </section> */}
+      </section>
 
       <section className="m-48 flex w-full flex-col items-center ">
         <h2 className="max-w-xl text-center text-3xl font-medium  tracking-tight sm:text-5xl">
