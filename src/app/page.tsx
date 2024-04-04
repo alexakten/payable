@@ -96,17 +96,26 @@ export default function Home() {
           <div className="col-span-1 flex flex-col md:col-span-4">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               {/* Screen */}
-              <div className="shadow-md absolute -bottom-6 -right-6 flex items-start h-4/5 w-4/5 rounded-3xl border-[12px] border-black p-8">
+              <div className="absolute -bottom-6 -right-6 flex h-4/5 w-4/5 items-start rounded-3xl border-[12px] border-black p-8 shadow-md">
                 <div className="flex items-center gap-2">
-                  <div className="h-8 w-8 rounded-full bg-zinc-400"></div>
-                  <div className="flex flex-col">
+                  {/* Profile Image */}
+                  <div className="h-8 w-8 overflow-hidden relative rounded-full bg-zinc-400">
+                    <Image
+                      src="/images/darwin-profile.png"
+                      alt="Portrait of Darwin"
+                      layout="fill"
+                      objectFit="cover"
+                      priority
+                      className="scale-x-[-1]"
+                    />
+                  </div>
+                  {/* Name and Status */}
+                  <div>
                     <p className="text-sm font-medium">Darwin</p>
                     <div className="flex items-center gap-1">
-                      <div className="bg-green rounded-full w-1 h-1"></div>
+                      <div className="bg-green h-1 w-1 rounded-full"></div>
                       <p className="text-[8px]">Online</p>
-
                     </div>
-
                   </div>
                 </div>
               </div>
