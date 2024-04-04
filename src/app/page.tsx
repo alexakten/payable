@@ -164,7 +164,7 @@ export default function Home() {
               tagColor="blue"
               tagText="Messaging"
               title="The right message"
-              description="Human personalization and persuasion. No ChatGPT sounding bullshit. Darwin writes value driven messages that books meetings.
+              description="Human personalization and persuasion. No ChatGPT sounding bullshit. Darwin writes value driven messages that book meetings.
               "
             />
           </div>
