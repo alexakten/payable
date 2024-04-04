@@ -8,7 +8,7 @@ export default function Navbar() {
 
       {/* Buttons */}
       <div className="flex gap-4">
-        <Link href={"/#"}>
+        <Link href={"https://calendly.com/alex-ckeb/15"}>
           <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
             Sign in
           </button>

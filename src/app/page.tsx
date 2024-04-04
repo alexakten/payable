@@ -43,7 +43,7 @@ export default function Home() {
         <div className="flex items-center gap-2 rounded-full border border-zinc-100 bg-white px-6 py-1 text-sm shadow-md">
           <div className="flex ">
             <p className="text-zinc-400">v.1 launching soon</p>
-            <Link href={"/#"}>
+            <Link href={"https://calendly.com/alex-ckeb/15"}>
               <button className="hover:text-blue group ml-2 border-l pl-2 font-medium">
                 Book demo{" "}
                 <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
