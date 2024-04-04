@@ -7,29 +7,25 @@ import Link from "next/link";
 
 const steps = [
   {
-    tagColor: "purple",
-    tagText: "Hire",
-    title: "Initialization & setup",
+    tagText: "Step 1",
+    title: "Hire Darwin",
     description:
       "Sign up and integrate Darwin into your existing team or workflow",
   },
   {
-    tagColor: "yellow",
-    tagText: "Train",
-    title: "Learning & training",
+    tagText: "Step 2",
+    title: "Train Darwin",
     description:
       "Provide Darwin with details about your product to create an ICP.",
   },
   {
-    tagColor: "green",
-    tagText: "Research",
-    title: "Gather information",
+    tagText: "Step 3",
+    title: "Darwin researches",
     description:
       "Darwin researches each potential customer based on dozens of data points.",
   },
   {
-    tagColor: "blue",
-    tagText: "Engage",
+    tagText: "Step 4",
     title: "Automated interactions",
     description:
       "Darwin personalizes outreach messages tailored to each potential customer",
@@ -111,12 +107,10 @@ export default function Home() {
                         "I'm Darwin, I design websites that amplify missions like yours. Thought a new website could enhance your impact. How does Monday look for a quick chat?",
                         " ",
                         "Cheers,", // No line break after this line
-                        "Darwin"
+                        "Darwin",
                       ]}
                       imagePosition="left"
                     />
-
-
                   </div>
 
                   <div className="ml-32">
@@ -127,7 +121,7 @@ export default function Home() {
                       message={[
                         "Hi Darwin, I'm free around 10:00 on Monday. Let me know if that works for you.",
                         " ",
-                        "Alex"
+                        "Alex",
                       ]}
                       imagePosition="right"
                     />
@@ -139,6 +133,33 @@ export default function Home() {
               Darwin takes care of outreach for you.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* How it works Section */}
+      <section className="mt-48 flex w-full max-w-6xl flex-col items-center ">
+        <h2 className="max-w-3xl text-center text-5xl font-medium tracking-tight">
+          Book meetings — fast.
+        </h2>
+        {/* <p className="mt-8 max-w-xs text-center text-xl tracking-tight opacity-100">
+          This is how Darwin works.
+        </p> */}
+        <div className="mt-12 grid grid-cols-4 gap-4">
+          {steps.map((step, index) => (
+            <StepCard
+              showTag={true}
+              tagText={step.tagText}
+              showBorder={false}
+              showShadow={false}
+              key={index}
+              title={step.title}
+              description={step.description}
+            />
+          ))}
+        </div>
+
+        <div className="mt-20">
+          <ButtonPrimary />
         </div>
       </section>
 
@@ -180,31 +201,6 @@ export default function Home() {
         {/* <div className="mt-20">
           <ButtonPrimary />
         </div> */}
-      </section>
-
-      {/* Wins Deals Section */}
-      <section className="mt-48 flex w-full max-w-6xl flex-col items-center ">
-        <h2 className="max-w-xl text-center text-5xl font-medium tracking-tight">
-          Darwin wins deals — fast.
-        </h2>
-        <p className="mt-8 max-w-xs text-center text-xl tracking-tight opacity-100">
-          This is how Darwin works.
-        </p>
-        <div className="mt-16 grid grid-cols-4 gap-4">
-          {steps.map((step, index) => (
-            <StepCard
-              key={index}
-              tagColor={step.tagColor}
-              tagText={step.tagText}
-              title={step.title}
-              description={step.description}
-            />
-          ))}
-        </div>
-
-        <div className="mt-20">
-          <ButtonPrimary />
-        </div>
       </section>
 
       <section className="m-48 flex w-full flex-col items-center ">
