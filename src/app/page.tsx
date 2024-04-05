@@ -160,6 +160,7 @@ export default function Home() {
               key={index}
               title={step.title}
               description={step.description}
+              hoverEffect={false}
             />
           ))}
         </div>

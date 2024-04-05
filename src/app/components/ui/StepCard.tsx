@@ -8,6 +8,8 @@ interface StepCardProps {
   tagText?: string;
   title: string;
   description: string;
+  hoverEffect?: boolean;
+
 }
 
 const StepCard: React.FC<StepCardProps> = ({
@@ -18,6 +20,8 @@ const StepCard: React.FC<StepCardProps> = ({
   tagText,
   title,
   description,
+  hoverEffect = true,
+
 }) => {
   const bgColorClass = tagColor && ["purple", "yellow", "green", "blue"].includes(tagColor)
     ? `bg-${tagColor}`
@@ -25,10 +29,12 @@ const StepCard: React.FC<StepCardProps> = ({
 
   const borderClass = showBorder ? "border border-zinc-100" : "";
   const shadowClass = showShadow ? "shadow-md" : "";
+  const hoverClass = hoverEffect ? "hover:-translate-y-2" : "";
+
 
   return (
     <div
-      className={`bg-white h-full ${borderClass} ${shadowClass} justify-between text-left items-start flex flex-col p-6 w-full rounded-xl transform transition duration-300 ease-in-out hover:-translate-y-2`}
+      className={`bg-white h-full ${borderClass} ${shadowClass} justify-between text-left items-start flex flex-col p-6 w-full rounded-xl transform transition duration-300 ease-in-out ${hoverClass}`}
     >
       <div className="flex items-center gap-2">
         {showTag && tagText && (
