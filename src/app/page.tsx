@@ -55,7 +55,7 @@ export default function Home() {
         </div>
 
         {/* H1 */}
-        <h1 className="mt-6 max-w-5xl text-[clamp(36px,5.5vw,72px)] font-medium leading-[1.05] tracking-tighter">
+        <h1 className="mt-6 max-w-5xl text-[clamp(36px,5.5vw,72px)] font-[450] leading-[1.05] tracking-tighter">
           Hi, I&apos;m Darwin — <br /> your new BDR colleague.
         </h1>
 
