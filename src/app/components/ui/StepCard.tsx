@@ -3,7 +3,6 @@ import React from 'react';
 interface StepCardProps {
   showTag?: boolean;
   showBorder?: boolean;
-  showShadow?: boolean;
   tagColor?: string;
   tagText?: string;
   title: string;
@@ -15,7 +14,6 @@ interface StepCardProps {
 const StepCard: React.FC<StepCardProps> = ({
   showTag = true,
   showBorder = true,
-  showShadow = true,
   tagColor,
   tagText,
   title,
@@ -23,18 +21,17 @@ const StepCard: React.FC<StepCardProps> = ({
   hoverEffect = true,
 
 }) => {
-  const bgColorClass = tagColor && ["purple", "yellow", "green", "blue"].includes(tagColor)
+  const bgColorClass = tagColor && ["purple", "yellow", "green", "blue", "lightblue", "cyan", "orange", "pink"].includes(tagColor)
     ? `bg-${tagColor}`
     : "bg-default";
 
-  const borderClass = showBorder ? "border border-zinc-100" : "";
-  const shadowClass = showShadow ? "shadow-md" : "";
+  const borderClass = showBorder ? "border border-zinc-100 p-6 shadow-md text-left" : "text-center max-w-[280px]";
   const hoverClass = hoverEffect ? "hover:-translate-y-2" : "";
 
 
   return (
     <div
-      className={`bg-white h-full ${borderClass} ${shadowClass} justify-between text-left items-start flex flex-col p-6 w-full rounded-xl transform transition duration-300 ease-in-out ${hoverClass}`}
+      className={`bg-white h-full ${borderClass} justify-between md:text-left items-center md:items-start flex flex-col  w-full rounded-xl transform transition duration-300 ease-in-out ${hoverClass}`}
     >
       <div className="flex items-center gap-2">
         {showTag && tagText && (
