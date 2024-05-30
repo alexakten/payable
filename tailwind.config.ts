@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      letterSpacing: {
+        tight: "-0.020rem"
+      },
       maxWidth: {
         "8xl": "1440px",
       },
