@@ -5,13 +5,15 @@ export default function Navbar() {
     <nav className="fixed top-0 z-50 grid w-full grid-cols-3 items-center justify-between bg-white px-8 pb-2 pt-8">
       {/* Logo */}
       <div className="col-span-1 flex items-center justify-start">
-        <p className="relative text-2xl font-medium tracking-tighter">
-          Payable
-          <span className="absolute -right-1 bottom-1.5 text-[12px]">™</span>
-        </p>
+        <Link href={"/"}>
+          <p className="relative text-2xl font-medium tracking-tighter">
+            Payable
+            {/* <span className="absolute -right-1 bottom-1.5 text-[12px]">™</span> */}
+          </p>
+        </Link>
       </div>
 
-      <div className="col-span-1 flex gap-2 font-medium items-center justify-center ">
+      <div className="col-span-1 whitespace-nowrap flex gap-2 font-medium items-center justify-center ">
         <Link href="/#">
           <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
             Om oss

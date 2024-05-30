@@ -32,7 +32,7 @@ export default function Home() {
 
         {/* H1 */}
         <h1 className="mt-6 max-w-5xl text-[clamp(36px,6vw,72px)] font-[450] leading-[1.05] tracking-tighter">
-          Få full kontroll över <br />  din ekonomi — med AI
+          Få kontroll över <br />  dina skulder — med AI
         </h1>
 
         {/* Subtext */}
