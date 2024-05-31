@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center bg-white px-3 tracking-tight text-black sm:px-8">
       <Navbar />
-
+{/* test */}
       {/* Hero Section */}
       <section className="max-w-8xl mt-52 flex w-full flex-col items-center justify-center text-center">
         {/* Notification Bar */}
