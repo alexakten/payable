@@ -7,7 +7,6 @@ import Link from "next/link";
 import ButtonSecondary from "./components/ui/ButtonSecondary";
 
 
-
 export default function Home() {
   return (
     <main className="flex flex-col items-center bg-white px-3 tracking-tight text-black sm:px-8">
