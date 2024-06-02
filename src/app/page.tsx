@@ -31,7 +31,7 @@ export default function Home() {
         </div>
 
         {/* H1 */}
-        <h1 className="mt-6 max-w-5xl text-[clamp(56px,6vw,72px)] font-[460] leading-[1.05] tracking-tighter">
+        <h1 className="mt-6 max-w-5xl text-[clamp(44px,6vw,72px)] font-[460] leading-[1.05] tracking-tighter">
           Ta kontroll över <br /> din ekonomi
         </h1>
 
