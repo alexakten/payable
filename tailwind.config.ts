@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       letterSpacing: {
         tight: "-0.020rem",
-        tighter: "-0.035rem",
+        tighter: "-0.040rem",
       },
       maxWidth: {
         "8xl": "1440px",
