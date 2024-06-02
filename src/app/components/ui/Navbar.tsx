@@ -13,7 +13,7 @@ export default function Navbar() {
         </Link>
       </div>
 
-      <div className="col-span-1 whitespace-nowrap flex gap-2 font-medium items-center justify-center ">
+      <div className="col-span-1 hidden sm:flex whitespace-nowrap gap-2 font-medium items-center justify-center ">
         <Link href="/#">
           <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
             Om oss
