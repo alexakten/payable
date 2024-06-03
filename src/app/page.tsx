@@ -51,7 +51,7 @@ export default function Home() {
       {/* Images Section */}
       <section className="mt-32 flex w-full max-w-6xl flex-col items-center ">
         <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-6">
-          <div className="col-span-1 flex flex-col md:col-span-4">
+          <div className="hidden md:flex sm:col-span-1 flex-col md:col-span-4">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
                 src="/images/hiking.webp"
@@ -84,7 +84,7 @@ export default function Home() {
 
       {/* Hjälpa dig Section */}
       <section className="mt-32 flex w-full max-w-2xl flex-col items-center text-center ">
-        <p className="text-5xl font-medium tracking-tighter">
+        <p className="text-4xl md:text-5xl font-medium tracking-tighter">
           Vi är här för att hjälpa dig
         </p>
         <h2 className="mt-8 text-xl font-medium">
@@ -117,7 +117,7 @@ export default function Home() {
 
       {/* Kravprocess Section */}
       <section className="m-32 flex w-full max-w-6xl flex-col items-center text-center ">
-        <p className="text-5xl font-medium tracking-tighter">
+        <p className="text-4xl md:text-5xl font-medium tracking-tighter">
           Så här går betalningen till
         </p>
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 grid-rows-2 gap-16 text-left">
