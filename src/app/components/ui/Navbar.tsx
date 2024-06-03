@@ -5,10 +5,16 @@ export default function Navbar() {
     <nav className="fixed top-0 z-50 grid w-full grid-cols-2 sm:grid-cols-3 items-center justify-between bg-white px-3 sm:px-8 pb-2 pt-8">
       {/* Logo */}
       <div className="col-span-1 flex items-center justify-start">
-        <Link href={"/"}>
-          <div>
+        <Link href={"/"} className="flex gap-1 items-center">
+          <svg width="16" height="16" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="5" height="25" fill="#E49DD8" />
+            <rect x="5" width="5" height="25" fill="#73ACDC" />
+            <rect x="10" width="5" height="25" fill="#FAC667" />
+            <rect x="20" width="5" height="25" fill="#869337" />
+            <rect x="15" width="5" height="25" fill="#DF771A" />
+          </svg>
 
-          </div>
+
           <p className="relative text-[22px] font-medium tracking-tighter">
             Payable
             {/* <span className="absolute -right-1 bottom-1 text-[12px]">™</span> */}
