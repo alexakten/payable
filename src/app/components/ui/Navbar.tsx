@@ -6,6 +6,9 @@ export default function Navbar() {
       {/* Logo */}
       <div className="col-span-1 flex items-center justify-start">
         <Link href={"/"}>
+          <div>
+
+          </div>
           <p className="relative text-[22px] font-medium tracking-tighter">
             Payable
             {/* <span className="absolute -right-1 bottom-1 text-[12px]">™</span> */}
