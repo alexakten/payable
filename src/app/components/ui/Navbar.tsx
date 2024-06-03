@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 z-50 grid w-full grid-cols-2 sm:grid-cols-3 items-center justify-between bg-white px-8 pb-2 pt-8">
+    <nav className="fixed top-0 z-50 grid w-full grid-cols-2 sm:grid-cols-3 items-center justify-between bg-white px-3 sm:px-8 pb-2 pt-8">
       {/* Logo */}
       <div className="col-span-1 flex items-center justify-start">
         <Link href={"/"}>
