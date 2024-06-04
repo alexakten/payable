@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="flex w-full flex-col items-center justify-center bg-zinc-100 pb-20 pt-12 ">
       <div className="grid w-full max-w-6xl font-medium grid-cols-2 gap-12 px-3 sm:px-8 md:grid-cols-4">
         <div className="flex flex-col gap-3 text-sm">
-          <p className="opacity-50">Låntagare</p>
+          <p className="opacity-40">Låntagare</p>
           <Link className="hover:underline" href={"/"}>
             Mina sidor
           </Link>
@@ -20,7 +20,7 @@ export default function Footer() {
           </Link>
         </div>
         <div className="flex flex-col gap-3 text-sm">
-          <p className="opacity-50">Kreditgivare</p>
+          <p className="opacity-40">Kreditgivare</p>
           <Link className="hover:underline" href={"/"}>
             Försäljning NPL
           </Link>
@@ -35,7 +35,7 @@ export default function Footer() {
           </Link>
         </div>
         <div className="flex flex-col gap-3 text-sm">
-          <p className="opacity-50">Payable</p>
+          <p className="opacity-40">Payable</p>
           <Link className="hover:underline" href={"/"}>
             Om oss
           </Link>
@@ -47,7 +47,7 @@ export default function Footer() {
           </Link>
         </div>
         <div className="flex flex-col gap-3 text-sm">
-          <p className="opacity-50">Kontakt</p>
+          <p className="opacity-40">Kontakt</p>
           <Link className="text-sm hover:underline" href={"/"}>
             08-123 45 67
           </Link>
@@ -63,7 +63,7 @@ export default function Footer() {
 
 
       <div className="flex w-full max-w-6xl justify-between px-3 sm:px-8">
-        <p className="text-sm opacity-50">© 2024 Payable AB</p>
+        <p className="text-sm opacity-40">© 2024 Payable AB</p>
 
         <div className="flex flex-col gap-3 text-right font-medium">
           <Link className="text-sm hover:underline" href={"/"}>
