@@ -40,9 +40,6 @@ export default function Footer() {
             Om oss
           </Link>
           <Link className="hover:underline" href={"/"}>
-            Värderingar
-          </Link>
-          <Link className="hover:underline" href={"/"}>
             Ledning
           </Link>
           <Link className="hover:underline" href={"/"}>
@@ -51,8 +48,6 @@ export default function Footer() {
         </div>
         <div className="flex flex-col gap-3 text-sm">
           <p className="opacity-50">Kontakt</p>
-          <p>Falugatan 8</p>
-          <p>113 32 Stockholm</p>
           <Link className="text-sm hover:underline" href={"/"}>
             08-123 45 67
           </Link>
