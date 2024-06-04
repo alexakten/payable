@@ -85,8 +85,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Hjälpa dig Section */}
-      <section className="mt-32 flex w-full  max-w-2xl flex-col items-center px-3 text-center sm:px-8 ">
+      {/* Hjälpa Section */}
+      <section className="mt-32 flex w-full  max-w-3xl flex-col items-center px-3 text-center sm:px-8 ">
         <p className="text-4xl font-medium tracking-tighter md:text-5xl">
           Vi är här för att <br className="sm:hidden" />hjälpa dig
         </p>
