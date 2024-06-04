@@ -49,7 +49,7 @@ export default function Navbar() {
         </Link> */}
 
         <Link href={"/#"}>
-          <button className="group rounded-md bg-black px-3 py-2 text-sm font-medium text-white hover:bg-zinc-800">
+          <button className="group rounded-md bg-black px-3 py-2 text-sm font-medium text-white hover:bg-zinc-700">
             Logga in
           </button>
         </Link>
