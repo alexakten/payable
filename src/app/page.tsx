@@ -9,11 +9,11 @@ import Footer from "./components/ui/Footer";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center bg-white px-3 tracking-tight text-black sm:px-8">
+    <main className="px- flex flex-col items-center bg-white tracking-tight text-black">
       <Navbar />
 
       {/* Hero Section */}
-      <section className="mt-36 md:mt-52 flex w-full max-w-8xl flex-col items-center justify-center text-center">
+      <section className="mt-36 flex w-full max-w-8xl flex-col items-center justify-center px-3 text-center sm:px-8 md:mt-52">
         {/* Notification Bar */}
         <div className="flex items-center gap-2 rounded-full border border-zinc-100 bg-white px-6 py-1 text-sm">
           <div className="flex">
@@ -37,7 +37,7 @@ export default function Home() {
         </h1>
 
         {/* Subtext */}
-        <h3 className="mt-8 max-w-sm md:max-w-md text-lg tracking-tight opacity-100 md:text-xl">
+        <h3 className="mt-8 max-w-sm text-lg tracking-tight opacity-100 md:max-w-md md:text-xl">
           Payable ger dig stöd och vägledning så att du kan ta kontroll över
           dina skulder.
         </h3>
@@ -50,9 +50,9 @@ export default function Home() {
       </section>
 
       {/* Images Section */}
-      <section className="mt-32 flex w-full max-w-6xl flex-col items-center ">
+      <section className="mt-32 flex w-full  max-w-6xl flex-col items-center px-3 sm:px-8 ">
         <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-6">
-          <div className="hidden md:flex sm:col-span-1 flex-col md:col-span-4">
+          <div className="hidden flex-col sm:col-span-1 md:col-span-4 md:flex">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
                 src="/images/hiking.webp"
@@ -63,7 +63,9 @@ export default function Home() {
                 className=""
               />
             </div>
-            <p className="mt-4 text-sm">Alla ska få känna friheten av att vara skuldfria. </p>
+            <p className="mt-4 text-sm">
+              Alla ska få känna friheten av att vara skuldfria.{" "}
+            </p>
           </div>
           <div className="col-span-1 flex flex-col md:col-span-2">
             <div className="relative z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
@@ -84,8 +86,8 @@ export default function Home() {
       </section>
 
       {/* Hjälpa dig Section */}
-      <section className="mt-32 flex w-full max-w-2xl flex-col items-center text-center ">
-        <p className="text-4xl md:text-5xl font-medium tracking-tighter">
+      <section className="mt-32 flex w-full  max-w-2xl flex-col items-center px-3 text-center sm:px-8 ">
+        <p className="text-4xl font-medium tracking-tighter md:text-5xl">
           Vi är här för att hjälpa dig
         </p>
         <h2 className="mt-8 text-xl font-medium">
@@ -99,7 +101,7 @@ export default function Home() {
       </section>
 
       {/* Images Section */}
-      <section className="mt-32 flex w-full max-w-6xl flex-col items-center ">
+      <section className="mt-32 flex w-full max-w-6xl flex-col items-center px-3 sm:px-8 ">
         <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-6">
           <div className="col-span-1 flex flex-col md:col-span-6">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
@@ -117,11 +119,11 @@ export default function Home() {
       </section>
 
       {/* Kravprocess Section */}
-      <section className="mt-32 flex w-full max-w-6xl flex-col items-center text-center ">
-        <p className="text-4xl md:text-5xl font-medium tracking-tighter">
+      <section className="mt-32 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
+        <p className="text-4xl font-medium tracking-tighter md:text-5xl">
           Så här går betalningen till
         </p>
-        <div className="mt-20 grid grid-cols-1 md:grid-cols-3 grid-rows-2 gap-16 text-left">
+        <div className="mt-20 grid grid-cols-1 grid-rows-2 gap-16 text-left md:grid-cols-3">
           <div>
             <p className="text-xl font-medium">1. Meddelande om skuld</p>
             <p className="mt-4 opacity-50">
@@ -170,7 +172,7 @@ export default function Home() {
       </section>
 
       {/* Images Section */}
-      <section className="m-32 flex w-full max-w-6xl flex-col items-center ">
+      <section className="m-32 flex w-full  max-w-6xl flex-col items-center px-3 sm:px-8 ">
         <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-6">
           <div className="col-span-1 flex flex-col md:col-span-2">
             <div className="relative z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
@@ -183,11 +185,9 @@ export default function Home() {
                 className="scale-x-[1]"
               />
             </div>
-            <p className="mt-4 text-sm ">
-              Vi hjälper dig vid varje steg.
-            </p>
+            <p className="mt-4 text-sm ">Vi hjälper dig vid varje steg.</p>
           </div>
-          <div className="hidden md:flex sm:col-span-1 flex-col md:col-span-4">
+          <div className="hidden flex-col sm:col-span-1 md:col-span-4 md:flex">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
                 src="/images/hugging.webp"
@@ -198,14 +198,14 @@ export default function Home() {
                 className=""
               />
             </div>
-            <p className="mt-4 text-sm">Alla ska få känna friheten av att vara skuldfria.</p>
+            <p className="mt-4 text-sm">
+              Alla ska få känna friheten av att vara skuldfria.
+            </p>
           </div>
-
         </div>
       </section>
 
       <Footer />
-
     </main>
   );
 }
