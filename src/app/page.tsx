@@ -5,6 +5,7 @@ import MessageCard from "./components/ui/MessageBox";
 import Image from "next/image";
 import Link from "next/link";
 import ButtonSecondary from "./components/ui/ButtonSecondary";
+import Footer from "./components/ui/Footer";
 
 export default function Home() {
   return (
@@ -116,7 +117,7 @@ export default function Home() {
       </section>
 
       {/* Kravprocess Section */}
-      <section className="m-32 flex w-full max-w-6xl flex-col items-center text-center ">
+      <section className="mt-32 flex w-full max-w-6xl flex-col items-center text-center ">
         <p className="text-4xl md:text-5xl font-medium tracking-tighter">
           Så här går betalningen till
         </p>
@@ -167,6 +168,44 @@ export default function Home() {
         {/* <p className="mt-8"><span className="opacity-50">Behöver du hjälp att betala? </span>
           <Link href={"/"} className="underline">Tveka inte att kontakta oss</Link></p> */}
       </section>
+
+      {/* Images Section */}
+      <section className="m-32 flex w-full max-w-6xl flex-col items-center ">
+        <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-6">
+          <div className="col-span-1 flex flex-col md:col-span-2">
+            <div className="relative z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
+              <Image
+                src="/images/sunset.webp"
+                alt="Flowers"
+                layout="fill"
+                objectFit="cover"
+                priority
+                className="scale-x-[1]"
+              />
+            </div>
+            <p className="mt-4 text-sm ">
+              Vi hjälper dig vid varje steg.
+            </p>
+          </div>
+          <div className="hidden md:flex sm:col-span-1 flex-col md:col-span-4">
+            <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
+              <Image
+                src="/images/hugging.webp"
+                alt="Hands"
+                layout="fill"
+                objectFit="cover"
+                priority
+                className=""
+              />
+            </div>
+            <p className="mt-4 text-sm">Alla ska få känna friheten av att vara skuldfria.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <Footer />
+
     </main>
   );
 }
