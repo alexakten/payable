@@ -94,7 +94,7 @@ export default function Home() {
           Att hantera skulder kan vara överväldigande{" "}
           <span className="opacity-50">
             {" "}
-            — därför erbjuder vi kostnadsfri vägledning så att får kontroll över
+            — därför erbjuder vi kostnadsfri vägledning så att du får kontroll över
             ekonomiska situation.
           </span>
         </h2>
