@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <div className="flex w-full flex-col items-center justify-center bg-zinc-100 pb-20 pt-12 ">
-      <div className="grid w-full max-w-6xl font-medium grid-cols-2 gap-12 px-3 pb-12 sm:px-8 md:grid-cols-4">
+      <div className="grid w-full max-w-6xl font-medium grid-cols-2 gap-12 px-3 sm:px-8 md:grid-cols-4">
         <div className="flex flex-col gap-3 text-sm">
           <p className="opacity-50">Låntagare</p>
           <Link className="hover:underline" href={"/"}>
@@ -57,7 +57,12 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex w-full max-w-6xl justify-between border-t px-3 pt-12 sm:px-8">
+      <div className="w-full px-3 sm:px-8 max-w-6xl my-12">
+        <div className="border-t w-full "></div>
+      </div>
+
+
+      <div className="flex w-full max-w-6xl justify-between px-3 sm:px-8">
         <p className="text-sm opacity-50">© 2024 Payable AB</p>
 
         <div className="flex flex-col gap-3 text-right font-medium">
