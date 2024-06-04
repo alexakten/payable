@@ -88,7 +88,7 @@ export default function Home() {
       {/* Hjälpa dig Section */}
       <section className="mt-32 flex w-full  max-w-2xl flex-col items-center px-3 text-center sm:px-8 ">
         <p className="text-4xl font-medium tracking-tighter md:text-5xl">
-          Vi är här för att hjälpa dig
+          Vi är här för att <br className="sm:hidden" />hjälpa dig
         </p>
         <h2 className="mt-8 text-xl font-medium">
           Att hantera skulder kan vara överväldigande{" "}
