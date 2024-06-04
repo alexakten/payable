@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="col-span-1 flex items-center justify-start">
         <Link href={"/"} className="flex gap-1 items-center">
           <svg width="16" height="16" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="5" height="25" fill="#E49DD8" />
+            <rect width="5" height="25" fill="#177881" />
             <rect x="5" width="5" height="25" fill="#73ACDC" />
             <rect x="10" width="5" height="25" fill="#FAC667" />
             <rect x="20" width="5" height="25" fill="#869337" />
