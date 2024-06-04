@@ -31,7 +31,7 @@ export default function Footer() {
             Utvärdera försäljning
           </Link>
           <Link className="hover:underline" href={"/"}>
-            Fördelar sälja NP
+            Fördelar sälja NPL
           </Link>
         </div>
         <div className="flex flex-col gap-3 text-sm">
