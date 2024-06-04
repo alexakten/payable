@@ -62,7 +62,7 @@ export default function Home() {
                 className=""
               />
             </div>
-            <p className="mt-4 text-sm">Känn friheten av att vara skuldfri </p>
+            <p className="mt-4 text-sm">Alla ska få känna friheten av att vara skuldfria. </p>
           </div>
           <div className="col-span-1 flex flex-col md:col-span-2">
             <div className="relative z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
