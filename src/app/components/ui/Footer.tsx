@@ -3,14 +3,14 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <div className="flex w-full flex-col items-center justify-center bg-zinc-100 pb-20 pt-12 ">
-      <div className="grid w-full max-w-6xl font-medium grid-cols-2 gap-12 px-3 sm:px-8 md:grid-cols-4">
+      <div className="grid w-full max-w-6xl grid-cols-2 gap-12 px-3 font-medium sm:px-8 md:grid-cols-4">
         <div className="flex flex-col gap-3 text-sm">
-          <p className="opacity-40">Låntagare</p>
+          <p className="opacity-40">Kredittagare</p>
           <Link className="hover:underline" href={"/"}>
             Mina sidor
           </Link>
           <Link className="hover:underline" href={"/"}>
-            Ekonomisk vägledning
+            Så betalar du
           </Link>
           <Link className="hover:underline" href={"/"}>
             Om kravprocessen
@@ -22,16 +22,13 @@ export default function Footer() {
         <div className="flex flex-col gap-3 text-sm">
           <p className="opacity-40">Kreditgivare</p>
           <Link className="hover:underline" href={"/"}>
-            Försäljning NPL
+            Våra tjänster{" "}
           </Link>
           <Link className="hover:underline" href={"/"}>
-            Process portföljköp
+            Fördelar sälja{" "}
           </Link>
           <Link className="hover:underline" href={"/"}>
-            Utvärdera försäljning
-          </Link>
-          <Link className="hover:underline" href={"/"}>
-            Fördelar sälja NPL
+            Försäljningsprocess{" "}
           </Link>
         </div>
         <div className="flex flex-col gap-3 text-sm">
@@ -40,10 +37,7 @@ export default function Footer() {
             Om oss
           </Link>
           <Link className="hover:underline" href={"/"}>
-            Ledning
-          </Link>
-          <Link className="hover:underline" href={"/"}>
-            Karriär{" "}
+            Bolagsinformation
           </Link>
         </div>
         <div className="flex flex-col gap-3 text-sm">
@@ -54,16 +48,23 @@ export default function Footer() {
           <Link className="text-sm hover:underline" href={"/"}>
             info@payable.se
           </Link>
+          {/* <p className="text-sm">
+            Falugatan 8 <br />
+            113 32 Stockholm
+          </p> */}
         </div>
       </div>
 
-      <div className="w-full px-3 sm:px-8 max-w-6xl my-12">
-        <div className="border-t w-full "></div>
+      <div className="my-12 w-full max-w-6xl px-3 sm:px-8">
+        <div className="w-full border-t "></div>
       </div>
 
-
       <div className="flex w-full max-w-6xl justify-between px-3 sm:px-8">
-        <p className="text-sm opacity-40">© 2024 Payable AB</p>
+        <p className="text-sm opacity-40">
+          © 2024 Payable AB <br />
+          Org 559484-8672{" "}
+        </p>
+        {/* <p className="text-sm opacity-40">Org nr. 559484-8672 </p> */}
 
         <div className="flex flex-col gap-3 text-right font-medium">
           <Link className="text-sm hover:underline" href={"/"}>
