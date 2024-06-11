@@ -22,7 +22,7 @@ export default function Home() {
             </p>
             <Link href={""}>
               <button className="group ml-2 border-l pl-2 font-medium">
-                Så här betalar du{" "}
+                Så betalar du{" "}
                 <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
                   -&gt;
                 </span>
