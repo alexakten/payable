@@ -33,7 +33,7 @@ export default function Home() {
 
         {/* H1 */}
         <h1 className="mt-6 max-w-5xl text-[clamp(44px,6vw,72px)] font-[460] leading-[1.05] tracking-tighter">
-          Din konsultativa partner <br /> för Non-Performing Loans
+          Din konsultativa partner <br className="hidden sm:block" /> för Non-Performing Loans
         </h1>
 
         {/* Subtext */}
