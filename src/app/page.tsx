@@ -143,6 +143,7 @@ export default function Home() {
                 alt="Hands"
                 layout="fill"
                 objectFit="cover"
+                objectPosition="bottom"
                 priority
                 className=""
               />
