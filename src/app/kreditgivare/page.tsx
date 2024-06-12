@@ -62,7 +62,7 @@ export default function Home() {
           <div className="hidden flex-col sm:col-span-1 md:col-span-4 md:flex">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
-                src="/images/hiking.webp"
+                src="/images/computer.webp"
                 alt="Hands"
                 layout="fill"
                 objectFit="cover"
@@ -70,9 +70,9 @@ export default function Home() {
                 className=""
               />
             </div>
-            <p className="mt-4 text-sm">
+            {/* <p className="mt-4 text-sm">
               Alla ska få känna friheten av att vara skuldfria.{" "}
-            </p>
+            </p> */}
           </div>
           <div className="col-span-1 flex flex-col md:col-span-2">
             <div className="relative z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
@@ -85,9 +85,9 @@ export default function Home() {
                 className="scale-x-[1]"
               />
             </div>
-            <p className="mt-4 text-sm ">
+            {/* <p className="mt-4 text-sm ">
               Varje dag hjälper vi folk att bli skuldfria.
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
@@ -133,7 +133,7 @@ export default function Home() {
           <div className="col-span-1 flex flex-col md:col-span-6">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
-                src="/images/water.webp"
+                src="/images/postkontoret.webp"
                 alt="Hands"
                 layout="fill"
                 objectFit="cover"
@@ -200,7 +200,7 @@ export default function Home() {
           <div className="col-span-1 flex flex-col md:col-span-2">
             <div className="relative z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
-                src="/images/sunset.webp"
+                src="/images/stockholm.webp"
                 alt="Flowers"
                 layout="fill"
                 objectFit="cover"
@@ -208,12 +208,12 @@ export default function Home() {
                 className="scale-x-[1]"
               />
             </div>
-            <p className="mt-4 text-sm ">Vi hjälper dig vid varje steg.</p>
+            {/* <p className="mt-4 text-sm ">Kontor i Stockholm.</p> */}
           </div>
           <div className="hidden flex-col sm:col-span-1 md:col-span-4 md:flex">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
-                src="/images/hugging.webp"
+                src="/images/hiking.webp"
                 alt="Hands"
                 layout="fill"
                 objectFit="cover"
@@ -221,9 +221,9 @@ export default function Home() {
                 className=""
               />
             </div>
-            <p className="mt-4 text-sm">
+            {/* <p className="mt-4 text-sm">
               Alla ska få känna friheten av att vara skuldfria.
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
@@ -300,9 +300,9 @@ export default function Home() {
       <section className="mt-32 flex w-full max-w-6xl flex-col items-center px-3 sm:px-8 ">
         <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-6">
           <div className="col-span-1 flex flex-col md:col-span-6">
-            <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
+            <div className="relative h-[42rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
-                src="/images/stockholm.webp"
+                src="/images/postkontoret.webp"
                 alt="Stockholm"
                 layout="fill"
                 objectFit="cover"
