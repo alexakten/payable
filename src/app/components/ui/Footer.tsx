@@ -63,7 +63,7 @@ export default function Footer() {
         </p>
         {/* <p className="text-sm opacity-40">Org nr. 559484-8672 </p> */}
 
-        <div className="flex flex-col gap-3 text-right font-medium">
+        <div className="flex flex-col gap-3 text-right font-normal">
           <Link className="text-sm hover:underline" href={"/"}>
             Code of Conduct
           </Link>
