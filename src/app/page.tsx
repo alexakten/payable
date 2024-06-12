@@ -78,7 +78,7 @@ export default function Home() {
               />
             </div>
             <p className="mt-4 text-sm">
-              Alla ska få känna friheten av att vara skuldfria.{" "}
+              Alla bör få känna friheten av att vara skuldfria.{" "}
             </p>
           </div>
           <div className="col-span-1 flex flex-col md:col-span-2">
@@ -214,12 +214,12 @@ export default function Home() {
                 className="scale-x-[1]"
               />
             </div>
-            <p className="mt-4 text-sm ">Vi hjälper dig vid varje steg.</p>
+            {/* <p className="mt-4 text-sm ">30+ år erfarenhet av att hjälpa skuldsatta</p> */}
           </div>
           <div className="hidden flex-col sm:col-span-1 md:col-span-4 md:flex">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
-                src="/images/working-woman.webp"
+                src="/images/postkontoret.webp"
                 alt="Hands"
                 layout="fill"
                 objectFit="cover"
@@ -228,7 +228,7 @@ export default function Home() {
               />
             </div>
             <p className="mt-4 text-sm">
-              Alla ska få känna friheten av att vara skuldfria.
+              30+ år erfarenhet av att hjälpa skuldsatta bli fria.
             </p>
           </div>
         </div>
