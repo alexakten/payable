@@ -10,7 +10,7 @@ import Footer from "./components/ui/Footer";
 export default function Home() {
   return (
     <main className="px- flex flex-col items-center bg-white tracking-tight text-black">
-      <Navbar />
+      <Navbar pageType="customer" />
 
       {/* Hero Section */}
       <section className="mt-36 flex w-full max-w-8xl flex-col items-center justify-center px-3 text-center sm:px-8 md:mt-52">
@@ -44,8 +44,22 @@ export default function Home() {
 
         {/* Button */}
         <div className="mt-8 flex gap-4">
-          <ButtonPrimary />
-          <ButtonSecondary />
+          <Link href={""}>
+            <button className="text-md group rounded-md bg-black px-4 py-3 font-medium text-white hover:bg-zinc-700">
+              Gå till betalning {" "}
+              <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
+                -&gt;
+              </span>
+            </button>
+          </Link>
+          <Link href={""}>
+            <button className="text-md group font-medium rounded-md bg-zinc-100 px-4 py-3 text-black hover:bg-zinc-200">
+              Kontakta oss{" "}
+              <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
+                -&gt;
+              </span>
+            </button>
+          </Link>
         </div>
       </section>
 
@@ -100,8 +114,22 @@ export default function Home() {
         </h2>
         {/* Button */}
         <div className="mt-12 flex gap-4">
-          <ButtonPrimary />
-          <ButtonSecondary />
+          <Link href={""}>
+            <button className="text-md group rounded-md bg-black px-4 py-3 font-medium text-white hover:bg-zinc-700">
+              Gå till betalning {" "}
+              <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
+                -&gt;
+              </span>
+            </button>
+          </Link>
+          <Link href={""}>
+            <button className="text-md group font-medium rounded-md bg-zinc-100 px-4 py-3 text-black hover:bg-zinc-200">
+              Kontakta oss{" "}
+              <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
+                -&gt;
+              </span>
+            </button>
+          </Link>
         </div>
       </section>
 
@@ -124,7 +152,7 @@ export default function Home() {
       </section>
 
       {/* Så betalar du Section */}
-      <section className="mt-32 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
+      <section id="betala" className="mt-32 scroll-mt-56 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
         <p className="text-4xl font-medium tracking-tighter md:text-5xl">
           Så betalar du
         </p>
@@ -149,8 +177,22 @@ export default function Home() {
           </div>
         </div>
         <div className="flex gap-4">
-          <ButtonPrimary />
-          <ButtonSecondary />
+          <Link href={""}>
+            <button className="text-md group rounded-md bg-black px-4 py-3 font-medium text-white hover:bg-zinc-700">
+              Gå till betalning {" "}
+              <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
+                -&gt;
+              </span>
+            </button>
+          </Link>
+          <Link href={""}>
+            <button className="text-md group font-medium rounded-md bg-zinc-100 px-4 py-3 text-black hover:bg-zinc-200">
+              Kontakta oss{" "}
+              <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
+                -&gt;
+              </span>
+            </button>
+          </Link>
         </div>
 
         {/* <p className="mt-8"><span className="opacity-50">Behöver du hjälp att betala? </span>
@@ -192,7 +234,7 @@ export default function Home() {
       </section>
 
       {/* Om oss Section */}
-      <section className="m-32 flex w-full  max-w-3xl flex-col items-center px-3 text-center sm:px-8 ">
+      <section id="oss" className="m-32 flex w-full  max-w-3xl flex-col items-center px-3 text-center sm:px-8 ">
         <p className="text-4xl font-medium tracking-tighter md:text-5xl">
           Det här är Payable <br className="sm:hidden" />
         </p>

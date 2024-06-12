@@ -8,3 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale; /* For Firefox on macOS */
   text-rendering: optimizeLegibility;
 }
+
+html {
+  scroll-behavior: smooth;
+}

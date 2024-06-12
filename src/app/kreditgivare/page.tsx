@@ -10,7 +10,7 @@ import Footer from "../components/ui/Footer";
 export default function Home() {
   return (
     <main className="px- flex flex-col items-center bg-white tracking-tight text-black">
-      <Navbar />
+      <Navbar pageType="investor" />
 
       {/* Hero Section */}
       <section className="mt-36 flex w-full max-w-8xl flex-col items-center justify-center px-3 text-center sm:px-8 md:mt-52">
@@ -93,7 +93,7 @@ export default function Home() {
       </section>
 
       {/* Tjänster Section */}
-      <section className="mt-32 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
+      <section id="tjanster" className="mt-32 scroll-mt-56 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
         <h2 className="max-w-2xl text-4xl font-medium tracking-tighter md:text-5xl">
           Våra tjänster
         </h2>
@@ -146,7 +146,7 @@ export default function Home() {
       </section>
 
       {/* Fördelar Section */}
-      <section className="mt-32 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
+      <section id="fordelar" className="mt-32 scroll-mt-56 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
         <h2 className="max-w-2xl text-4xl font-medium tracking-tighter md:text-5xl">
           Fördelar med att sälja nödlidande problemkrediter
         </h2>
@@ -192,8 +192,6 @@ export default function Home() {
             </p>
           </div>
         </div>
-        {/* <p className="mt-8"><span className="opacity-50">Behöver du hjälp att betala? </span>
-          <Link href={"/"} className="underline">Tveka inte att kontakta oss</Link></p> */}
       </section>
 
       {/* Images Section */}
@@ -231,7 +229,7 @@ export default function Home() {
       </section>
 
       {/* Process Section */}
-      <section className="mt-32 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
+      <section id="process" className="mt-32 scroll-mt-56 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
         <h2 className="text-4xl font-medium tracking-tighter md:text-5xl">
           Försäljningsprocess
         </h2>
@@ -299,41 +297,25 @@ export default function Home() {
       </section>
 
       {/* Images Section */}
-      <section className="mt-32 flex w-full  max-w-6xl flex-col items-center px-3 sm:px-8 ">
+      <section className="mt-32 flex w-full max-w-6xl flex-col items-center px-3 sm:px-8 ">
         <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-6">
-          <div className="col-span-1 flex flex-col md:col-span-2">
-            <div className="relative z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
-              <Image
-                src="/images/sunset.webp"
-                alt="Flowers"
-                layout="fill"
-                objectFit="cover"
-                priority
-                className="scale-x-[1]"
-              />
-            </div>
-            <p className="mt-4 text-sm ">Vi hjälper dig vid varje steg.</p>
-          </div>
-          <div className="hidden flex-col sm:col-span-1 md:col-span-4 md:flex">
+          <div className="col-span-1 flex flex-col md:col-span-6">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
-                src="/images/hugging.webp"
-                alt="Hands"
+                src="/images/stockholm.webp"
+                alt="Stockholm"
                 layout="fill"
                 objectFit="cover"
                 priority
                 className=""
               />
             </div>
-            <p className="mt-4 text-sm">
-              Alla ska få känna friheten av att vara skuldfria.
-            </p>
           </div>
         </div>
       </section>
 
       {/* 30 år Section */}
-      <section className="m-32 flex w-full  max-w-3xl flex-col items-center px-3 text-center sm:px-8 ">
+      <section id="oss" className="m-32 flex w-full  max-w-3xl flex-col items-center px-3 text-center sm:px-8 ">
         <h2 className="text-4xl font-medium tracking-tighter md:text-5xl">
           30 år erfarenhet av köp av förfallna fordringar.
           <br className="sm:hidden" />

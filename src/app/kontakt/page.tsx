@@ -7,10 +7,10 @@ import Link from "next/link";
 import ButtonSecondary from "../components/ui/ButtonSecondary";
 import Footer from "../components/ui/Footer";
 
-export default function Home() {
+export default function Kontakt() {
   return (
-    <main className="px- flex flex-col items-center bg-white tracking-tight text-black">
-      <Navbar />
+    <main className="flex flex-col items-center bg-white tracking-tight text-black">
+      <Navbar pageType="customer"/>
 
 
 
