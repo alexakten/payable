@@ -59,7 +59,7 @@ export default function Footer() {
       <div className="flex w-full max-w-6xl justify-between px-3 sm:px-8">
         <p className="text-sm opacity-40">
           © 2024 Payable AB <br />
-          Org.nr 559484-8672{" "}
+          {/* Org.nr 559484-8672{" "} */}
         </p>
         {/* <p className="text-sm opacity-40">Org nr. 559484-8672 </p> */}
 

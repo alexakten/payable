@@ -99,7 +99,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Hjälpa Section */}
+      {/* Vi är här för att hjälpa dig */}
       <section className="mt-32 flex w-full  max-w-3xl flex-col items-center px-3 text-center sm:px-8 ">
         <p className="text-4xl font-medium tracking-tighter md:text-5xl">
           Vi är här för att <br className="sm:hidden" />hjälpa dig
@@ -133,7 +133,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Images Section */}
+      {/* Images */}
       <section className="mt-32 flex w-full max-w-6xl flex-col items-center px-3 sm:px-8 ">
         <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-6">
           <div className="col-span-1 flex flex-col md:col-span-6">
@@ -151,7 +151,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Så betalar du Section */}
+      {/* Så betalar du */}
       <section id="betala" className="mt-32 scroll-mt-56 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
         <p className="text-4xl font-medium tracking-tighter md:text-5xl">
           Så betalar du
@@ -199,7 +199,8 @@ export default function Home() {
           <Link href={"/"} className="underline">Tveka inte att kontakta oss</Link></p> */}
       </section>
 
-      <section id="varfor" className="mt-32 scroll-mt-56 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
+      {/* Varför viktigt att betala */}
+      <section id="varfor" className="mt-40 scroll-mt-56 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
         <h2 className="max-w-2xl text-4xl font-medium tracking-tighter md:text-5xl">
           Varför det är viktigt att betala
         </h2>
@@ -278,7 +279,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Om oss Section */}
+      {/* Om oss */}
       <section id="oss" className="m-32 flex w-full  max-w-3xl flex-col items-center px-3 text-center sm:px-8 ">
         <p className="text-4xl font-medium tracking-tighter md:text-5xl">
           Det här är Payable <br className="sm:hidden" />
