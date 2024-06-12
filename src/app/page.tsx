@@ -20,7 +20,7 @@ export default function Home() {
       <Navbar pageType="customer" />
 
       {/* Hero Section */}
-      <section className="mt-36 flex w-full max-w-8xl flex-col items-center justify-center px-3 text-center sm:px-8 md:mt-52">
+      <section className="mt-36 flex w-full max-w-8xl flex-col items-center justify-center px-3 text-center sm:px-8 md:mt-40">
         {/* Notification Bar */}
         <div className="flex items-center gap-2 rounded-full border border-zinc-100 bg-white px-6 py-1 text-sm">
           <div className="flex">
