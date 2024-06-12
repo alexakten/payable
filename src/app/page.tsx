@@ -292,7 +292,7 @@ export default function Home() {
         <h2 className="max-w-2xl text-4xl font-medium tracking-tighter md:text-5xl">
           Vanliga frågor
         </h2>
-        <Accordion className="w-full mt-12" type="single" collapsible>
+        <Accordion className="w-full mt-12 text-left" type="single" collapsible>
           <AccordionItem value="item-1">
             <AccordionTrigger>Varför skickar Payable kravbrev på min kredit?</AccordionTrigger>
             <AccordionContent>
