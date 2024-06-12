@@ -28,7 +28,7 @@ export default function Home() {
               <span className="opacity-50">Har du fått brev från oss?</span>
             </p>
             <Link href={""}>
-              <button className="group ml-2 border-l pl-2 font-medium">
+              <button className="group ml-2 border-l pl-2 font-normal">
                 Så betalar du{" "}
                 <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
                   -&gt;
@@ -252,7 +252,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Images Section */}
+      {/* Images */}
       <section className="mt-32 flex w-full  max-w-6xl flex-col items-center px-3 sm:px-8 ">
         <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-6">
           <div className="col-span-1 flex flex-col md:col-span-2">
@@ -287,6 +287,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ  */}
       <section className="mt-32 flex w-full max-w-4xl flex-col items-center px-3 sm:px-8 ">
         <h2 className="max-w-2xl text-4xl font-medium tracking-tighter md:text-5xl">
           Vanliga frågor
@@ -362,7 +363,6 @@ export default function Home() {
           </AccordionItem>
         </Accordion>
       </section>
-
 
       {/* Om oss */}
       <section id="oss" className="m-32 flex w-full  max-w-3xl flex-col items-center px-3 text-center sm:px-8 ">
