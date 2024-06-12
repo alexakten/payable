@@ -6,6 +6,13 @@ import Image from "next/image";
 import Link from "next/link";
 import ButtonSecondary from "./components/ui/ButtonSecondary";
 import Footer from "./components/ui/Footer";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+
 
 export default function Home() {
   return (
@@ -280,10 +287,87 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="mt-32 flex w-full max-w-4xl flex-col items-center px-3 sm:px-8 ">
+        <h2 className="max-w-2xl text-4xl font-medium tracking-tighter md:text-5xl">
+          Vanliga frågor
+        </h2>
+        <Accordion className="w-full mt-12" type="single" collapsible>
+          <AccordionItem value="item-1">
+            <AccordionTrigger>Varför skickar Payable kravbrev på min kredit?</AccordionTrigger>
+            <AccordionContent>
+              Payable AB är ett bolag som köper större förfallna portföljer med förfallna och uppsagda krediter från banker och finansbolag. Det innebär att Payable AB äger den uppsagda krediten och att ni framöver ska ha en dialog med vår kundtjänst för att diskutera hur den ska betalas.
+              <br /> <br />
+              Första steget är att vi skickar ett brev till låntagaren och informerar om att Payable har övertagit krediten. Informationsbrevet innehåller information om den aktuella skulden om kapital, ränta och avgifter samt information om hur du betalar skulden.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-2">
+            <AccordionTrigger>Varför kontaktar ni mig?</AccordionTrigger>
+            <AccordionContent>
+              Payable kontaktar dig för att informera om en obetald skuld. Om du inte har möjlighet att betala hela skulden, kontakta oss så kan vi tillsammans titta på alternativa lösningar.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-3">
+            <AccordionTrigger>Vad händer om jag inte betalar min skuld?</AccordionTrigger>
+            <AccordionContent>
+              Om du inte betalar din skuld kan det resultera i ytterligare kravåtgärder, inklusive rättsliga åtgärder (ansökan om betalningsföreläggande via Kronofogden) vilket kan resultera i en betalningsanmärkning. En betalningsanmärkning finns registrerad i tre år. Dessutom tillkommer ytterligare avgifter och dröjsmålsränta. För att undvika det så kontakta oss för att se om vi tillsammans kan hitta en lösning.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-4">
+            <AccordionTrigger>Hur ser kravprocessen ut?</AccordionTrigger>
+            <AccordionContent>
+              Inkassokrav är första steget i inkassoprocessen. Enligt lag har inkassobolaget rätt att ta ut en avgift om 180 kr. 12 dagar efter att inkassokravet har skickats har Payable möjlighet att skicka en ansökan om betalningsföreläggande via Kronofogden. Efter att du har mottagit betalningsföreläggandet (ett brev från Kronofogden) och det har förfallit till betalning får du en betalningsanmärkning. Payable kan sedan begära utmätning. Det innebär att Kronofogden gör en tillgångsundersökning hos dig och kontaktar eventuellt även din arbetsgivare för att se om det finns tillgångar eller lön som kan betala skulden.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-5">
+            <AccordionTrigger>Kan jag förhandla om en betalningsplan?</AccordionTrigger>
+            <AccordionContent>
+              Ja, vi är öppna för att diskutera alternativa betalningsplaner som passar din ekonomiska situation. Kontakta oss för att diskutera dina möjligheter.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-6">
+            <AccordionTrigger>Hur påverkar detta min kreditvärdighet?</AccordionTrigger>
+            <AccordionContent>
+              Betalningsanmärkningar syns på kreditupplysningar. Det kan innebära att det blir svårt att ta nya krediter, lån, kreditkort, få en hyreslägenhet, bostadskontrakt osv. En betalningsanmärkning försvinner först efter tre år. Det är viktigt att hantera skulder i tid för att undvika negativa konsekvenser för din kreditvärdighet.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-7">
+            <AccordionTrigger>Kan jag få en avbetalningsplan?</AccordionTrigger>
+            <AccordionContent>
+              Ja, vi kan överväga att erbjuda en avbetalningsplan baserad på din ekonomiska situation. Kontakta oss för att diskutera alternativen.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-8">
+            <AccordionTrigger>Kan jag få en förklaring på den aktuella skulden?</AccordionTrigger>
+            <AccordionContent>
+              Självklart, vi kan tillhandahålla en detaljerad förklaring av skulden och eventuella tillkommande avgifter. Kontakta oss för mer information.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-9">
+            <AccordionTrigger>Vad är mina rättigheter som gäldenär?</AccordionTrigger>
+            <AccordionContent>
+              Som gäldenär har du rättigheter enligt lag. Det inkluderar rätten till tydlig information om skulden och begära bevis för skulden. Du har även rätt att ärendet hanteras enligt god inkassosed, vilket Payable alltid följer. Kontakta oss om du har frågor om dina rättigheter.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-10">
+            <AccordionTrigger>Hur kan jag kontakta er för att lösa min skuld</AccordionTrigger>
+            <AccordionContent>
+              Du kan kontakta oss via telefon eller e-post för att diskutera din skuld och eventuella betalningsarrangemang. Kontakta oss.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-11">
+            <AccordionTrigger>Hur kan jag kontakta er för att lösa min skuld</AccordionTrigger>
+            <AccordionContent>
+              Payable anser det viktigt att hantera ärenden på ett rättvist, korrekt och respektfullt sätt och enligt de lagar och regler som gäller för inkassobolag. Om du ändå inte skulle känna dig nöjd med vår hantering, vänligen kontakta vår kundtjänst så snart som möjligt så att vi kan försöka lösa eventuella problem. En mer utförlig beskrivning av hur du kan framföra klagomål finner du på Kundklagomål.
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
+      </section>
+
+
       {/* Om oss */}
       <section id="oss" className="m-32 flex w-full  max-w-3xl flex-col items-center px-3 text-center sm:px-8 ">
         <p className="text-4xl font-medium tracking-tighter md:text-5xl">
-          Det här är Payable <br className="sm:hidden" />
+          Om oss <br className="sm:hidden" />
         </p>
         <h2 className="mt-8 text-xl font-medium">
           Payable AB är specialiserade på att köpa och hantera förfallna konsumentkrediter. Vi har lång erfarenhet av att hitta lösningar för skuldsatta genom vägledning och betalningsuppgörelser.
