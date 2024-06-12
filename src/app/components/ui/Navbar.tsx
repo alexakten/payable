@@ -6,13 +6,13 @@ export default function Navbar({ pageType }: { pageType: string }) {
       {/* Logo */}
       <div className="col-span-1 flex items-center justify-start">
         <Link href={"/"} className="flex items-center gap-0.5">
-          <p className="relative text-[22px] font-medium tracking-tighter">
+          <p className="relative text-[20px] font-medium tracking-tighter">
             Pay<span className="">able</span>
           </p>
         </Link>
       </div>
 
-      <div className="col-span-1 hidden items-center justify-center gap-4 whitespace-nowrap font-medium sm:flex ">
+      <div className="col-span-1 hidden items-center justify-center gap-4 whitespace-nowrap font- sm:flex ">
         {pageType === 'customer' ? (
           <>
             <Link href="/#oss">
@@ -66,13 +66,13 @@ export default function Navbar({ pageType }: { pageType: string }) {
       {pageType === 'customer' ? (
         <div className="col-span-1 flex whitespace-nowrap items-center justify-end gap-4">
           <Link href="/kontakt">
-            <button className="rounded-md  px-3 py-2 text-sm font-medium hover:bg-zinc-100">
+            <button className="rounded-md  px-3 py-2 text-sm font-normal hover:bg-zinc-100">
               Kontakta oss
             </button>
           </Link>
 
           <Link href={"/#"}>
-            <button className="group rounded-md bg-black px-3 py-2 text-sm font-medium text-white hover:bg-zinc-700">
+            <button className="group rounded-md bg-black px-3 py-2 text-sm font-normal text-white hover:bg-zinc-700">
               Mina Sidor
             </button>
           </Link>
@@ -80,7 +80,7 @@ export default function Navbar({ pageType }: { pageType: string }) {
       ) : (
         <div className="col-span-1 flex whitespace-nowrap items-center justify-end gap-4">
           <Link href="/kontakt">
-            <button className="group rounded-md bg-black px-3 py-2 text-sm font-medium text-white hover:bg-zinc-700">
+            <button className="group rounded-md bg-black px-3 py-2 text-sm font-normal text-white hover:bg-zinc-700">
               Kontakta oss
             </button>
           </Link>
