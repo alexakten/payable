@@ -139,7 +139,7 @@ export default function Home() {
           <div className="col-span-1 flex flex-col md:col-span-6">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
-                src="/images/water.webp"
+                src="/images/hiking.webp"
                 alt="Hands"
                 layout="fill"
                 objectFit="cover"
@@ -205,10 +205,11 @@ export default function Home() {
           <div className="col-span-1 flex flex-col md:col-span-2">
             <div className="relative z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
-                src="/images/sunset.webp"
+                src="/images/happy-woman.webp"
                 alt="Flowers"
                 layout="fill"
                 objectFit="cover"
+                objectPosition="right"
                 priority
                 className="scale-x-[1]"
               />
@@ -218,7 +219,7 @@ export default function Home() {
           <div className="hidden flex-col sm:col-span-1 md:col-span-4 md:flex">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
-                src="/images/hugging.webp"
+                src="/images/working-woman.webp"
                 alt="Hands"
                 layout="fill"
                 objectFit="cover"

@@ -7,7 +7,7 @@ import Link from "next/link";
 import ButtonSecondary from "../components/ui/ButtonSecondary";
 import Footer from "../components/ui/Footer";
 
-export default function Home() {
+export default function Kreditgivare() {
   return (
     <main className="px- flex flex-col items-center bg-white tracking-tight text-black">
       <Navbar pageType="investor" />
@@ -62,7 +62,7 @@ export default function Home() {
           <div className="hidden flex-col sm:col-span-1 md:col-span-4 md:flex">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
-                src="/images/computer.webp"
+                src="/images/talking.webp"
                 alt="Hands"
                 layout="fill"
                 objectFit="cover"
@@ -131,12 +131,13 @@ export default function Home() {
       <section className="mt-32 flex w-full max-w-6xl flex-col items-center px-3 sm:px-8 ">
         <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-6">
           <div className="col-span-1 flex flex-col md:col-span-6">
-            <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
+            <div className="relative h-[40rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
-                src="/images/postkontoret.webp"
+                src="/images/whiteboard.webp"
                 alt="Hands"
                 layout="fill"
                 objectFit="cover"
+                objectPosition="bottom"
                 priority
                 className=""
               />
