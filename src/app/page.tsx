@@ -349,13 +349,13 @@ export default function Home() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-10">
-            <AccordionTrigger>Hur kan jag kontakta er för att lösa min skuld</AccordionTrigger>
+            <AccordionTrigger>Hur kan jag kontakta er för att lösa min skuld?</AccordionTrigger>
             <AccordionContent>
               Du kan kontakta oss via telefon eller e-post för att diskutera din skuld och eventuella betalningsarrangemang. Kontakta oss.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-11">
-            <AccordionTrigger>Hur kan jag kontakta er för att lösa min skuld</AccordionTrigger>
+            <AccordionTrigger>Vad händer om jag inte är nöjd med hur ni behandlar min skuld?</AccordionTrigger>
             <AccordionContent>
               Payable anser det viktigt att hantera ärenden på ett rättvist, korrekt och respektfullt sätt och enligt de lagar och regler som gäller för inkassobolag. Om du ändå inte skulle känna dig nöjd med vår hantering, vänligen kontakta vår kundtjänst så snart som möjligt så att vi kan försöka lösa eventuella problem. En mer utförlig beskrivning av hur du kan framföra klagomål finner du på Kundklagomål.
             </AccordionContent>
