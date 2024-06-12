@@ -9,11 +9,8 @@ export default function Footer() {
           <Link className="hover:underline" href={"/"}>
             Mina sidor
           </Link>
-          <Link className="hover:underline" href={"/"}>
+          <Link className="hover:underline" href={"/#betala"}>
             Så betalar du
-          </Link>
-          <Link className="hover:underline" href={"/"}>
-            Om kravprocessen
           </Link>
           <Link className="hover:underline" href={"/"}>
             Vanliga frågor
@@ -21,13 +18,13 @@ export default function Footer() {
         </div>
         <div className="flex flex-col gap-3 text-sm">
           <p className="opacity-40">Kreditgivare</p>
-          <Link className="hover:underline" href={"/"}>
+          <Link className="hover:underline" href="/kreditgivare#tjanster">
             Våra tjänster{" "}
           </Link>
-          <Link className="hover:underline" href={"/"}>
+          <Link className="hover:underline" href="/kreditgivare#fordelar">
             Fördelar sälja{" "}
           </Link>
-          <Link className="hover:underline" href={"/"}>
+          <Link className="hover:underline" href="/kreditgivare#process">
             Försäljningsprocess{" "}
           </Link>
         </div>
