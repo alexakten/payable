@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar({ pageType }: { pageType: string }) {
   return (
-    <nav className="fixed top-0 z-50 grid w-full grid-cols-2 items-center justify-between bg-white px-3 pb-2 pt-4 sm:grid-cols-3 sm:px-8 sm:pt-8">
+    <nav className="fixed top-0 z-50 grid w-full grid-cols-2 items-center justify-between bg-white px-3 pb-3 pt-4 sm:grid-cols-3 sm:px-8 sm:pt-3 border-b border-zinc-100">
       {/* Logo */}
       <div className="col-span-1 flex items-center justify-start">
         <Link href={"/"} className="flex items-center gap-0.5">
