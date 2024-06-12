@@ -214,7 +214,7 @@ export default function Kreditgivare() {
           <div className="hidden flex-col sm:col-span-1 md:col-span-4 md:flex">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
-                src="/images/hiking.webp"
+                src="/images/smiling-woman.webp"
                 alt="Hands"
                 layout="fill"
                 objectFit="cover"
