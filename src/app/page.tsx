@@ -199,6 +199,50 @@ export default function Home() {
           <Link href={"/"} className="underline">Tveka inte att kontakta oss</Link></p> */}
       </section>
 
+      <section id="varfor" className="mt-32 scroll-mt-56 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
+        <h2 className="max-w-2xl text-4xl font-medium tracking-tighter md:text-5xl">
+          Varför det är viktigt att betala
+        </h2>
+        <div className="mt-20 grid grid-cols-1 grid-rows-2 gap-16 text-left md:grid-cols-3">
+          <div>
+            <h3 className="text-xl font-medium">Förbättra din kreditvärdighet</h3>
+            <p className="mt-4 opacity-50">
+              Genom att betala din skuld kan du förbättra din kreditvärdighet, vilket kan göra det lättare att få lån och krediter i framtiden.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-xl font-medium">Undvik ytterligare kostnader</h3>
+            <p className="mt-4 opacity-50">
+              Obetalda skulder kan leda till extra avgifter och räntekostnader, vilket gör att din totala skuld ökar. Dröjsmålsränta beräknas på skulden kontinuerligt.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-xl font-medium">Minska stress och oro</h3>
+            <p className="mt-4 opacity-50">
+              Att ha obetalda skulder kan skapa mycket stress och oro. Genom att betala din skuld kan du få sinnesro och fokusera på andra viktiga saker i ditt liv.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-xl font-medium">Bättre kontroll över din ekonomi</h3>
+            <p className="mt-4 opacity-50">
+              Genom att betala dina skulder får du bättre kontroll över din ekonomiska situation och kan planera för framtiden på ett mer stabilt sätt.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-xl font-medium">Undvik rättsliga åtgärder</h3>
+            <p className="mt-4 opacity-50">
+              Om skulden inte betalas kan Payable vidta rättsliga åtgärder, vilket kan leda till ytterligare kostnader och problem.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-xl font-medium">Förbättra dina relationer</h3>
+            <p className="mt-4 opacity-50">
+              Genom att betala dina skulder i tid kan du undvika konflikter med långivare och upprätthålla förtroendet med vänner och familj som kanske har lånat dig pengar.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Images Section */}
       <section className="mt-32 flex w-full  max-w-6xl flex-col items-center px-3 sm:px-8 ">
         <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-6">
