@@ -6,11 +6,12 @@ import Image from "next/image";
 import Link from "next/link";
 import ButtonSecondary from "../components/ui/ButtonSecondary";
 import Footer from "../components/ui/Footer";
+import { Headset, EnvelopeSimple, User } from "@phosphor-icons/react/dist/ssr";
 
 export default function Kontakt() {
   return (
     <main className="flex flex-col items-center bg-white tracking-tight text-black">
-      <Navbar pageType="customer"/>
+      <Navbar pageType="customer" />
 
 
 
@@ -33,7 +34,8 @@ export default function Kontakt() {
       <section className="m-32 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
         <div className="grid grid-cols-1 grid-rows-2 gap-16 text-left md:grid-cols-3">
           <div className="flex flex-col">
-            <p className="text-xl font-medium">Telefon</p>
+            <Headset size={32} />
+            <p className="mt-4 text-xl font-medium">Telefon</p>
             <p className="mt-4 opacity-50">
               Kundtjänst öppettider: <br />
               Vardagar 08:00-18:00
@@ -41,12 +43,13 @@ export default function Kontakt() {
             <Link className="mt-4 hover:underline" href={"tel:08-123 45 67"}>08-123 45 67</Link>
           </div>
           <div className="flex flex-col">
-            <p className="text-xl font-medium">E-post</p>
-
+            <EnvelopeSimple size={32} />
+            <p className="mt-4 text-xl font-medium">E-post</p>
             <Link className="mt-4 hover:underline" href={"tel:08-123 45 67"}>info@payable.se</Link>
           </div>
           <div className="flex flex-col">
-            <p className="text-xl font-medium">Mina sidor</p>
+            <User size={32} />
+            <p className="mt-4 text-xl font-medium">Mina sidor</p>
             <p className="mt-4 opacity-50">
               Kommunicera med kundservice <br />
             </p>
