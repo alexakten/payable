@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ButtonSecondary from "../components/ui/ButtonSecondary";
 import Footer from "../components/ui/Footer";
+import { Handshake, ArrowBendDoubleUpRight, Briefcase } from "@phosphor-icons/react/dist/ssr";
 
 export default function Kreditgivare() {
   return (
@@ -99,7 +100,8 @@ export default function Kreditgivare() {
         </h2>
         <div className="mt-20 grid grid-cols-1 gap-16 text-left md:grid-cols-3">
           <div>
-            <h3 className="text-xl font-medium">One-Off</h3>
+            <Briefcase size={32} />
+            <h3 className="mt-4 text-xl font-medium">One-Off</h3>
             <p className="mt-4 opacity-50">
               One-off-transaktion innebär att Payable köper en befintlig
               portfölj med nödlidande problemkrediter. Priset baseras på en
@@ -109,7 +111,8 @@ export default function Kreditgivare() {
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-medium">Forward Flow</h3>
+            <ArrowBendDoubleUpRight size={32} />
+            <h3 className="mt-4 text-xl font-medium">Forward Flow</h3>
             <p className="mt-4 opacity-50">
               Forward flow-avtal innebär att ett finansbolag kan ingå ett avtal
               om att kontinuerligt sälja förfallna och uppsagda kreditavtal till
@@ -118,7 +121,8 @@ export default function Kreditgivare() {
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-medium">Joint Ventures</h3>
+            <Handshake size={32} />
+            <h3 className="mt-4 text-xl font-medium">Joint Ventures</h3>
             <p className="mt-4 opacity-50">
               Payable har ett brett kontaktnät med potentialla partners och lång
               erfarenhet av att skapa olika typer av skräddarsydda lösningar.{" "}
