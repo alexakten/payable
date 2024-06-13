@@ -25,7 +25,7 @@ export default function Navbar({ pageType }: { pageType: string }) {
                 Så betalar du
               </button>
             </Link>
-            <Link href="/#">
+            <Link href="/#faq">
               <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
                 Vanliga frågor
               </button>

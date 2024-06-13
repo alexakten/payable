@@ -253,7 +253,7 @@ export default function Home() {
       </section>
 
       {/* Images */}
-      <section className="mt-32 flex w-full  max-w-6xl flex-col items-center px-3 sm:px-8 ">
+      <section className="mt-32 flex w-full max-w-6xl flex-col items-center px-3 sm:px-8 ">
         <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-6">
           <div className="col-span-1 flex flex-col md:col-span-2">
             <div className="relative z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
@@ -288,7 +288,7 @@ export default function Home() {
       </section>
 
       {/* FAQ  */}
-      <section className="mt-32 flex w-full max-w-4xl flex-col items-center px-3 sm:px-8 ">
+      <section id="faq" className="mt-32 scroll-mt-56 flex w-full max-w-4xl flex-col items-center px-3 sm:px-8 ">
         <h2 className="max-w-2xl text-4xl font-medium tracking-tighter md:text-5xl">
           Vanliga frågor
         </h2>

@@ -12,7 +12,7 @@ export default function Footer() {
           <Link className="hover:underline" href={"/#betala"}>
             Så betalar du
           </Link>
-          <Link className="hover:underline" href={"/"}>
+          <Link className="hover:underline" href={"/#faq"}>
             Vanliga frågor
           </Link>
         </div>
