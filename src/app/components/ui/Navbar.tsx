@@ -6,7 +6,7 @@ export default function Navbar({ pageType }: { pageType: string }) {
       {/* Logo */}
       <div className="col-span-1 flex items-center justify-start">
         <Link href={"/"} className="flex items-center gap-0.5">
-          <p className="relative text-[20px] font-medium tracking-tighter">
+          <p className="relative text-[20px] font-[450] tracking-tighter">
             Pay<span className="">able</span>
           </p>
         </Link>
