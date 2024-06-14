@@ -81,7 +81,7 @@ export default function Home() {
                 layout="fill"
                 objectFit="cover"
                 priority
-                className="grayscale"
+                className=""
               />
             </div>
             <p className="mt-4 text-sm">
@@ -96,7 +96,7 @@ export default function Home() {
                 layout="fill"
                 objectFit="cover"
                 priority
-                className="grayscale"
+                className=""
               />
             </div>
             <p className="mt-4 text-sm ">
@@ -152,7 +152,7 @@ export default function Home() {
                 objectFit="cover"
                 objectPosition="bottom"
                 priority
-                className="grayscale"
+                className=""
               />
             </div>
           </div>
@@ -264,7 +264,7 @@ export default function Home() {
                 objectFit="cover"
                 objectPosition="right"
                 priority
-                className="grayscale"
+                className=""
               />
             </div>
             {/* <p className="mt-4 text-sm ">30+ år erfarenhet av att hjälpa skuldsatta</p> */}
@@ -277,7 +277,7 @@ export default function Home() {
                 layout="fill"
                 objectFit="cover"
                 priority
-                className="grayscale"
+                className=""
               />
             </div>
             <p className="mt-4 text-sm">
