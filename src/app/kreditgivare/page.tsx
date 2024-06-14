@@ -60,7 +60,7 @@ export default function Kreditgivare() {
       {/* Images Section */}
       <section className="mt-32 flex w-full  max-w-6xl flex-col items-center px-3 sm:px-8 ">
         <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-6">
-          <div className="hidden flex-col sm:col-span-1 md:col-span-4 md:flex">
+          <div className="flex-col sm:col-span-1 md:col-span-4 md:flex">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
                 src="/images/ipad.webp"
@@ -76,7 +76,7 @@ export default function Kreditgivare() {
             </p> */}
           </div>
           <div className="col-span-1 flex flex-col md:col-span-2">
-            <div className="relative z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
+            <div className="relative hidden md:flex z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
                 src="/images/gamlastan.webp"
                 alt="Flowers"
@@ -135,7 +135,7 @@ export default function Kreditgivare() {
       <section className="mt-32 flex w-full max-w-6xl flex-col items-center px-3 sm:px-8 ">
         <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-6">
           <div className="col-span-1 flex flex-col md:col-span-6">
-            <div className="relative h-[40rem] overflow-hidden rounded-xl bg-zinc-100">
+            <div className="relative h-[42rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
                 src="/images/whiteboard.webp"
                 alt="Hands"
