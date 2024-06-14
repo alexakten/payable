@@ -9,7 +9,7 @@ export default function Navbar({ pageType }: { pageType: string }) {
 
           <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M3.51294 12.4289L0.992188 13.8841L10.9392 19.6266L25.0023 11.508L22.4815 10.0527L10.9392 16.7161L3.51294 12.4289Z" fill="black" />
-            <rect width="11.4856" height="16.2382" transform="matrix(0.866044 0.499967 -0.866044 0.499967 15.0508 0.369141)" fill="#285FF5" />
+            <rect width="11.4856" height="16.2382" transform="matrix(0.866044 0.499967 -0.866044 0.499967 15.0508 0.369141)" fill="black" />
           </svg>
 
 
