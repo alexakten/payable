@@ -83,7 +83,7 @@ export default function Kreditgivare() {
                 layout="fill"
                 objectFit="cover"
                 priority
-                className=""
+                className="saturate-[0.93]"
               />
             </div>
             {/* <p className="mt-4 text-sm ">
