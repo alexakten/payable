@@ -111,7 +111,7 @@ export default function Home() {
         <p className="text-4xl font-medium tracking-tighter md:text-5xl">
           Tillsammans hittar vi <br className="sm:hidden" /> <span className="text-blue-600">en lösning </span>
         </p>
-        <h2 className="mt-8 text-xl font-medium">
+        <h2 className="mt-8 max-w-lg text-xl font-medium">
           Det är viktigt att ta tag i din skuld så snart som möjligt {" "}
           <span className="opacity-50">
             {" "} för att undvika ytterligare avgifter och kostnader.
