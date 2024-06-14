@@ -8,9 +8,10 @@ export default function Navbar({ pageType }: { pageType: string }) {
         <Link href={"/"} className="flex items-center gap-1">
 
           <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.50903 12.4309L0.988281 13.8861L10.9353 19.6285L24.9983 11.5099L22.4776 10.0547L10.9353 16.7181L3.50903 12.4309Z" fill="black" />
-            <rect width="11.4856" height="16.2382" transform="matrix(0.866044 0.499967 -0.866044 0.499967 15.0508 0.671875)" fill="#285FF5" />
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.51294 12.4289L0.992188 13.8841L10.9392 19.6266L25.0023 11.508L22.4815 10.0527L10.9392 16.7161L3.51294 12.4289Z" fill="black" />
+            <rect width="11.4856" height="16.2382" transform="matrix(0.866044 0.499967 -0.866044 0.499967 15.0508 0.369141)" fill="#285FF5" />
           </svg>
+
 
 
           <p className="relative text-[20px] font-[450] tracking-tighter">
