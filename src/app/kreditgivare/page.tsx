@@ -34,7 +34,7 @@ export default function Kreditgivare() {
 
         {/* H1 */}
         <h1 className="mt-6 max-w-5xl text-[clamp(44px,6vw,72px)] font-[460] leading-[1.05] tracking-tighter">
-          Din konsultativa partner <br className="hidden sm:block" /> för
+          Erfaren partner för <br className="hidden sm:block" />
           <span className="text-blue-600"> Non-Performing Loans</span>
         </h1>
 
@@ -63,7 +63,7 @@ export default function Kreditgivare() {
           <div className="hidden flex-col sm:col-span-1 md:col-span-4 md:flex">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
-                src="/images/computer.webp"
+                src="/images/ipad.webp"
                 alt="Hands"
                 layout="fill"
                 objectFit="cover"
@@ -78,12 +78,12 @@ export default function Kreditgivare() {
           <div className="col-span-1 flex flex-col md:col-span-2">
             <div className="relative z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
-                src="/images/hands.webp"
+                src="/images/gamlastan.webp"
                 alt="Flowers"
                 layout="fill"
                 objectFit="cover"
                 priority
-                className="scale-x-[1]"
+                className=""
               />
             </div>
             {/* <p className="mt-4 text-sm ">

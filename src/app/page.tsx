@@ -29,7 +29,7 @@ export default function Home() {
             </p>
             <Link href={""}>
               <button className="group ml-2 border-l pl-2 font-normal">
-                Så betalar du{" "}
+                Gå till Mina Sidor{" "}
                 <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
                   -&gt;
                 </span>
@@ -84,14 +84,14 @@ export default function Home() {
                 className=""
               />
             </div>
-            <p className="mt-4 text-sm">
+            {/* <p className="mt-4 text-sm">
               Alla bör få känna friheten av att vara skuldfria.{" "}
-            </p>
+            </p> */}
           </div>
           <div className="col-span-1 flex flex-col md:col-span-2">
             <div className="relative z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
-                src="/images/hands.webp"
+                src="/images/working.webp"
                 alt="Flowers"
                 layout="fill"
                 objectFit="cover"
@@ -99,24 +99,23 @@ export default function Home() {
                 className=""
               />
             </div>
-            <p className="mt-4 text-sm ">
+            {/* <p className="mt-4 text-sm ">
               Varje dag hjälper vi folk att bli skuldfria.
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
 
       {/* Vi är här för att hjälpa dig */}
-      <section className="mt-32 flex w-full  max-w-3xl flex-col items-center px-3 text-center sm:px-8 ">
+      <section className="mt-32 flex w-full  max-w-4xl flex-col items-center px-3 text-center sm:px-8 ">
         <p className="text-4xl font-medium tracking-tighter md:text-5xl">
           Vi är här för att <br className="sm:hidden" /> <span className="text-blue-600">hjälpa dig</span>
         </p>
         <h2 className="mt-8 text-xl font-medium">
-          Att hantera skulder kan vara överväldigande.{" "}
+          Vi erbjuder vägledning så att du får kontroll över din
+          ekonomiska situation.{" "}
           <span className="opacity-50">
-            {" "}
-            Vi erbjuder vägledning så att du får kontroll över
-            ekonomiska situation. Det är viktigt att ta tag i din skuld så snart som möjligt för att undvika ytterligare avgifter och kostnader.
+            {" "} Det är viktigt att ta tag i din skuld så snart som möjligt för att undvika ytterligare avgifter och kostnader.
           </span>
         </h2>
         {/* Button */}
@@ -280,9 +279,9 @@ export default function Home() {
                 className=""
               />
             </div>
-            <p className="mt-4 text-sm">
+            {/* <p className="mt-4 text-sm">
               30+ år erfarenhet av att hjälpa skuldsatta bli fria.
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
@@ -329,12 +328,6 @@ export default function Home() {
             <AccordionTrigger>Hur påverkar detta min kreditvärdighet?</AccordionTrigger>
             <AccordionContent>
               Betalningsanmärkningar syns på kreditupplysningar. Det kan innebära att det blir svårt att ta nya krediter, lån, kreditkort, få en hyreslägenhet, bostadskontrakt osv. En betalningsanmärkning försvinner först efter tre år. Det är viktigt att hantera skulder i tid för att undvika negativa konsekvenser för din kreditvärdighet.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-7">
-            <AccordionTrigger>Kan jag få en avbetalningsplan?</AccordionTrigger>
-            <AccordionContent>
-              Ja, vi kan överväga att erbjuda en avbetalningsplan baserad på din ekonomiska situation. Kontakta oss för att diskutera alternativen.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-8">
