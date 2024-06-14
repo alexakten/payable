@@ -320,7 +320,7 @@ export default function Kreditgivare() {
       </section>
 
       {/* 30 år Section */}
-      <section id="oss" className="m-32 flex w-full  max-w-3xl flex-col items-center px-3 text-center sm:px-8 ">
+      <section id="oss" className="m-32 flex w-full scroll-mt-56 max-w-3xl flex-col items-center px-3 text-center sm:px-8 ">
         <h2 className="text-4xl font-medium tracking-tighter md:text-5xl">
           30+ år erfarenhet av köp av förfallna fordringar.
           <br className="sm:hidden" />

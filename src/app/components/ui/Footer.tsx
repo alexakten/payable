@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col gap-3 text-sm">
           <p className="opacity-40">Payable</p>
-          <Link className="hover:underline" href={"/"}>
+          <Link className="hover:underline" href={"/kreditgivare#oss"}>
             Om oss
           </Link>
           <Link className="hover:underline" href={"/"}>
