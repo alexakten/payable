@@ -5,7 +5,14 @@ export default function Navbar({ pageType }: { pageType: string }) {
     <nav className="fixed top-0 z-50 grid w-full grid-cols-2 items-center justify-between bg-white px-3 pb-3 pt-4 sm:grid-cols-3 sm:px-8 sm:pt-3 border-b border-zinc-100">
       {/* Logo */}
       <div className="col-span-1 flex items-center justify-start">
-        <Link href={"/"} className="flex items-center gap-0.5">
+        <Link href={"/"} className="flex items-center gap-1">
+
+          <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.50903 12.4309L0.988281 13.8861L10.9353 19.6285L24.9983 11.5099L22.4776 10.0547L10.9353 16.7181L3.50903 12.4309Z" fill="black" />
+            <rect width="11.4856" height="16.2382" transform="matrix(0.866044 0.499967 -0.866044 0.499967 15.0508 0.671875)" fill="#285FF5" />
+          </svg>
+
+
           <p className="relative text-[20px] font-[450] tracking-tighter">
             Pay<span className="">able</span>
           </p>
@@ -57,7 +64,7 @@ export default function Navbar({ pageType }: { pageType: string }) {
                 Process
               </button>
             </Link>
-           
+
           </>
         )}
       </div>
