@@ -73,7 +73,7 @@ export default function Home() {
       {/* Images Section */}
       <section className="mt-32 flex w-full  max-w-6xl flex-col items-center px-3 sm:px-8 ">
         <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-6">
-          <div className="hidden flex-col sm:col-span-1 md:col-span-4 md:flex">
+          <div className="flex-col sm:col-span-1 md:col-span-4 md:flex">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
                 src="/images/smiling-woman.webp"
@@ -88,7 +88,7 @@ export default function Home() {
               Alla bör få känna friheten av att vara skuldfria.{" "}
             </p> */}
           </div>
-          <div className="col-span-1 flex flex-col md:col-span-2">
+          <div className="hidden md:flex col-span-1 flex-col md:col-span-2">
             <div className="relative z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
                 src="/images/working.webp"
