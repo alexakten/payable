@@ -359,7 +359,7 @@ export default function Home() {
       {/* Om oss */}
       <section id="oss" className="m-32 flex w-full  max-w-3xl flex-col items-center px-3 text-center sm:px-8 ">
         <p className="text-4xl font-medium tracking-tighter md:text-5xl">
-          Om oss <br className="sm:hidden" />
+          Om Payable
         </p>
         <h2 className="mt-8 text-xl font-medium">
           Payable AB är specialiserade på att köpa och hantera förfallna konsumentkrediter. Vi har lång erfarenhet av att hitta lösningar för skuldsatta genom vägledning och betalningsuppgörelser.

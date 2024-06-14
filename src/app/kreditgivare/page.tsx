@@ -153,7 +153,7 @@ export default function Kreditgivare() {
       {/* Fördelar Section */}
       <section id="fordelar" className="mt-32 scroll-mt-56 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
         <h2 className="max-w-2xl text-4xl font-medium tracking-tighter md:text-5xl">
-          Fördelar med att sälja nödlidande problemkrediter <span className="text-blue-600"></span>
+          Fördelar med att sälja  <span className="text-blue-600">nödlidande problemkrediter</span>
         </h2>
         <div className="mt-20 grid grid-cols-1 grid-rows-2 gap-16 text-left md:grid-cols-3">
           <div>
@@ -322,7 +322,7 @@ export default function Kreditgivare() {
       {/* 30 år Section */}
       <section id="oss" className="m-32 flex w-full scroll-mt-56 max-w-3xl flex-col items-center px-3 text-center sm:px-8 ">
         <h2 className="text-4xl font-medium tracking-tighter md:text-5xl">
-          30+ år erfarenhet av köp av förfallna fordringar.
+          <span className="text-blue-600">30+ år erfarenhet</span> av köp av förfallna fordringar.
           <br className="sm:hidden" />
         </h2>
         <h3 className="mt-8 text-xl font-medium">
