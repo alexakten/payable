@@ -40,7 +40,7 @@ export default function Home() {
 
         {/* H1 */}
         <h1 className="mt-6 max-w-5xl text-[clamp(44px,6vw,72px)] font-[460] leading-[1.05] tracking-tighter">
-          Ta kontroll över <br /> din ekonomi
+          Ta kontroll över <br /> <span className="text-blue-600"> din ekonomi</span>
         </h1>
 
         {/* Subtext */}
@@ -81,7 +81,7 @@ export default function Home() {
                 layout="fill"
                 objectFit="cover"
                 priority
-                className=""
+                className="grayscale"
               />
             </div>
             <p className="mt-4 text-sm">
@@ -96,7 +96,7 @@ export default function Home() {
                 layout="fill"
                 objectFit="cover"
                 priority
-                className="scale-x-[1]"
+                className="grayscale"
               />
             </div>
             <p className="mt-4 text-sm ">
@@ -109,7 +109,7 @@ export default function Home() {
       {/* Vi är här för att hjälpa dig */}
       <section className="mt-32 flex w-full  max-w-3xl flex-col items-center px-3 text-center sm:px-8 ">
         <p className="text-4xl font-medium tracking-tighter md:text-5xl">
-          Vi är här för att <br className="sm:hidden" />hjälpa dig
+          Vi är här för att <br className="sm:hidden" /> <span className="text-blue-600">hjälpa dig</span>
         </p>
         <h2 className="mt-8 text-xl font-medium">
           Att hantera skulder kan vara överväldigande.{" "}
@@ -122,7 +122,7 @@ export default function Home() {
         {/* Button */}
         <div className="mt-12 flex gap-4">
           <Link href={""}>
-            <button className="text-md group rounded-md bg-black px-4 py-3 font-medium text-white hover:bg-zinc-700">
+            <button className="text-md group rounded-md bg-black px-4 py-3 font-normal text-white hover:bg-zinc-700">
               Gå till betalning {" "}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
                 -&gt;
@@ -130,7 +130,7 @@ export default function Home() {
             </button>
           </Link>
           <Link href={""}>
-            <button className="text-md group font-medium rounded-md bg-zinc-100 px-4 py-3 text-black hover:bg-zinc-200">
+            <button className="text-md group font-normal rounded-md bg-zinc-100 px-4 py-3 text-black hover:bg-zinc-200">
               Kontakta oss{" "}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
                 -&gt;
@@ -152,7 +152,7 @@ export default function Home() {
                 objectFit="cover"
                 objectPosition="bottom"
                 priority
-                className=""
+                className="grayscale"
               />
             </div>
           </div>
@@ -186,7 +186,7 @@ export default function Home() {
         </div>
         <div className="flex gap-4">
           <Link href={""}>
-            <button className="text-md group rounded-md bg-black px-4 py-3 font-medium text-white hover:bg-zinc-700">
+            <button className="text-md group rounded-md bg-black px-4 py-3 font-normal text-white hover:bg-zinc-700">
               Gå till betalning {" "}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
                 -&gt;
@@ -194,7 +194,7 @@ export default function Home() {
             </button>
           </Link>
           <Link href={""}>
-            <button className="text-md group font-medium rounded-md bg-zinc-100 px-4 py-3 text-black hover:bg-zinc-200">
+            <button className="text-md group font-normal rounded-md bg-zinc-100 px-4 py-3 text-black hover:bg-zinc-200">
               Kontakta oss{" "}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
                 -&gt;
@@ -210,7 +210,7 @@ export default function Home() {
       {/* Varför viktigt att betala */}
       <section id="varfor" className="mt-40 scroll-mt-56 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
         <h2 className="max-w-2xl text-4xl font-medium tracking-tighter md:text-5xl">
-          Varför det är viktigt att betala
+          Varför det är <span className="text-blue-600"> viktigt att betala</span>
         </h2>
         <div className="mt-20 grid grid-cols-1 grid-rows-2 gap-16 text-left md:grid-cols-3">
           <div>
@@ -264,7 +264,7 @@ export default function Home() {
                 objectFit="cover"
                 objectPosition="right"
                 priority
-                className="scale-x-[1]"
+                className="grayscale"
               />
             </div>
             {/* <p className="mt-4 text-sm ">30+ år erfarenhet av att hjälpa skuldsatta</p> */}
@@ -277,7 +277,7 @@ export default function Home() {
                 layout="fill"
                 objectFit="cover"
                 priority
-                className=""
+                className="grayscale"
               />
             </div>
             <p className="mt-4 text-sm">
