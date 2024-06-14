@@ -107,15 +107,14 @@ export default function Home() {
       </section>
 
       {/* Vi är här för att hjälpa dig */}
-      <section className="mt-32 flex w-full  max-w-4xl flex-col items-center px-3 text-center sm:px-8 ">
+      <section className="mt-32 flex w-full  max-w-3xl flex-col items-center px-3 text-center sm:px-8 ">
         <p className="text-4xl font-medium tracking-tighter md:text-5xl">
-          Vi är här för att <br className="sm:hidden" /> <span className="text-blue-600">hjälpa dig</span>
+          Tillsammans hittar vi <br className="sm:hidden" /> <span className="text-blue-600">en lösning </span>
         </p>
         <h2 className="mt-8 text-xl font-medium">
-          Vi erbjuder vägledning så att du får kontroll över din
-          ekonomiska situation.{" "}
+          Det är viktigt att ta tag i din skuld så snart som möjligt {" "}
           <span className="opacity-50">
-            {" "} Det är viktigt att ta tag i din skuld så snart som möjligt för att undvika ytterligare avgifter och kostnader.
+            {" "} för att undvika ytterligare avgifter och kostnader.
           </span>
         </h2>
         {/* Button */}

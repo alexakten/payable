@@ -153,7 +153,7 @@ export default function Kreditgivare() {
       {/* Fördelar Section */}
       <section id="fordelar" className="mt-32 scroll-mt-56 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
         <h2 className="max-w-2xl text-4xl font-medium tracking-tighter md:text-5xl">
-          Fördelar med att sälja <span className="text-blue-600">nödlidande problemkrediter</span>
+          Fördelar med att sälja nödlidande problemkrediter <span className="text-blue-600"></span>
         </h2>
         <div className="mt-20 grid grid-cols-1 grid-rows-2 gap-16 text-left md:grid-cols-3">
           <div>
