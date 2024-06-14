@@ -52,7 +52,7 @@ export default function Home() {
         {/* Button */}
         <div className="mt-8 flex gap-4">
           <Link href={""}>
-            <button className="text-md group rounded-md bg-black px-4 py-3 font-medium text-white hover:bg-zinc-700">
+            <button className="text-md group rounded-md bg-black px-4 py-3 font-normal text-white hover:bg-zinc-700">
               Gå till betalning {" "}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
                 -&gt;
@@ -60,7 +60,7 @@ export default function Home() {
             </button>
           </Link>
           <Link href={""}>
-            <button className="text-md group font-medium rounded-md bg-zinc-100 px-4 py-3 text-black hover:bg-zinc-200">
+            <button className="text-md group font-normal rounded-md bg-zinc-100 px-4 py-3 text-black hover:bg-zinc-200">
               Kontakta oss{" "}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
                 -&gt;

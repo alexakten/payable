@@ -22,7 +22,7 @@ export default function Kreditgivare() {
               <span className="opacity-50">Vill du investera?</span>
             </p>
             <Link href={""}>
-              <button className="group ml-2 border-l pl-2 font-medium">
+              <button className="group ml-2 border-l pl-2 font-normal">
                 Kontaka oss{" "}
                 <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
                   -&gt;
@@ -35,7 +35,7 @@ export default function Kreditgivare() {
         {/* H1 */}
         <h1 className="mt-6 max-w-5xl text-[clamp(44px,6vw,72px)] font-[460] leading-[1.05] tracking-tighter">
           Din konsultativa partner <br className="hidden sm:block" /> för
-          Non-Performing Loans
+          <span className="text-blue-600"> Non-Performing Loans</span>
         </h1>
 
         {/* Subtext */}
@@ -47,7 +47,7 @@ export default function Kreditgivare() {
         {/* Button */}
         <div className="mt-8 flex gap-4">
           <Link href={""}>
-            <button className="text-md group rounded-md bg-black px-4 py-3 font-medium text-white hover:bg-zinc-700">
+            <button className="text-md group rounded-md bg-black px-4 py-3 font-normal text-white hover:bg-zinc-700">
               Kontakta oss{" "}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
                 -&gt;
@@ -63,7 +63,7 @@ export default function Kreditgivare() {
           <div className="hidden flex-col sm:col-span-1 md:col-span-4 md:flex">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
               <Image
-                src="/images/talking.webp"
+                src="/images/computer.webp"
                 alt="Hands"
                 layout="fill"
                 objectFit="cover"
@@ -153,7 +153,7 @@ export default function Kreditgivare() {
       {/* Fördelar Section */}
       <section id="fordelar" className="mt-32 scroll-mt-56 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
         <h2 className="max-w-2xl text-4xl font-medium tracking-tighter md:text-5xl">
-          Fördelar med att sälja nödlidande problemkrediter
+          Fördelar med att sälja <span className="text-blue-600">nödlidande problemkrediter</span>
         </h2>
         <div className="mt-20 grid grid-cols-1 grid-rows-2 gap-16 text-left md:grid-cols-3">
           <div>
@@ -280,7 +280,7 @@ export default function Kreditgivare() {
         </div>
         <div className="flex gap-4">
           <Link href={""}>
-            <button className="text-md group rounded-md bg-black px-4 py-3 font-medium text-white hover:bg-zinc-700">
+            <button className="text-md group rounded-md bg-black px-4 py-3 font-normal text-white hover:bg-zinc-700">
               Kontakta oss{" "}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
                 -&gt;
