@@ -72,18 +72,21 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col gap-3 text-right font-normal">
-          <Link className="text-sm hover:underline" href={"/"}>
+          <Link className="text-sm hover:underline" href={"/code-of-conduct"}>
             Code of Conduct
           </Link>
-          <Link className="text-sm hover:underline" href={"/"}>
+          <Link className="text-sm hover:underline" href={"/kundklagomal"}>
             Kundklagomål
           </Link>
-          <Link className="text-sm hover:underline" href={"/"}>
+          <Link className="text-sm hover:underline" href={"/integritetspolicy"}>
             Integritetspolicy
           </Link>
-          <Link className="text-sm hover:underline" href={"/"}>
+          {/* <Link
+            className="text-sm hover:underline"
+            href={"/cookie-inställningar"}
+          >
             Cookie-inställningar
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
