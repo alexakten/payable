@@ -54,7 +54,7 @@ export default function Footer() {
           </Link>
           <Link
             className="text-sm hover:underline"
-            href={"/mailto:info@payable.se"}
+            href={"/mailto:kundservice@payable.se"}
           >
             kundservice@payable.se
           </Link>
