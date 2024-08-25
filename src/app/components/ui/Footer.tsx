@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="grid w-full max-w-6xl grid-cols-2 gap-12 px-3 font-normal sm:px-8 md:grid-cols-4">
         <div className="flex flex-col gap-3 text-sm">
           <p className="opacity-40">Kredittagare</p>
-          <Link className="hover:underline" href={"/"}>
+          <Link className="hover:underline" href={"/login"}>
             Mina sidor
           </Link>
           <Link className="hover:underline" href={"/#betala"}>
