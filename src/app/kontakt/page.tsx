@@ -40,7 +40,7 @@ export default function Kontakt() {
               Kundtjänst öppettider: <br />
               Vardagar 08:00-18:00
             </p>
-            <Link className="mt-4 hover:underline" href={"tel:08-123 45 67"}>08-123 45 67</Link>
+            <Link className="mt-4 hover:underline" href={"tel:0850082400"}>08-500 824 00</Link>
           </div>
           <div className="flex flex-col">
             <EnvelopeSimple size={32} />
