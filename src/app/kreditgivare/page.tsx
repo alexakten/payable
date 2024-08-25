@@ -16,7 +16,7 @@ export default function Kreditgivare() {
       {/* Hero Section */}
       <section className="mt-36 flex w-full max-w-8xl flex-col items-center justify-center px-3 text-center sm:px-8 md:mt-40">
         {/* Notification Bar */}
-        <div className="flex items-center gap-2 rounded-full border border-zinc-100 bg-white px-6 py-1 text-sm">
+        {/* <div className="flex items-center gap-2 rounded-full border border-zinc-100 bg-white px-6 py-1 text-sm">
           <div className="flex">
             <p>
               <span className="opacity-50">Vill du investera?</span>
@@ -30,7 +30,7 @@ export default function Kreditgivare() {
               </button>
             </Link>
           </div>
-        </div>
+        </div> */}
 
         {/* H1 */}
         <h1 className="mt-6 max-w-5xl text-[clamp(44px,6vw,72px)] font-[460] leading-[1.05] tracking-tighter">
