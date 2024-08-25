@@ -26,7 +26,7 @@ export default function Home() {
             <p>
               <span className="opacity-50">Har du fått brev från oss?</span>
             </p>
-            <Link href={""}>
+            <Link href={"/login"}>
               <button className="group ml-2 border-l pl-2 font-normal">
                 Gå till Mina Sidor{" "}
                 <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
@@ -121,7 +121,7 @@ export default function Home() {
         </h2>
         {/* Button */}
         <div className="mt-12 flex gap-4">
-          <Link href={""}>
+          <Link href={"/login"}>
             <button className="text-md group rounded-md bg-black px-4 py-3 font-normal text-white hover:bg-zinc-700">
               Gå till betalning{" "}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
