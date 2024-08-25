@@ -53,7 +53,7 @@ export default function Kontakt() {
             <p className="mt-4 opacity-50">
               Kommunicera med kundservice <br />
             </p>
-            <Link className="mt-4 hover:underline" href={"tel:08-123 45 67"}>Logga in på Mina Sidor</Link>
+            <Link className="mt-4 hover:underline" href={"/login"}>Logga in på Mina Sidor</Link>
           </div>
 
 
