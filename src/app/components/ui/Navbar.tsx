@@ -87,9 +87,14 @@ export default function Navbar({ pageType }: { pageType: string }) {
       {/* Buttons */}
       {pageType === "customer" ? (
         <div className="col-span-1 flex items-center justify-end gap-4 whitespace-nowrap">
-          <Link href="/kontakt">
+          <Link href="/kontakt" className="hidden sm:block">
             <button className="rounded-md  px-3 py-2 text-sm font-normal hover:bg-zinc-100">
               Kontakta oss
+            </button>
+          </Link>
+          <Link href="/kreditgivare" className="sm:hidden">
+            <button className="rounded-md  px-3 py-2 text-sm font-normal hover:bg-zinc-100">
+              För kreditgivare
             </button>
           </Link>
 
