@@ -18,6 +18,9 @@ export default function Footer() {
         </div>
         <div className="flex flex-col gap-3 text-sm">
           <p className="opacity-40">Kreditgivare</p>
+          <Link className="hover:underline" href="/kreditgivare#oss">
+            Om Payable{" "}
+          </Link>
           <Link className="hover:underline" href="/kreditgivare#tjanster">
             Våra tjänster{" "}
           </Link>
