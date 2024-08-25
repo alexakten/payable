@@ -34,6 +34,7 @@ export default function Footer() {
         <div className="flex flex-col gap-3 text-sm">
           <p className="opacity-40">Bolagsinformation</p>
           <p className="text-sm">
+            Payable AB <br />
             Falugatan 8 <br />
             113 32 Stockholm
           </p>
