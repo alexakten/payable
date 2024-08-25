@@ -75,7 +75,7 @@ export default function Navbar({ pageType }: { pageType: string }) {
                 Fördelar sälja
               </button>
             </Link>
-            <Link href={"mailto:info@payable.se"}>
+            <Link href="/kreditgivare#process">
               <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
                 Process
               </button>
@@ -93,7 +93,7 @@ export default function Navbar({ pageType }: { pageType: string }) {
             </button>
           </Link>
 
-          <Link href={"/#"}>
+          <Link href={"/login"}>
             <button className="group rounded-md bg-black px-3 py-2 text-sm font-normal text-white hover:bg-zinc-700">
               Mina Sidor
             </button>
