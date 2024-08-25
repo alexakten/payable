@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar({ pageType }: { pageType: string }) {
   return (
-    <nav className="fixed top-0 z-50 grid w-full grid-cols-2 items-center justify-between border-b border-zinc-100 bg-white px-3 pb-3 pt-4 sm:grid-cols-3 sm:px-8 sm:pt-3">
+    <nav className="fixed top-0 z-50 grid w-full grid-cols-2 items-center justify-between border-b border-zinc-100 bg-white px-3 pb-3 pt-4 lg:grid-cols-3 sm:px-8 sm:pt-3">
       {/* Logo */}
       <div className="col-span-1 flex items-center justify-start">
         <Link href={"/"} className="flex items-center gap-1">
@@ -34,7 +34,7 @@ export default function Navbar({ pageType }: { pageType: string }) {
         </Link>
       </div>
 
-      <div className="font- col-span-1 hidden items-center justify-center gap-4 whitespace-nowrap sm:flex ">
+      <div className="font- col-span-1 hidden items-center justify-center gap-4 whitespace-nowrap lg:flex ">
         {pageType === "customer" ? (
           <>
             <Link href="/#oss">
@@ -87,12 +87,12 @@ export default function Navbar({ pageType }: { pageType: string }) {
       {/* Buttons */}
       {pageType === "customer" ? (
         <div className="col-span-1 flex items-center justify-end gap-4 whitespace-nowrap">
-          <Link href="/kontakt" className="hidden sm:block">
+          <Link href="/kontakt" className="hidden lg:block">
             <button className="rounded-md  px-3 py-2 text-sm font-normal hover:bg-zinc-100">
               Kontakta oss
             </button>
           </Link>
-          <Link href="/kreditgivare" className="sm:hidden">
+          <Link href="/kreditgivare" className="lg:hidden">
             <button className="rounded-md  px-3 py-2 text-sm font-normal hover:bg-zinc-100">
               För kreditgivare
             </button>
