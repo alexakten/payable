@@ -336,9 +336,9 @@ export default function Kreditgivare() {
       {/* 30 år Section */}
       <section
         id="oss"
-        className="m-32 flex w-full max-w-3xl scroll-mt-56 flex-col items-center px-3 text-center sm:px-8 "
+        className="m-32 flex w-full max-w-4xl scroll-mt-56 flex-col items-center px-3 text-center sm:px-8 "
       >
-        <h2 className="text-4xl font-medium tracking-tighter md:text-5xl">
+        <h2 className="max-w-2xl text-4xl font-medium tracking-tighter md:text-5xl">
           <span className="text-blue-600">30+ år erfarenhet</span> av köp av
           förfallna fordringar.
           <br className="sm:hidden" />
@@ -346,7 +346,9 @@ export default function Kreditgivare() {
         <h3 className="mt-8 text-xl font-medium">
           Payable AB är specialiserade på att köpa och hantera förfallna
           konsumentkrediter. Vi har lång erfarenhet av att hitta lösningar för
-          skuldsatta genom vägledning och betalningsuppgörelser.{" "}
+          skuldsatta genom vägledning och betalningsuppgörelser. Payable AB har
+          tillstånd av Finansinspektionen att bedriva inkassoverksamhet enligt
+          inkassolagen (1974:182)
           <span className="opacity-50"> </span>
         </h3>
       </section>
