@@ -29,29 +29,28 @@ export default function Footer() {
           </Link>
         </div>
         <div className="flex flex-col gap-3 text-sm">
-          <p className="opacity-40">Payable</p>
-          <Link className="hover:underline" href={"/kreditgivare#oss"}>
-            Om oss
-          </Link>
-          {/* <Link className="hover:underline" href={"/"}>
-            Bolagsinformation
-          </Link> */}
-        </div>
-        <div className="flex flex-col gap-3 text-sm">
-          <p className="opacity-40">Kontakt</p>
+          <p className="opacity-40">Bolagsinformation</p>
           <p className="text-sm">
             Falugatan 8 <br />
             113 32 Stockholm
           </p>
-          <Link className="text-sm hover:underline" href={"tel:08-500 824 00"}>
-            08-500 824 00
-          </Link>
           <Link
             className="text-sm hover:underline"
             href={"mailto:info@payable.se"}
           >
             info@payable.se
           </Link>
+          <p className="text-sm">
+            Org.nr 559484-8672 <br />
+            Säte: Stockholm
+          </p>
+        </div>
+        <div className="flex flex-col gap-3 text-sm">
+          <p className="opacity-40">Kontakt</p>
+          <Link className="text-sm hover:underline" href={"tel:08-500 824 00"}>
+            08-500 824 00
+          </Link>
+
           <Link
             className="text-sm hover:underline"
             href={"mailto:kundservice@payable.se"}
@@ -68,7 +67,6 @@ export default function Footer() {
       <div className="flex w-full max-w-6xl justify-between px-3 sm:px-8">
         <div className="text-sm opacity-40">
           <p className="">© 2024 Payable AB</p>
-          <p>Org.nr 559484-8672 </p>
         </div>
 
         <div className="flex flex-col gap-3 text-right font-normal">

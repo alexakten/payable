@@ -2,18 +2,31 @@ import Link from "next/link";
 
 export default function Navbar({ pageType }: { pageType: string }) {
   return (
-    <nav className="fixed top-0 z-50 grid w-full grid-cols-2 items-center justify-between bg-white px-3 pb-3 pt-4 sm:grid-cols-3 sm:px-8 sm:pt-3 border-b border-zinc-100">
+    <nav className="fixed top-0 z-50 grid w-full grid-cols-2 items-center justify-between border-b border-zinc-100 bg-white px-3 pb-3 pt-4 sm:grid-cols-3 sm:px-8 sm:pt-3">
       {/* Logo */}
       <div className="col-span-1 flex items-center justify-start">
         <Link href={"/"} className="flex items-center gap-1">
-
-          <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.51294 12.4289L0.992188 13.8841L10.9392 19.6266L25.0023 11.508L22.4815 10.0527L10.9392 16.7161L3.51294 12.4289Z" fill="black" />
-            <rect width="11.4856" height="16.2382" transform="matrix(0.866044 0.499967 -0.866044 0.499967 15.0508 0.369141)" fill="#285FF5" />
+          <svg
+            width="25"
+            height="20"
+            viewBox="0 0 25 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M3.51294 12.4289L0.992188 13.8841L10.9392 19.6266L25.0023 11.508L22.4815 10.0527L10.9392 16.7161L3.51294 12.4289Z"
+              fill="black"
+            />
+            <rect
+              width="11.4856"
+              height="16.2382"
+              transform="matrix(0.866044 0.499967 -0.866044 0.499967 15.0508 0.369141)"
+              fill="#285FF5"
+            />
             {/* fill="#285FF5" /> */}
           </svg>
-
-
 
           <p className="relative text-[20px] font-[450] tracking-tighter">
             Pay<span className="">able</span>
@@ -21,8 +34,8 @@ export default function Navbar({ pageType }: { pageType: string }) {
         </Link>
       </div>
 
-      <div className="col-span-1 hidden items-center justify-center gap-4 whitespace-nowrap font- sm:flex ">
-        {pageType === 'customer' ? (
+      <div className="font- col-span-1 hidden items-center justify-center gap-4 whitespace-nowrap sm:flex ">
+        {pageType === "customer" ? (
           <>
             <Link href="/#oss">
               <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
@@ -49,7 +62,8 @@ export default function Navbar({ pageType }: { pageType: string }) {
           <>
             <Link href="/kreditgivare#oss">
               <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
-                Om oss              </button>
+                Om oss{" "}
+              </button>
             </Link>
             <Link href="/kreditgivare#tjanster">
               <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
@@ -61,19 +75,18 @@ export default function Navbar({ pageType }: { pageType: string }) {
                 Fördelar sälja
               </button>
             </Link>
-            <Link href="/kreditgivare#process">
+            <Link href={"mailto:info@payable.se"}>
               <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
                 Process
               </button>
             </Link>
-
           </>
         )}
       </div>
 
       {/* Buttons */}
-      {pageType === 'customer' ? (
-        <div className="col-span-1 flex whitespace-nowrap items-center justify-end gap-4">
+      {pageType === "customer" ? (
+        <div className="col-span-1 flex items-center justify-end gap-4 whitespace-nowrap">
           <Link href="/kontakt">
             <button className="rounded-md  px-3 py-2 text-sm font-normal hover:bg-zinc-100">
               Kontakta oss
@@ -87,8 +100,8 @@ export default function Navbar({ pageType }: { pageType: string }) {
           </Link>
         </div>
       ) : (
-        <div className="col-span-1 flex whitespace-nowrap items-center justify-end gap-4">
-          <Link href="/kontakt">
+        <div className="col-span-1 flex items-center justify-end gap-4 whitespace-nowrap">
+          <Link href={"mailto:info@payable.se"}>
             <button className="group rounded-md bg-black px-3 py-2 text-sm font-normal text-white hover:bg-zinc-700">
               Kontakta oss
             </button>

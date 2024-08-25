@@ -6,7 +6,11 @@ import Image from "next/image";
 import Link from "next/link";
 import ButtonSecondary from "../components/ui/ButtonSecondary";
 import Footer from "../components/ui/Footer";
-import { Handshake, ArrowBendDoubleUpRight, Briefcase } from "@phosphor-icons/react/dist/ssr";
+import {
+  Handshake,
+  ArrowBendDoubleUpRight,
+  Briefcase,
+} from "@phosphor-icons/react/dist/ssr";
 
 export default function Kreditgivare() {
   return (
@@ -14,7 +18,7 @@ export default function Kreditgivare() {
       <Navbar pageType="investor" />
 
       {/* Hero Section */}
-      <section className="mt-36 flex w-full max-w-8xl flex-col items-center justify-center px-3 text-center sm:px-8 md:mt-40">
+      <section className="max-w-8xl mt-36 flex w-full flex-col items-center justify-center px-3 text-center sm:px-8 md:mt-40">
         {/* Notification Bar */}
         {/* <div className="flex items-center gap-2 rounded-full border border-zinc-100 bg-white px-6 py-1 text-sm">
           <div className="flex">
@@ -46,7 +50,7 @@ export default function Kreditgivare() {
 
         {/* Button */}
         <div className="mt-8 flex gap-4">
-          <Link href={""}>
+          <Link href={"mailto:info@payable.se"}>
             <button className="text-md group rounded-md bg-black px-4 py-3 font-normal text-white hover:bg-zinc-700">
               Kontakta oss{" "}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
@@ -76,7 +80,7 @@ export default function Kreditgivare() {
             </p> */}
           </div>
           <div className="col-span-1 flex flex-col md:col-span-2">
-            <div className="relative hidden md:flex z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
+            <div className="relative z-10 hidden h-[32rem] overflow-hidden rounded-xl bg-zinc-100 md:flex">
               <Image
                 src="/images/gamlastan.webp"
                 alt="Flowers"
@@ -94,7 +98,10 @@ export default function Kreditgivare() {
       </section>
 
       {/* Tjänster Section */}
-      <section id="tjanster" className="mt-32 scroll-mt-56 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
+      <section
+        id="tjanster"
+        className="mt-32 flex w-full max-w-6xl scroll-mt-56 flex-col items-center px-3 text-center sm:px-8 "
+      >
         <h2 className="max-w-2xl text-4xl font-medium tracking-tighter md:text-5xl">
           Våra tjänster
         </h2>
@@ -151,9 +158,13 @@ export default function Kreditgivare() {
       </section>
 
       {/* Fördelar Section */}
-      <section id="fordelar" className="mt-32 scroll-mt-56 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
+      <section
+        id="fordelar"
+        className="mt-32 flex w-full max-w-6xl scroll-mt-56 flex-col items-center px-3 text-center sm:px-8 "
+      >
         <h2 className="max-w-2xl text-4xl font-medium tracking-tighter md:text-5xl">
-          Fördelar med att sälja  <span className="text-blue-600">nödlidande problemkrediter</span>
+          Fördelar med att sälja{" "}
+          <span className="text-blue-600">nödlidande problemkrediter</span>
         </h2>
         <div className="mt-20 grid grid-cols-1 grid-rows-2 gap-16 text-left md:grid-cols-3">
           <div>
@@ -234,7 +245,10 @@ export default function Kreditgivare() {
       </section>
 
       {/* Process Section */}
-      <section id="process" className="mt-32 scroll-mt-56 flex w-full max-w-6xl flex-col items-center px-3 text-center sm:px-8 ">
+      <section
+        id="process"
+        className="mt-32 flex w-full max-w-6xl scroll-mt-56 flex-col items-center px-3 text-center sm:px-8 "
+      >
         <h2 className="text-4xl font-medium tracking-tighter md:text-5xl">
           Försäljningsprocess
         </h2>
@@ -279,7 +293,7 @@ export default function Kreditgivare() {
           </div>
         </div>
         <div className="flex gap-4">
-          <Link href={""}>
+          <Link href={"mailto:info@payable.se"}>
             <button className="text-md group rounded-md bg-black px-4 py-3 font-normal text-white hover:bg-zinc-700">
               Kontakta oss{" "}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
@@ -295,7 +309,7 @@ export default function Kreditgivare() {
             innebära för er? För att lämna en ej-bindande prisindikation behöver
             vi endast ett fåtal uppgifter.{" "}
           </span>
-          <Link href={"/"} className="underline">
+          <Link href={"mailto:info@payable.se"} className="underline">
             Be oss om en prisindikation.
           </Link>
         </p>
@@ -320,9 +334,13 @@ export default function Kreditgivare() {
       </section>
 
       {/* 30 år Section */}
-      <section id="oss" className="m-32 flex w-full scroll-mt-56 max-w-3xl flex-col items-center px-3 text-center sm:px-8 ">
+      <section
+        id="oss"
+        className="m-32 flex w-full max-w-3xl scroll-mt-56 flex-col items-center px-3 text-center sm:px-8 "
+      >
         <h2 className="text-4xl font-medium tracking-tighter md:text-5xl">
-          <span className="text-blue-600">30+ år erfarenhet</span> av köp av förfallna fordringar.
+          <span className="text-blue-600">30+ år erfarenhet</span> av köp av
+          förfallna fordringar.
           <br className="sm:hidden" />
         </h2>
         <h3 className="mt-8 text-xl font-medium">
