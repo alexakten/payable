@@ -29,18 +29,21 @@ export const metadata: Metadata = {
     images: ["https://payable.se/thumbnail.webp"],
   },
 };
- 
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        {children}
-        {/* <Analytics /> */}
-      </body>
-    </html>
+    // <html lang="en">
+    //   <body className={inter.className}>
+    //     {children}
+    //     <Analytics />
+    //   </body>
+    // </html>
+    <div className="flex h-screen w-screen items-center justify-center bg-white text-black">
+     🚧 Under maintainance 🚧
+    </div>
   );
 }
