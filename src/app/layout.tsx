@@ -43,7 +43,7 @@ export default function RootLayout({
     //   </body>
     // </html>
     <div className="flex h-screen w-screen items-center justify-center bg-white text-black">
-     🚧 Under maintainance 🚧
+     🚧 Under maintenance 🚧
     </div>
   );
 }
