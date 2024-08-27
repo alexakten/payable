@@ -44,8 +44,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children}
-        <Cookie />
         {cookieConsent === "granted" && <Analytics />}
+        <Cookie />
       </body>
     </html>
     // <div className="flex h-screen w-screen items-center justify-center bg-white text-black">
