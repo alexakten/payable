@@ -41,8 +41,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
-        {cookieConsent === "granted" && <Analytics />}
-        <Cookie />
+        {/* {cookieConsent === "granted" && <Analytics />} */}
+        <Analytics />
+        {/* <Cookie /> */}
       </body>
     </html>
   );
