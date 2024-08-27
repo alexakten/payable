@@ -1,12 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import Cookie from "./components/ui/Cookie";
 import { getCookie } from "cookies-next";
 
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Payable",
@@ -42,14 +39,11 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
         {children}
         {cookieConsent === "granted" && <Analytics />}
         <Cookie />
       </body>
     </html>
-    // <div className="flex h-screen w-screen items-center justify-center bg-white text-black">
-    //  🚧 Under maintenance 🚧
-    // </div>
   );
 }
