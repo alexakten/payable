@@ -4,26 +4,28 @@ import { useEffect, useState } from "react";
 import { setCookie, getCookie } from "cookies-next";
 
 export default function CookieBanner() {
-  const [cookieConsent, setCookieConsent] = useState(false);
+  const [cookieConsent, setCookieConsent] = useState<string | null>(null);
 
   useEffect(() => {
-    const storedCookieConsent = getCookie("cookie_consent");
-    setCookieConsent(storedCookieConsent === "granted");
+    const storedCookieConsent = getCookie("cookie_consent") as
+      | string
+      | undefined;
+    setCookieConsent(storedCookieConsent ?? null);
   }, []);
 
   const handleAcceptCookies = () => {
     setCookie("cookie_consent", "granted", { maxAge: 60 * 60 * 24 * 365 });
-    setCookieConsent(true);
-    // Optionally reload the page or trigger analytics loading
-    window.location.reload();
+    setCookieConsent("granted");
+    window.location.reload(); // Optionally reload the page or trigger analytics loading
   };
 
   const handleRejectCookies = () => {
     setCookie("cookie_consent", "denied", { maxAge: 60 * 60 * 24 * 365 });
-    setCookieConsent(false);
+    setCookieConsent("denied");
   };
 
-  if (cookieConsent) return null; // Hide the banner if consent is given
+  // Hide the banner if consent is given or denied
+  if (cookieConsent === "granted" || cookieConsent === "denied") return null;
 
   return (
     <div className="fixed inset-x-0 bottom-0 z-30 flex flex-col items-center gap-4 border-t border-zinc-100 bg-white p-6 md:flex-row md:justify-between lg:px-8">
@@ -31,7 +33,7 @@ export default function CookieBanner() {
         Denna webbplats använder cookies för att analysera webbplatstrafik. Läs
         mer i vår{" "}
         <a href="/cookies" className="font-semibold text-blue-600">
-          cookiepolicy.
+          Cookiepolicy.
         </a>
       </p>
       <div className="flex gap-4">
