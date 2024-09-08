@@ -7,10 +7,10 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Payable",
-  description: "The human way to repay debt.",
+  // description: "",
   openGraph: {
     title: "Payable",
-    description: "The human way to repay debt.",
+    // description: "The human way to repay debt.",
     url: "https://payable.se/",
     type: "website",
     images: [
@@ -18,14 +18,14 @@ export const metadata: Metadata = {
         url: "https://payable.se/thumbnail.webp",
         width: 1200,
         height: 630,
-        alt: "The human way to repay debt.",
+        // alt: "The human way to repay debt.",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Payable",
-    description: "The human way to repay debt.",
+    // description: "The human way to repay debt.",
     images: ["https://payable.se/thumbnail.webp"],
   },
 };
