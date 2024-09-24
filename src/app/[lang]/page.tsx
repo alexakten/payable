@@ -38,7 +38,7 @@ export default async function Home({ params: { lang } }: Params) {
             <p>
               <span className="opacity-50">{dict.notification.message}</span>
             </p>
-            <Link href={"/login"}>
+            <Link href={`/${lang}/login`}>
               <button className="group ml-2 border-l pl-2 font-normal">
                 {dict.notification.ctaLogin}{" "}
                 <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">

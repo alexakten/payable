@@ -27,7 +27,10 @@ export default async function Creditors({ params: { lang } }: Params) {
       {/* Hero Section */}
       <section className="max-w-8xl mt-36 flex w-full flex-col items-center justify-center px-3 text-center sm:px-8 md:mt-40">
         <h1 className="mt-6 max-w-5xl text-[clamp(44px,6vw,72px)] font-[460] leading-[1.05] tracking-tighter">
-          {dict.lenderPage.hero.title}
+          {dict.lenderPage.hero.title.split(" ").slice(0, 3).join(" ")} <br />
+          <span className="text-blue-600">
+            {dict.lenderPage.hero.title.split(" ").slice(3).join(" ")}
+          </span>
         </h1>
         <h3 className="mt-8 max-w-sm text-lg tracking-tight opacity-100 md:max-w-lg md:text-xl">
           {dict.lenderPage.hero.subtext}
@@ -35,7 +38,7 @@ export default async function Creditors({ params: { lang } }: Params) {
         <div className="mt-8 flex gap-4">
           <Link href="mailto:info@payable.se">
             <button className="text-md group rounded-md bg-black px-4 py-3 font-normal text-white hover:bg-zinc-700">
-              {dict.lenderPage.hero.ctaContact}
+              {dict.lenderPage.hero.ctaContact}{" "}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
                 -&gt;
               </span>
