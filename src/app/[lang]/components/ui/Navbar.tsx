@@ -104,7 +104,10 @@ export default async function Navbar({
       {/* Right Buttons */}
       {pageType === "customer" ? (
         <div className="col-span-1 flex items-center justify-end gap-4 whitespace-nowrap">
-          <LanguageSwitcher lang={lang} />
+          <div className="hidden sm:block">
+            <LanguageSwitcher lang={lang} />
+          </div>
+
           <Link href={`/${lang}/contact`} className="hidden lg:block">
             <button className="rounded-md px-3 py-2 text-sm font-normal hover:bg-zinc-100">
               {dict.navbar.contactUs}
@@ -123,7 +126,9 @@ export default async function Navbar({
         </div>
       ) : (
         <div className="col-span-1 flex items-center justify-end gap-4 whitespace-nowrap">
-          <LanguageSwitcher lang={lang} />
+          <div className="hidden sm:block">
+            <LanguageSwitcher lang={lang} />
+          </div>
           <Link href={"mailto:info@payable.se"}>
             <button className="group rounded-md bg-black px-3 py-2 text-sm font-normal text-white hover:bg-zinc-700">
               {dict.navbar.contactUs}
