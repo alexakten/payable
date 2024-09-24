@@ -18,14 +18,14 @@ export default function LanguageSwitcher({ lang }: { lang: Locale }) {
     <div className="flex items-center gap-2">
       <Link href={switchLanguage("en")}>
         <button
-          className={`px-3 py-2 text-sm ${lang === "en" ? "underline" : "hover:underline"}`}
+          className={`px-3 py-2 text-sm ${lang === "en" ? "font-semibold" : "hover:underline"}`}
         >
           En
         </button>
       </Link>
       <Link href={switchLanguage("sv")}>
         <button
-          className={`px-3 py-2 text-sm ${lang === "sv" ? "underline" : "hover:underline"}`}
+          className={`px-3 py-2 text-sm ${lang === "sv" ? "font-semibold" : "hover:underline"}`}
         >
           Sv
         </button>
