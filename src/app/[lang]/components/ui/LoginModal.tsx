@@ -35,29 +35,29 @@ export default function Component() {
   return (
     <Card className="mx-auto w-full max-w-md">
       <CardHeader>
-        <CardTitle>Logga in</CardTitle>
+        <CardTitle>Log in</CardTitle>
         {/* <CardDescription>Använd dina inloggningsuppgifter</CardDescription> */}
       </CardHeader>
       <CardContent>
         <form onSubmit={handleSubmit}>
           <div className="space-y-4">
             <div className="space-y-2">
-              <Label htmlFor="email">E-post</Label>
+              <Label htmlFor="email">Email</Label>
               <Input
                 id="email"
                 type="email"
-                placeholder="Din e-post"
+                placeholder="Your email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
               />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="password">Lösenord</Label>
+              <Label htmlFor="password">Password</Label>
               <Input
                 id="password"
                 type="password"
-                placeholder="Ditt lösenord"
+                placeholder="Your password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
@@ -71,7 +71,7 @@ export default function Component() {
             </Alert>
           )}
           <Button type="submit" className="mt-6 w-full">
-            Logga in
+            Log in
           </Button>
         </form>
       </CardContent>
