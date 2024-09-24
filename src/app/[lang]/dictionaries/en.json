@@ -170,25 +170,25 @@
       }
     ]
   },
-  "contactPage": {
-    "heading": "Do you have questions or need help?",
-    "subHeading": "Do not hesitate to contact us. Together we will find a payment solution that fits your financial situation.",
-    "contactMethods": {
-      "phone": {
-        "label": "Phone",
-        "info": "Customer service opening hours: Weekdays 08:00-18:00",
-        "number": "08-500 824 00"
+  "contact": {
+    "heading": "Do you have questions or need assistance?",
+    "description": "Feel free to contact us. Together we will try to find a payment option that suits your financial situation.",
+    "sections": [
+      {
+        "title": "Phone",
+        "description": "Customer service hours: Weekdays 08:00-18:00",
+        "linkText": "08-500 824 00"
       },
-      "email": {
-        "label": "Email",
-        "address": "info@payable.se"
+      {
+        "title": "Email",
+        "linkText": "info@payable.se"
       },
-      "userPortal": {
-        "label": "My Pages",
+      {
+        "title": "My Pages",
         "description": "Communicate with customer service",
-        "link": "Log in to My Pages"
+        "linkText": "Log in to My Pages"
       }
-    }
+    ]
   },
   "lenderPage": {
     "hero": {
