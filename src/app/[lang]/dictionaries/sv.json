@@ -1,0 +1,410 @@
+{
+  "hero": {
+    "title": "Ta kontroll över din ekonomi",
+    "description": "Payable ger dig stöd och vägledning så att du kan få bättre kontroll över dina skulder.",
+    "ctaPayment": "Gå till betalning",
+    "ctaContact": "Kontakta oss"
+  },
+  "notification": {
+    "message": "Har du fått brev från oss?",
+    "ctaLogin": "Gå till Mina Sidor"
+  },
+  "imagesSection": {
+    "image1Alt": "Händer",
+    "image1Text": "Alla bör få känna friheten av att vara skuldfria.",
+    "image2Alt": "Blommor",
+    "image2Text": "Varje dag hjälper vi folk att bli skuldfria."
+  },
+  "helpSection": {
+    "heading": "Tillsammans hittar vi en lösning",
+    "description": "Det är viktigt att ta tag i din skuld så snart som möjligt för att undvika ytterligare avgifter och kostnader.",
+    "ctaPayment": "Gå till betalning",
+    "ctaContact": "Kontakta oss"
+  },
+  "finalImageSection": {
+    "image3Alt": "Vandring"
+  },
+  "howToPay": {
+    "heading": "Så betalar du",
+    "steps": [
+      {
+        "title": "1. Logga in på Mina Sidor",
+        "description": "Där ser du din aktuella skuld. Du kan också använda bankgiro från brevet du fått."
+      },
+      {
+        "title": "2. Välj betalningsmetod",
+        "description": "Betala genom bankgiro eller Swish. Kontakta kundtjänst för autogiro."
+      },
+      {
+        "title": "3. Slutför betalning",
+        "description": "Betalningen registreras inom 1-2 bankdagar. Du kan se ditt nya saldo på Mina Sidor."
+      }
+    ]
+  },
+  "whyPay": {
+    "heading": "Varför det är viktigt att betala",
+    "points": [
+      {
+        "title": "Förbättra din kreditvärdighet",
+        "description": "Genom att betala din skuld kan du förbättra din kreditvärdighet, vilket kan göra det lättare att få lån och krediter i framtiden."
+      },
+      {
+        "title": "Undvik ytterligare kostnader",
+        "description": "Obetalda skulder kan leda till extra avgifter och räntekostnader, vilket gör att din totala skuld ökar. Dröjsmålsränta beräknas på skulden kontinuerligt."
+      },
+      {
+        "title": "Minska stress och oro",
+        "description": "Att ha obetalda skulder kan skapa mycket stress och oro. Genom att betala din skuld kan du få sinnesro och fokusera på andra viktiga saker i ditt liv."
+      },
+      {
+        "title": "Bättre kontroll över din ekonomi",
+        "description": "Genom att betala dina skulder får du bättre kontroll över din ekonomiska situation och kan planera för framtiden på ett mer stabilt sätt."
+      },
+      {
+        "title": "Undvik rättsliga åtgärder",
+        "description": "Om skulden inte betalas kan Payable vidta rättsliga åtgärder, vilket kan leda till ytterligare kostnader och problem."
+      },
+      {
+        "title": "Förbättra dina relationer",
+        "description": "Genom att betala dina skulder i tid kan du undvika konflikter med långivare och upprätthålla förtroendet med vänner och familj som kanske har lånat dig pengar."
+      }
+    ]
+  },
+  "experienceSection": {
+    "image1Alt": "Blommor",
+    "image1Text": "30+ år erfarenhet av att hjälpa skuldsatta",
+    "image2Alt": "Postkontoret",
+    "image2Text": "30+ år erfarenhet av att hjälpa skuldsatta bli fria."
+  },
+  "faq": {
+    "heading": "Vanliga frågor",
+    "items": [
+      {
+        "trigger": "Varför skickar Payable kravbrev på min kredit?",
+        "content": "Payable AB är ett bolag som köper större förfallna portföljer med förfallna och uppsagda krediter från banker och finansbolag. Det innebär att Payable AB äger den uppsagda krediten och att ni framöver ska ha en dialog med vår kundtjänst för att diskutera hur den ska betalas."
+      },
+      {
+        "trigger": "Varför kontaktar ni mig?",
+        "content": "Payable kontaktar dig för att informera om en obetald skuld. Om du inte har möjlighet att betala hela skulden, kontakta oss så kan vi tillsammans titta på alternativa lösningar."
+      },
+      {
+        "trigger": "Vad händer om jag inte betalar min skuld?",
+        "content": "Om du inte betalar din skuld kan det resultera i ytterligare kravåtgärder, inklusive rättsliga åtgärder (ansökan om betalningsföreläggande via Kronofogden) vilket kan resultera i en betalningsanmärkning. En betalningsanmärkning finns registrerad i tre år."
+      },
+      {
+        "trigger": "Hur ser kravprocessen ut?",
+        "content": "Inkassokrav är första steget i inkassoprocessen. Enligt lag har inkassobolaget rätt att ta ut en avgift om 180 kr. 12 dagar efter att inkassokravet har skickats har Payable möjlighet att skicka en ansökan om betalningsföreläggande via Kronofogden."
+      },
+      {
+        "trigger": "Kan jag förhandla om en betalningsplan?",
+        "content": "Ja, vi är öppna för att diskutera alternativa betalningsplaner som passar din ekonomiska situation. Kontakta oss för att diskutera dina möjligheter."
+      },
+      {
+        "trigger": "Hur påverkar detta min kreditvärdighet?",
+        "content": "Betalningsanmärkningar syns på kreditupplysningar. Det kan innebära att det blir svårt att ta nya krediter, lån, kreditkort, få en hyreslägenhet, bostadskontrakt osv."
+      },
+      {
+        "trigger": "Kan jag få en förklaring på den aktuella skulden?",
+        "content": "Självklart, vi kan tillhandahålla en detaljerad förklaring av skulden och eventuella tillkommande avgifter. Kontakta oss för mer information."
+      },
+      {
+        "trigger": "Vad är mina rättigheter som gäldenär?",
+        "content": "Som gäldenär har du rättigheter enligt lag. Det inkluderar rätten till tydlig information om skulden och begära bevis för skulden. Du har även rätt att ärendet hanteras enligt god inkassosed, vilket Payable alltid följer."
+      },
+      {
+        "trigger": "Hur kan jag kontakta er för att lösa min skuld?",
+        "content": "Du kan kontakta oss via telefon eller e-post för att diskutera din skuld och eventuella betalningsarrangemang."
+      },
+      {
+        "trigger": "Vad händer om jag inte är nöjd med hur ni behandlar min skuld?",
+        "content": "Payable anser det viktigt att hantera ärenden på ett rättvist, korrekt och respektfullt sätt och enligt de lagar och regler som gäller för inkassobolag."
+      }
+    ]
+  },
+  "aboutUs": {
+    "heading": "Om Payable",
+    "description": "Payable AB är specialiserade på att köpa och hantera förfallna konsumentkrediter. Vi har lång erfarenhet av att hitta lösningar för skuldsatta genom vägledning och betalningsuppgörelser. Payable AB har tillstånd av Finansinspektionen att bedriva inkassoverksamhet enligt inkassolagen (1974:182)."
+  },
+  "privacyPolicy": {
+    "heading": "Integritetspolicy",
+    "sections": [
+      {
+        "title": "1. Introduktion",
+        "content": "Denna integritetspolicy beskriver hur Payable AB samlar in, använder, lagrar och skyddar personuppgifter i samband med vår inkassoverksamhet. Vi är fast beslutna att skydda din integritet och säkerställa att dina personuppgifter behandlas i enlighet med gällande dataskyddslagar, inklusive EU allmänna dataskyddsförordning (GDPR)."
+      },
+      {
+        "title": "2. Personuppgifter vi samlar in",
+        "content": "Vi kan samla in följande typer av personuppgifter: Identifikationsuppgifter: Namn, personnummer, födelsedatum, ID-nummer. Kontaktuppgifter: Adress, telefonnummer, e-postadress. Finansiella uppgifter: Bankkontouppgifter, skuldinformation, betalningshistorik. Kundserviceuppgifter: Kommunikation med kundtjänst, ärendehistorik. Tekniska uppgifter: IP-adress, webbläsaruppgifter, cookies och liknande teknologier."
+      },
+      {
+        "title": "3. Syften med behandlingen av personuppgifter",
+        "content": "Vi behandlar dina personuppgifter för följande ändamål: Skuldförvaltning: Hantera och inkassera obetalda skulder. Kommunikation: Kontakta dig via telefon, e-post, brev eller andra kanaler angående din skuld. Kundservice: Svara på dina frågor och hantera dina ärenden. Juridiska ändamål: Uppfylla rättsliga skyldigheter, såsom att följa lagar och regler samt besvara rättsliga krav. Förbättring av tjänster: Analysera och förbättra våra tjänster och kundupplevelse."
+      },
+      {
+        "title": "4. Rättslig grund för behandling",
+        "content": "Vi behandlar dina personuppgifter baserat på följande rättsliga grunder: Avtal: För att fullgöra våra avtalsförpliktelser gentemot dig. Rättslig förpliktelse: För att uppfylla rättsliga skyldigheter som vi är föremål för. Berättigat intresse: För att driva vår verksamhet, inklusive inkassering av skulder, och förbättra våra tjänster. Samtycke: När det är tillämpligt, exempelvis vid marknadsföring."
+      },
+      {
+        "title": "5. Delning av personuppgifter",
+        "content": "Vi kan dela dina personuppgifter med: Tjänsteleverantörer: Företag som tillhandahåller tjänster åt oss, såsom IT-support, betaltjänster och kundtjänst. Myndigheter: Rättsliga instanser och tillsynsmyndigheter när det krävs enligt lag. Affärspartners: Företag som vi samarbetar med för att utföra våra tjänster."
+      },
+      {
+        "title": "6. Överföring av personuppgifter utanför EU/EES",
+        "content": "Dina personuppgifter kan överföras till och behandlas i länder utanför EU/EES. I dessa fall säkerställer vi att lämpliga skyddsåtgärder vidtas, såsom standardavtalsklausuler godkända av EU-kommissionen."
+      },
+      {
+        "title": "7. Lagring av personuppgifter",
+        "content": "Vi lagrar dina personuppgifter så länge det är nödvändigt för de ändamål som de samlades in för eller så länge som krävs enligt lag. När dina personuppgifter inte längre behövs kommer de att raderas eller anonymiseras."
+      },
+      {
+        "title": "8. Dina rättigheter",
+        "content": "Du har rätt att: Få tillgång till dina personuppgifter: Begära en kopia av de personuppgifter vi har om dig. Rätta felaktiga uppgifter: Begära att felaktiga eller ofullständiga uppgifter rättas. Radera dina personuppgifter: Begära att dina personuppgifter raderas under vissa omständigheter. Begränsa behandlingen: Begära att behandlingen av dina personuppgifter begränsas under vissa omständigheter. Invända mot behandling: Invända mot behandlingen av dina personuppgifter baserat på berättigat intresse eller för direktmarknadsföring. Dataportabilitet: Begära att få dina personuppgifter överförda till en annan tjänsteleverantör."
+      },
+      {
+        "title": "9. Kontaktuppgifter",
+        "content": "Om du har frågor om denna integritetspolicy eller vill utöva dina rättigheter, vänligen kontakta oss på:"
+      },
+      {
+        "title": "10. Ändringar i integritetspolicyn",
+        "content": "Vi kan uppdatera denna integritetspolicy vid behov. Den senaste versionen kommer alltid att finnas tillgänglig på vår webbplats. Vi uppmuntrar dig att regelbundet granska denna policy för att hålla dig informerad om hur vi skyddar dina personuppgifter. Datum för senaste uppdatering: 2024-06-10. Genom att använda våra tjänster samtycker du till denna integritetspolicy."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Har du frågor eller behöver hjälp?",
+    "description": "Tveka inte att kontakta oss. Tillsammans försöker vi hitta ett betalningsalternativ som passar din ekonomiska situation.",
+    "sections": [
+      {
+        "title": "Telefon",
+        "description": "Kundtjänst öppettider: Vardagar 08:00-18:00",
+        "linkText": "08-500 824 00"
+      },
+      {
+        "title": "E-post",
+        "linkText": "info@payable.se"
+      },
+      {
+        "title": "Mina sidor",
+        "description": "Kommunicera med kundservice",
+        "linkText": "Logga in på Mina Sidor"
+      }
+    ]
+  },
+  "lenderPage": {
+    "hero": {
+      "title": "Erfaren partner för Non-Performing Loans",
+      "subtext": "Payable är specialister på att köpa förfallna konsumentkrediter från banker och finansbolag.",
+      "ctaContact": "Kontakta oss"
+    },
+    "services": {
+      "heading": "Våra tjänster",
+      "items": [
+        {
+          "title": "One-Off",
+          "description": "One-off-transaktion innebär att Payable köper en befintlig portfölj med nödlidande problemkrediter. Priset baseras på en analys av portföljens framtida kassaflöde. Kreditgivaren slipper framtida hantering, stärker finansiella nyckeltal och för betalt vid överlämnandet av portföljen."
+        },
+        {
+          "title": "Forward Flow",
+          "description": "Forward flow-avtal innebär att ett finansbolag kan ingå ett avtal om att kontinuerligt sälja förfallna och uppsagda kreditavtal till ett förutbestämt pris. Villkoren för varje överföring, inklusive pris och volym, är definerade i avtalet."
+        },
+        {
+          "title": "Joint Ventures",
+          "description": "Payable har ett brett kontaktnät med potentialla partners och lång erfarenhet av att skapa olika typer av skräddarsydda lösningar."
+        }
+      ]
+    },
+    "advantages": {
+      "heading": "Fördelar med att sälja nödlidande problemkrediter",
+      "items": [
+        {
+          "title": "Backstop regelverket",
+          "description": "EU:s nya regelverk innebär ökad press på finansinstitut att hantera Non-Performing Loans (NPL) mer effektivt."
+        },
+        {
+          "title": "Starkare balansräkning",
+          "description": "En starkare balansräkning med en lägre andel problemkrediter kan öka förtroendet från intressenter."
+        },
+        {
+          "title": "Proaktiv riskhantering",
+          "description": "Genom proaktiv riskhantering ökar marknadens förtroende."
+        },
+        {
+          "title": "Administrativa kostnader",
+          "description": "Hanteringen av nödlidande krediter kräver resurser. Genom försäljning minskas dessa kostnader."
+        },
+        {
+          "title": "Förbättrat kreditbetyg",
+          "description": "Lägre andel NPL i balansräkningen kan leda till förbättrade kreditbetyg från rating-institut."
+        },
+        {
+          "title": "Resultat och likviditet",
+          "description": "En försäljning frigör kapital och förbättrar likviditeten."
+        }
+      ]
+    },
+    "process": {
+      "heading": "Försäljningsprocess",
+      "steps": [
+        {
+          "title": "1. NDA",
+          "description": "Parterna undertecknar en Non-Disclosure Agreement (NDA)."
+        },
+        {
+          "title": "2. Analys",
+          "description": "En analys genomförs av portföljen med hjälp av sofistikerade värderingsmodeller."
+        },
+        {
+          "title": "3. Anbud",
+          "description": "Vi lämnar anbud med priset uttryckt som en procent av portföljens utestående kapital."
+        },
+        {
+          "title": "4. Due Diligence",
+          "description": "Vid accept av anbud genomförs en due diligence."
+        },
+        {
+          "title": "5. Avtal",
+          "description": "Vi tecknar avtal om aktuell försäljning."
+        },
+        {
+          "title": "6. Överlåtelse och betalning",
+          "description": "Krediterna överförs till Payable och ni får betalt."
+        }
+      ],
+      "ctaContact": "Kontakta oss",
+      "priceIndication": "Vill ni snabbt och enkelt utvärdera vad en försäljning skulle innebära för er? För att lämna en ej-bindande prisindikation behöver vi endast ett fåtal uppgifter."
+    },
+    "experienceSection": {
+      "heading": "30+ år erfarenhet av köp av förfallna fordringar.",
+      "description": "Payable AB är specialiserade på att köpa och hantera förfallna konsumentkrediter. Vi har lång erfarenhet av att hitta lösningar för skuldsatta genom vägledning och betalningsuppgörelser. Payable AB har tillstånd av Finansinspektionen att bedriva inkassoverksamhet enligt inkassolagen (1974:182)."
+    }
+  },
+  "complaintsPolicy": {
+    "heading": "Policy för Klagomålshantering",
+    "sections": [
+      {
+        "title": "1. Syfte",
+        "content": "Syftet med denna policy är att säkerställa att Payable AB hanterar kundklagomål på ett effektivt, rättvist och transparent sätt. Vi strävar efter att alla klagomål behandlas seriöst och löses på ett sätt som gagnar både kunden och företaget."
+      },
+      {
+        "title": "2. Definition av Klagomål",
+        "content": "Ett klagomål är ett uttryck för missnöje från en kund avseende vår tjänst, produkt eller den behandling de fått av våra anställda. Detta kan inkludera, men är inte begränsat till, klagomål om felaktig fakturering, otillfredsställande service, bristande kommunikation och behandling av personuppgifter."
+      },
+      {
+        "title": "3. Principer för Klagomålshantering",
+        "content": "· Tillgänglighet: Vi ska göra det enkelt för kunder att framföra klagomål. \n· Opartiskhet: Klagomål ska hanteras på ett rättvist och objektivt sätt. \n· Konfidentialitet: Kundens integritet ska skyddas vid hantering av klagomål. \n· Ansvar: Vi ska ta ansvar för att åtgärda och lösa klagomål snabbt och effektivt. \n· Ständig förbättring: Vi använder feedback från klagomål för att kontinuerligt förbättra våra tjänster."
+      },
+      {
+        "title": "4. Process för Klagomålshantering",
+        "subsections": [
+          {
+            "subTitle": "4.1 Inlämning av Klagomål",
+            "content": "Kunder kan lämna in klagomål på följande sätt:"
+          },
+          {
+            "subTitle": "4.2 Bekräftelse av Mottagande",
+            "content": "När vi mottar ett klagomål, bekräftar vi mottagandet inom 2 arbetsdagar. Bekräftelsen inkluderar information om hur klagomålet kommer att behandlas och en förväntad tidsram för att lösa ärendet."
+          },
+          {
+            "subTitle": "4.3 Utredning",
+            "content": "Varje klagomål kommer att utredas grundligt och opartiskt. Vi kan behöva kontakta kunden för ytterligare information eller förtydliganden."
+          },
+          {
+            "subTitle": "4.4 Beslut och Åtgärder",
+            "content": "Efter utredningen kommer vi att fatta ett beslut och vidta lämpliga åtgärder för att lösa klagomålet. Kunden kommer att informeras om beslutet och de åtgärder som kommer att vidtas."
+          },
+          {
+            "subTitle": "4.5 Återkoppling",
+            "content": "Vi strävar efter att lösa klagomål inom 14 arbetsdagar från mottagandet. Om mer tid krävs, kommer vi att informera kunden om anledningen till förseningen och en ny förväntad tid för lösning."
+          }
+        ]
+      },
+      {
+        "title": "5. Eskalering av Klagomål",
+        "content": "Om kunden inte är nöjd med hur klagomålet har hanterats, kan ärendet eskaleras till en högre chef eller ansvarig för kundklagomål. Vid behov kan kunden även hänvisa klagomålet till en extern tvistlösningsinstans, såsom Allmänna reklamationsnämnden (ARN) eller relevant tillsynsmyndighet."
+      },
+      {
+        "title": "6. Dokumentation och Rapportering",
+        "content": "Alla klagomål och åtgärder som vidtagits ska dokumenteras noggrant. Vi kommer att regelbundet granska och analysera klagomål för att identifiera mönster och möjligheter till förbättring."
+      },
+      {
+        "title": "7. Utbildning och Medvetenhet",
+        "content": "Alla anställda ska få utbildning om denna klagomålshanteringspolicy och hur de ska hantera klagomål på ett effektivt sätt. Vi kommer att säkerställa att alla medarbetare är medvetna om vikten av att hantera klagomål professionellt och respektfullt."
+      },
+      {
+        "title": "8. Översyn och Uppdatering",
+        "content": "Denna policy ska granskas och uppdateras årligen för att säkerställa att den förblir effektiv och relevant. Eventuella ändringar kommer att kommuniceras till alla anställda och göras tillgängliga för våra kunder."
+      }
+    ]
+  },
+  "codeOfConduct": {
+    "heading": "Uppförandekod",
+    "sections": [
+      {
+        "title": "1. Introduktion",
+        "content": "Denna uppförandekod beskriver de principer och standarder som styr beteendet hos alla anställda, ledare och samarbetspartners till Payable AB. Vårt mål är att bedriva vår verksamhet på ett etiskt, rättvist och transparent sätt, samtidigt som vi skyddar och respekterar våra kunders rättigheter."
+      },
+      {
+        "title": "2. Etiska Principer",
+        "content": "Ärlighet och Integritet: Alltid agera med ärlighet och integritet i alla våra affärsrelationer. \nRespekt: Behandla alla individer med respekt, värdighet och rättvisa. \nAnsvar: Ta ansvar för våra handlingar och beslut, och agera i företagets och kundens bästa intresse."
+      },
+      {
+        "title": "3. Kundbehandling",
+        "content": "Respektfull Kommunikation: Vi ska alltid kommunicera med kunder på ett respektfullt, hövligt och professionellt sätt. \nKundens Rättigheter: Vi respekterar kundens rättigheter och arbetar för att säkerställa att våra metoder överensstämmer med gällande lagar och regler. \nSekretess: Vi skyddar kundens personliga information och behandlar den i enlighet med vår integritetspolicy."
+      },
+      {
+        "title": "4. Efterlevnad av Lagar och Regler",
+        "content": "Lagstiftning: Vi följer alla relevanta lagar, regler och branschstandarder som reglerar vår verksamhet. \nAntikorruption: Vi tolererar inte någon form av korruption eller mutor. Alla affärsbeslut ska fattas på grundval av affärsmässiga överväganden. \nRapportering av Överträdelser: Anställda uppmuntras att rapportera eventuella brott mot denna uppförandekod eller lagstiftning utan rädsla för repressalier."
+      },
+      {
+        "title": "5. Intressekonflikter",
+        "content": "Identifiering och Undvikande: Anställda ska undvika situationer där personliga intressen kan komma i konflikt med företagets eller kundernas intressen. \nTransparens: Eventuella intressekonflikter ska omedelbart rapporteras till närmaste chef eller compliance-ansvarig för bedömning och hantering."
+      },
+      {
+        "title": "6. Anställdas Beteende",
+        "content": "Professionellt Uppträdande: Anställda förväntas uppträda professionellt och upprätthålla företagets goda rykte i alla sina handlingar. \nSamarbete: Vi främjar en arbetsmiljö präglad av samarbete, ömsesidig respekt och stöd. \nFortbildning: Anställda uppmuntras att kontinuerligt utveckla sina kunskaper och färdigheter för att bättre kunna betjäna våra kunder och uppfylla sina arbetsuppgifter."
+      },
+      {
+        "title": "7. Miljö och Samhälle",
+        "content": "Miljöansvar: Vi strävar efter att minimera vår miljöpåverkan och följa hållbara affärsmetoder. \nSocialt Ansvar: Vi är engagerade i att stödja lokalsamhället och delta i socialt ansvarstagande initiativ."
+      },
+      {
+        "title": "8. Hantering av Klagomål",
+        "content": "Kundklagomål: Vi har tydliga rutiner för att hantera kundklagomål snabbt och rättvist. Alla klagomål ska tas på allvar och behandlas konfidentiellt. \nInterna Klagomål: Anställda ska känna sig trygga att rapportera problem eller klagomål internt. Vi säkerställer att dessa hanteras rättvist och utan repressalier."
+      },
+      {
+        "title": "10. Översyn och Uppdatering",
+        "content": "Denna uppförandekod kommer att granskas och uppdateras regelbundet för att säkerställa att den förblir relevant och effektiv. Eventuella förändringar kommer att kommuniceras till alla anställda och samarbetspartners."
+      }
+    ]
+  },
+  "navbar": {
+    "aboutUs": "Om oss",
+    "howToPay": "Så betalar du",
+    "faq": "Vanliga frågor",
+    "creditGivers": "För kreditgivare",
+    "ourServices": "Våra tjänster",
+    "benefitsSell": "Fördelar sälja",
+    "process": "Process",
+    "contactUs": "Kontakta oss",
+    "myPages": "Mina Sidor"
+  },
+  "footer": {
+    "borrowers": "Kredittagare",
+    "myPages": "Mina Sidor",
+    "howToPay": "Så betalar du",
+    "faq": "Vanliga frågor",
+    "lenders": "Kreditgivare",
+    "aboutUs": "Om Payable",
+    "ourServices": "Våra tjänster",
+    "benefitsSell": "Fördelar sälja",
+    "salesProcess": "Försäljningsprocess",
+    "companyInfo": "Bolagsinformation",
+    "orgNr": "Org.nr",
+    "registeredSeat": "Säte",
+    "contact": "Kontakt",
+    "codeOfConduct": "Code of Conduct",
+    "complaints": "Kundklagomål",
+    "privacyPolicy": "Integritetspolicy",
+    "cookieSettings": "Cookie-inställningar"
+  }
+}

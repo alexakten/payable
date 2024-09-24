@@ -1,0 +1,410 @@
+{
+  "hero": {
+    "title": "Take control of your finances",
+    "description": "Payable gives you support and guidance to help you better manage your debts.",
+    "ctaPayment": "Go to payment",
+    "ctaContact": "Contact us"
+  },
+  "notification": {
+    "message": "Received a letter from us?",
+    "ctaLogin": "Go to My Pages"
+  },
+  "imagesSection": {
+    "image1Alt": "Hands",
+    "image1Text": "Everyone should feel the freedom of being debt-free.",
+    "image2Alt": "Flowers",
+    "image2Text": "Every day we help people become debt-free."
+  },
+  "helpSection": {
+    "heading": "Together we will find a solution",
+    "description": "It is important to tackle your debt as soon as possible to avoid additional fees and costs.",
+    "ctaPayment": "Go to payment",
+    "ctaContact": "Contact us"
+  },
+  "finalImageSection": {
+    "image3Alt": "Hiking"
+  },
+  "howToPay": {
+    "heading": "How to pay",
+    "steps": [
+      {
+        "title": "1. Log in to My Pages",
+        "description": "There you will see your current debt. You can also use the bankgiro from the letter you received."
+      },
+      {
+        "title": "2. Choose a payment method",
+        "description": "Pay via bankgiro or Swish. Contact customer service for direct debit."
+      },
+      {
+        "title": "3. Complete the payment",
+        "description": "The payment is registered within 1-2 business days. You can see your updated balance on My Pages."
+      }
+    ]
+  },
+  "whyPay": {
+    "heading": "Why it is important to pay",
+    "points": [
+      {
+        "title": "Improve your credit rating",
+        "description": "By paying your debt, you can improve your credit score, making it easier to get loans and credit in the future."
+      },
+      {
+        "title": "Avoid additional costs",
+        "description": "Unpaid debts can lead to extra fees and interest charges, increasing your total debt. Penalty interest is calculated continuously on the debt."
+      },
+      {
+        "title": "Reduce stress and worry",
+        "description": "Having unpaid debts can cause a lot of stress and worry. By paying off your debt, you can gain peace of mind and focus on other important aspects of your life."
+      },
+      {
+        "title": "Better control over your finances",
+        "description": "By paying off your debts, you'll have better control over your financial situation and can plan for the future more securely."
+      },
+      {
+        "title": "Avoid legal actions",
+        "description": "If the debt is not paid, Payable may take legal actions, which can lead to additional costs and problems."
+      },
+      {
+        "title": "Improve your relationships",
+        "description": "By paying your debts on time, you can avoid conflicts with creditors and maintain trust with friends and family who may have lent you money."
+      }
+    ]
+  },
+  "experienceSection": {
+    "image1Alt": "Flowers",
+    "image1Text": "30+ years of experience helping people with debts",
+    "image2Alt": "Post office",
+    "image2Text": "30+ years of experience helping people become debt-free."
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "trigger": "Why is Payable sending me a demand letter on my credit?",
+        "content": "Payable AB is a company that buys larger portfolios of overdue and terminated credits from banks and finance companies. This means that Payable AB owns the terminated credit, and you should have a dialogue with our customer service to discuss how to settle it."
+      },
+      {
+        "trigger": "Why are you contacting me?",
+        "content": "Payable is contacting you to inform you about an unpaid debt. If you are unable to pay the full amount, please contact us, and we can explore alternative solutions together."
+      },
+      {
+        "trigger": "What happens if I don’t pay my debt?",
+        "content": "If you do not pay your debt, it can lead to additional actions, including legal measures (a payment order application via the Enforcement Authority), which could result in a record of non-payment. A non-payment record remains on file for three years. Additionally, further fees and interest charges will accrue. To avoid this, please contact us to see if we can find a solution together."
+      },
+      {
+        "trigger": "What does the debt collection process look like?",
+        "content": "A debt collection notice is the first step in the debt collection process. By law, the collection agency has the right to charge a fee of 180 SEK. Twelve days after the debt collection notice is sent, Payable can apply for a payment order via the Enforcement Authority."
+      },
+      {
+        "trigger": "Can I negotiate a payment plan?",
+        "content": "Yes, we are open to discussing alternative payment plans that suit your financial situation. Contact us to discuss your options."
+      },
+      {
+        "trigger": "How does this affect my credit rating?",
+        "content": "Non-payment records appear on credit reports. This can make it difficult to obtain new credit, loans, credit cards, or secure a rental apartment or housing contract. A non-payment record will remain for three years. It is important to address debts promptly to avoid negative effects on your credit rating."
+      },
+      {
+        "trigger": "Can I get an explanation of the current debt?",
+        "content": "Of course, we can provide a detailed explanation of the debt and any associated fees. Contact us for more information."
+      },
+      {
+        "trigger": "What are my rights as a debtor?",
+        "content": "As a debtor, you have rights under the law, including the right to clear information about your debt and the right to request proof of the debt. You also have the right to ensure that the matter is handled according to good debt collection practice, which Payable always follows."
+      },
+      {
+        "trigger": "How can I contact you to settle my debt?",
+        "content": "You can contact us by phone or email to discuss your debt and possible payment arrangements."
+      },
+      {
+        "trigger": "What if I am not satisfied with how you are handling my debt?",
+        "content": "Payable believes in handling matters fairly, accurately, and respectfully, following all laws and regulations for collection agencies. If you are not satisfied with our handling, please contact our customer service as soon as possible."
+      }
+    ]
+  },
+  "aboutUs": {
+    "heading": "About Payable",
+    "description": "Payable AB specializes in buying and managing overdue consumer credits. We have extensive experience finding solutions for debtors through guidance and payment arrangements. Payable AB is authorized by the Swedish Financial Supervisory Authority to conduct debt collection operations under the Debt Collection Act (1974:182)."
+  },
+  "privacyPolicy": {
+    "heading": "Privacy Policy",
+    "sections": [
+      {
+        "title": "1. Introduction",
+        "content": "This privacy policy describes how Payable AB collects, uses, stores, and protects personal data in connection with our debt collection activities. We are committed to safeguarding your privacy and ensuring that your personal data is processed in accordance with applicable data protection laws, including the EU General Data Protection Regulation (GDPR)."
+      },
+      {
+        "title": "2. Personal Data We Collect",
+        "content": "We may collect the following types of personal data: Identification details: Name, personal ID number, date of birth, ID number. Contact details: Address, phone number, email address. Financial information: Bank account details, debt information, payment history. Customer service information: Communication with customer service, case history. Technical details: IP address, browser details, cookies, and similar technologies."
+      },
+      {
+        "title": "3. Purposes of Processing Personal Data",
+        "content": "We process your personal data for the following purposes: Debt management: Managing and collecting unpaid debts. Communication: Contacting you via phone, email, letter, or other channels regarding your debt. Customer service: Responding to your inquiries and handling your cases. Legal purposes: Fulfilling legal obligations, such as complying with laws and regulations and responding to legal claims. Service improvement: Analyzing and improving our services and customer experience."
+      },
+      {
+        "title": "4. Legal Basis for Processing",
+        "content": "We process your personal data based on the following legal grounds: Contract: To fulfill our contractual obligations to you. Legal obligation: To meet legal obligations we are subject to. Legitimate interest: To conduct our business, including debt collection, and improve our services. Consent: Where applicable, such as for marketing purposes."
+      },
+      {
+        "title": "5. Sharing of Personal Data",
+        "content": "We may share your personal data with: Service providers: Companies providing services to us, such as IT support, payment services, and customer service. Authorities: Legal bodies and regulatory authorities when required by law. Business partners: Companies we collaborate with to deliver our services."
+      },
+      {
+        "title": "6. Transfer of Personal Data Outside the EU/EEA",
+        "content": "Your personal data may be transferred to and processed in countries outside the EU/EEA. In such cases, we ensure that appropriate safeguards are in place, such as standard contractual clauses approved by the European Commission."
+      },
+      {
+        "title": "7. Retention of Personal Data",
+        "content": "We store your personal data for as long as necessary for the purposes for which it was collected or as required by law. When your personal data is no longer needed, it will be deleted or anonymized."
+      },
+      {
+        "title": "8. Your Rights",
+        "content": "You have the right to: Access your personal data: Request a copy of the personal data we hold about you. Correct inaccurate data: Request that incorrect or incomplete data be corrected. Delete your personal data: Request the deletion of your personal data under certain circumstances. Restrict processing: Request that the processing of your personal data be restricted under certain circumstances. Object to processing: Object to the processing of your personal data based on legitimate interest or for direct marketing purposes. Data portability: Request that your personal data be transferred to another service provider."
+      },
+      {
+        "title": "9. Contact Information",
+        "content": "If you have any questions about this privacy policy or wish to exercise your rights, please contact us at:"
+      },
+      {
+        "title": "10. Changes to the Privacy Policy",
+        "content": "We may update this privacy policy as necessary. The latest version will always be available on our website. We encourage you to regularly review this policy to stay informed about how we protect your personal data. Last updated: 2024-06-10. By using our services, you agree to this privacy policy."
+      }
+    ]
+  },
+  "contactPage": {
+    "heading": "Do you have questions or need help?",
+    "subHeading": "Don’t hesitate to contact us. Together we will find a payment solution that fits your financial situation.",
+    "contactMethods": {
+      "phone": {
+        "label": "Phone",
+        "info": "Customer service opening hours: Weekdays 08:00-18:00",
+        "number": "08-500 824 00"
+      },
+      "email": {
+        "label": "Email",
+        "address": "info@payable.se"
+      },
+      "userPortal": {
+        "label": "My Pages",
+        "description": "Communicate with customer service",
+        "link": "Log in to My Pages"
+      }
+    }
+  },
+  "lenderPage": {
+    "hero": {
+      "title": "Experienced Partner for Non-Performing Loans",
+      "subtext": "Payable specializes in buying overdue consumer loans from banks and financial institutions.",
+      "ctaContact": "Contact us"
+    },
+    "services": {
+      "heading": "Our Services",
+      "items": [
+        {
+          "title": "One-Off",
+          "description": "A one-off transaction means Payable purchases an existing portfolio of non-performing loans. The price is based on an analysis of the portfolio's future cash flow. The lender avoids future management, strengthens key financial metrics, and gets paid upon portfolio handover."
+        },
+        {
+          "title": "Forward Flow",
+          "description": "A forward flow agreement means that a financial institution can continuously sell overdue credit agreements at a pre-determined price. The conditions for each transfer, including price and volume, are defined in the agreement."
+        },
+        {
+          "title": "Joint Ventures",
+          "description": "Payable has an extensive network of potential partners and vast experience in creating custom solutions."
+        }
+      ]
+    },
+    "advantages": {
+      "heading": "Benefits of Selling Non-Performing Loans",
+      "items": [
+        {
+          "title": "Backstop Regulation",
+          "description": "The new EU regulation increases pressure on financial institutions to handle Non-Performing Loans (NPL) more effectively."
+        },
+        {
+          "title": "Stronger Balance Sheet",
+          "description": "A stronger balance sheet with a lower proportion of problem loans can increase confidence among stakeholders."
+        },
+        {
+          "title": "Proactive Risk Management",
+          "description": "Proactive risk management increases market confidence."
+        },
+        {
+          "title": "Administrative Costs",
+          "description": "Managing non-performing loans requires resources. By selling, these costs are reduced."
+        },
+        {
+          "title": "Improved Credit Rating",
+          "description": "A lower proportion of NPLs on the balance sheet can lead to improved credit ratings from rating agencies."
+        },
+        {
+          "title": "Results and Liquidity",
+          "description": "A sale releases capital and improves liquidity."
+        }
+      ]
+    },
+    "process": {
+      "heading": "Sales Process",
+      "steps": [
+        {
+          "title": "1. NDA",
+          "description": "The parties sign a Non-Disclosure Agreement (NDA)."
+        },
+        {
+          "title": "2. Analysis",
+          "description": "An analysis of the portfolio is conducted using sophisticated valuation models."
+        },
+        {
+          "title": "3. Offer",
+          "description": "We submit an offer with the price expressed as a percentage of the portfolio's outstanding capital."
+        },
+        {
+          "title": "4. Due Diligence",
+          "description": "Upon acceptance of the offer, due diligence is carried out."
+        },
+        {
+          "title": "5. Agreement",
+          "description": "We sign an agreement for the current sale."
+        },
+        {
+          "title": "6. Transfer and Payment",
+          "description": "The credits are transferred to Payable, and you get paid."
+        }
+      ],
+      "ctaContact": "Contact us",
+      "priceIndication": "Would you like to quickly evaluate what a sale would mean for you? To provide a non-binding price indication, we only need a few details."
+    },
+    "experienceSection": {
+      "heading": "30+ Years of Experience in Buying Overdue Receivables",
+      "description": "Payable AB specializes in buying and managing overdue consumer loans. We have extensive experience finding solutions for debtors through guidance and payment arrangements. Payable AB is licensed by the Swedish Financial Supervisory Authority to conduct debt collection activities under the Debt Collection Act (1974:182)."
+    }
+  },
+  "complaintsPolicy": {
+    "heading": "Complaints Handling Policy",
+    "sections": [
+      {
+        "title": "1. Purpose",
+        "content": "The purpose of this policy is to ensure that Payable AB handles customer complaints in an efficient, fair, and transparent manner. We strive to ensure that all complaints are taken seriously and resolved in a way that benefits both the customer and the company."
+      },
+      {
+        "title": "2. Definition of a Complaint",
+        "content": "A complaint is an expression of dissatisfaction from a customer regarding our service, product, or the treatment they received from our employees. This can include, but is not limited to, complaints about incorrect billing, unsatisfactory service, poor communication, and handling of personal data."
+      },
+      {
+        "title": "3. Complaints Handling Principles",
+        "content": "· Accessibility: We will make it easy for customers to submit complaints. \n· Impartiality: Complaints will be handled fairly and objectively. \n· Confidentiality: The customer's privacy will be protected during the handling of complaints. \n· Responsibility: We will take responsibility for resolving complaints quickly and efficiently. \n· Continuous improvement: We use feedback from complaints to continuously improve our services."
+      },
+      {
+        "title": "4. Complaints Handling Process",
+        "subsections": [
+          {
+            "subTitle": "4.1 Submission of Complaints",
+            "content": "Customers can submit complaints in the following ways:"
+          },
+          {
+            "subTitle": "4.2 Acknowledgment of Receipt",
+            "content": "When we receive a complaint, we will acknowledge receipt within 2 business days. The acknowledgment will include information on how the complaint will be handled and an expected time frame for resolution."
+          },
+          {
+            "subTitle": "4.3 Investigation",
+            "content": "Each complaint will be thoroughly and impartially investigated. We may need to contact the customer for additional information or clarification."
+          },
+          {
+            "subTitle": "4.4 Decision and Actions",
+            "content": "After the investigation, we will make a decision and take appropriate actions to resolve the complaint. The customer will be informed of the decision and the actions that will be taken."
+          },
+          {
+            "subTitle": "4.5 Feedback",
+            "content": "We aim to resolve complaints within 14 business days of receipt. If more time is needed, we will inform the customer of the reason for the delay and provide a new expected resolution date."
+          }
+        ]
+      },
+      {
+        "title": "5. Escalation of Complaints",
+        "content": "If the customer is not satisfied with how the complaint has been handled, the matter can be escalated to a higher manager or complaints officer. If necessary, the customer can also refer the complaint to an external dispute resolution body, such as the Swedish National Board for Consumer Disputes (ARN) or the relevant regulatory authority."
+      },
+      {
+        "title": "6. Documentation and Reporting",
+        "content": "All complaints and actions taken will be thoroughly documented. We will regularly review and analyze complaints to identify patterns and opportunities for improvement."
+      },
+      {
+        "title": "7. Training and Awareness",
+        "content": "All employees will receive training on this complaints handling policy and how to handle complaints effectively. We will ensure that all staff are aware of the importance of handling complaints professionally and respectfully."
+      },
+      {
+        "title": "8. Review and Updates",
+        "content": "This policy will be reviewed and updated annually to ensure it remains effective and relevant. Any changes will be communicated to all employees and made available to our customers."
+      }
+    ]
+  },
+  "codeOfConduct": {
+    "heading": "Code of Conduct",
+    "sections": [
+      {
+        "title": "1. Introduction",
+        "content": "This Code of Conduct outlines the principles and standards that guide the behavior of all employees, leaders, and partners of Payable AB. Our goal is to conduct our business in an ethical, fair, and transparent manner while protecting and respecting the rights of our customers."
+      },
+      {
+        "title": "2. Ethical Principles",
+        "content": "Honesty and Integrity: Always act with honesty and integrity in all our business relationships. \nRespect: Treat all individuals with respect, dignity, and fairness. \nResponsibility: Take responsibility for our actions and decisions, acting in the best interest of the company and the customer."
+      },
+      {
+        "title": "3. Customer Treatment",
+        "content": "Respectful Communication: We will always communicate with customers in a respectful, courteous, and professional manner. \nCustomer Rights: We respect the rights of customers and work to ensure that our practices comply with applicable laws and regulations. \nConfidentiality: We protect the personal information of customers and handle it in accordance with our privacy policy."
+      },
+      {
+        "title": "4. Compliance with Laws and Regulations",
+        "content": "Legislation: We comply with all relevant laws, regulations, and industry standards governing our operations. \nAnti-corruption: We do not tolerate any form of corruption or bribery. All business decisions must be based on business considerations. \nReporting Violations: Employees are encouraged to report any violations of this code of conduct or legislation without fear of retaliation."
+      },
+      {
+        "title": "5. Conflicts of Interest",
+        "content": "Identification and Avoidance: Employees should avoid situations where personal interests may conflict with the interests of the company or customers. \nTransparency: Any conflicts of interest should be immediately reported to the nearest manager or compliance officer for evaluation and resolution."
+      },
+      {
+        "title": "6. Employee Behavior",
+        "content": "Professional Conduct: Employees are expected to behave professionally and maintain the company’s good reputation in all their actions. \nCollaboration: We promote a work environment of collaboration, mutual respect, and support. \nContinuing Education: Employees are encouraged to continuously develop their knowledge and skills to better serve our customers and fulfill their responsibilities."
+      },
+      {
+        "title": "7. Environment and Society",
+        "content": "Environmental Responsibility: We strive to minimize our environmental impact and follow sustainable business practices. \nSocial Responsibility: We are committed to supporting local communities and participating in socially responsible initiatives."
+      },
+      {
+        "title": "8. Handling of Complaints",
+        "content": "Customer Complaints: We have clear procedures in place to handle customer complaints quickly and fairly. All complaints will be taken seriously and handled confidentially. \nInternal Complaints: Employees should feel safe to report issues or complaints internally. We ensure that these are handled fairly and without retaliation."
+      },
+      {
+        "title": "10. Review and Updates",
+        "content": "This code of conduct will be reviewed and updated regularly to ensure that it remains relevant and effective. Any changes will be communicated to all employees and partners."
+      }
+    ]
+  },
+  "navbar": {
+    "aboutUs": "About Us",
+    "howToPay": "How to Pay",
+    "faq": "FAQ",
+    "creditGivers": "For Credit Givers",
+    "ourServices": "Our Services",
+    "benefitsSell": "Benefits of Selling",
+    "process": "Process",
+    "contactUs": "Contact Us",
+    "myPages": "My Pages"
+  },
+  "footer": {
+    "borrowers": "Borrowers",
+    "myPages": "My Pages",
+    "howToPay": "How to Pay",
+    "faq": "FAQ",
+    "lenders": "Lenders",
+    "aboutUs": "About Payable",
+    "ourServices": "Our Services",
+    "benefitsSell": "Benefits of Selling",
+    "salesProcess": "Sales Process",
+    "companyInfo": "Company Information",
+    "orgNr": "Org.nr",
+    "registeredSeat": "Registered Seat",
+    "contact": "Contact",
+    "codeOfConduct": "Code of Conduct",
+    "complaints": "Complaints",
+    "privacyPolicy": "Privacy Policy",
+    "cookieSettings": "Cookie Settings"
+  }
+}

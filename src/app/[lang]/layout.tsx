@@ -3,7 +3,7 @@ import { Analytics } from "@vercel/analytics/react";
 import Cookie from "./components/ui/Cookie";
 import { getCookie } from "cookies-next";
 
-import "./globals.css";
+import "../globals.css";
 
 export const metadata: Metadata = {
   title: "Payable",

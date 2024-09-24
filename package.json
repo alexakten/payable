@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formatjs/intl-localematcher": "^0.5.4",
     "@phosphor-icons/react": "^2.1.6",
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-label": "^2.1.0",
@@ -20,6 +21,7 @@
     "cookies-next": "^4.2.1",
     "ga-gtag": "^1.2.0",
     "lucide-react": "^0.394.0",
+    "negotiator": "^0.6.3",
     "next": "14.1.4",
     "react": "^18",
     "react-cookie-consent": "^9.0.0",
@@ -28,6 +30,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@types/negotiator": "^0.6.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
