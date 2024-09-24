@@ -60,7 +60,6 @@ export default async function Creditors({ params: { lang } }: Params) {
                 priority
               />
             </div>
-            <p className="mt-4 text-sm">{dict.imagesSection.image1Text}</p>
           </div>
           <div className="col-span-1 hidden flex-col md:col-span-2 md:flex">
             <div className="relative z-10 h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
@@ -72,7 +71,6 @@ export default async function Creditors({ params: { lang } }: Params) {
                 priority
               />
             </div>
-            <p className="mt-4 text-sm">{dict.imagesSection.image2Text}</p>
           </div>
         </div>
       </section>
@@ -150,7 +148,6 @@ export default async function Creditors({ params: { lang } }: Params) {
                 priority
               />
             </div>
-            <p className="mt-4 text-sm">{dict.experienceSection.image1Text}</p>
           </div>
           <div className="hidden flex-col sm:col-span-1 md:col-span-4 md:flex">
             <div className="relative h-[32rem] overflow-hidden rounded-xl bg-zinc-100">
@@ -162,7 +159,6 @@ export default async function Creditors({ params: { lang } }: Params) {
                 priority
               />
             </div>
-            <p className="mt-4 text-sm">{dict.experienceSection.image2Text}</p>
           </div>
         </div>
       </section>
