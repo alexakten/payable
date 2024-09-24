@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://payable.se/thumbnail.webp",
+        url: "https://payable.se/images/thumbnail.webp",
         width: 1200,
         height: 630,
       },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Payable",
-    images: ["https://payable.se/thumbnail.webp"],
+    images: ["https://payable.se/images/thumbnail.webp"],
   },
 };
 
