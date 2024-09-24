@@ -105,6 +105,7 @@ export default async function Home({ params: { lang } }: Params) {
                 layout="fill"
                 objectFit="cover"
                 priority
+                unoptimized={true}
               />
             </div>
           </div>
