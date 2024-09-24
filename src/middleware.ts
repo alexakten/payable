@@ -10,7 +10,9 @@ const defaultLocale = "sv"; // Default to Swedish
 // Function to get the user's preferred locale
 function getLocale(request: NextRequest): string {
   const negotiator = new Negotiator({
-    headers: { "accept-language": request.headers.get("accept-language") || "" },
+    headers: {
+      "accept-language": request.headers.get("accept-language") || "",
+    },
   });
 
   // Get the preferred languages from the request
@@ -23,25 +25,28 @@ function getLocale(request: NextRequest): string {
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
+  // Exclude paths for static assets (like images)
+  const isStaticAsset = pathname.startsWith("/images/");
+
   // Check if the request already includes a locale
   const pathnameHasLocale = locales.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
   );
 
-  // If the path does not contain a locale, redirect to the preferred locale
-  if (!pathnameHasLocale) {
+  // If the path does not contain a locale and is not a static asset, redirect to the preferred locale
+  if (!pathnameHasLocale && !isStaticAsset) {
     const locale = getLocale(request); // Get the preferred or default locale
     const url = new URL(`/${locale}${pathname}`, request.url);
     return NextResponse.redirect(url);
   }
 
-  // Allow request to proceed if it already contains a locale
+  // Allow request to proceed if it already contains a locale or is a static asset
   return NextResponse.next();
 }
 
 // Apply the middleware to all routes, including the root `/` path
 export const config = {
   matcher: [
-    '/((?!_next).*)', // Apply middleware to all paths, excluding Next.js internals (_next/*)
+    "/((?!_next).*)", // Apply middleware to all paths, excluding Next.js internals (_next/*)
   ],
 };
