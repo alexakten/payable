@@ -5,12 +5,11 @@ import { getCookie } from "cookies-next";
 
 import "../globals.css";
 
+// Define metadata (if it's dynamic based on locale, you can extend this to use 'lang')
 export const metadata: Metadata = {
   title: "Payable",
-  // description: "",
   openGraph: {
     title: "Payable",
-    // description: "The human way to repay debt.",
     url: "https://payable.se/",
     type: "website",
     images: [
@@ -18,32 +17,33 @@ export const metadata: Metadata = {
         url: "https://payable.se/thumbnail.webp",
         width: 1200,
         height: 630,
-        // alt: "The human way to repay debt.",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Payable",
-    // description: "The human way to repay debt.",
     images: ["https://payable.se/thumbnail.webp"],
   },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+  params: { lang }, // Accept the 'lang' parameter from URL
+}: {
   children: React.ReactNode;
-}>) {
+  params: { lang: string }; // Ensure `lang` is part of the parameters
+}) {
   const cookieConsent = getCookie("cookie_consent");
 
   return (
-    <html lang="en">
+    <html lang={lang}>
+      {" "}
+      {/* Set the 'lang' attribute dynamically */}
       <body>
         {children}
-        {/* {cookieConsent === "granted" && <Analytics />} */}
-        <Analytics />
-        {/* <Cookie /> */}
+        {cookieConsent === "granted" && <Analytics />}
+        {/* <Cookie />  */}
       </body>
     </html>
   );

@@ -1,4 +1,3 @@
-// middleware.ts
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { match } from "@formatjs/intl-localematcher";
@@ -16,7 +15,7 @@ function getLocale(request: NextRequest): string {
 
   // Get the preferred languages from the request
   const languages = negotiator.languages();
-  
+
   // Match the user's preferred languages to the available locales
   return match(languages, locales, defaultLocale);
 }
@@ -25,24 +24,24 @@ export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   // Check if the request already includes a locale
-  const pathnameIsMissingLocale = locales.every(
-    (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
+  const pathnameHasLocale = locales.some(
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
-  // If no locale is present, redirect to the appropriate locale
-  if (pathnameIsMissingLocale) {
+  // If the path does not contain a locale, redirect to the preferred locale
+  if (!pathnameHasLocale) {
     const locale = getLocale(request); // Get the preferred or default locale
     const url = new URL(`/${locale}${pathname}`, request.url);
     return NextResponse.redirect(url);
   }
 
+  // Allow request to proceed if it already contains a locale
   return NextResponse.next();
 }
 
 // Apply the middleware to all routes, including the root `/` path
 export const config = {
   matcher: [
-    '/', // This explicitly matches the root URL `/`
-    '/((?!_next).*)', // This applies to all other paths, excluding Next.js internals (_next/*)
+    '/((?!_next).*)', // Apply middleware to all paths, excluding Next.js internals (_next/*)
   ],
 };
