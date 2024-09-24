@@ -23,7 +23,7 @@ export default async function Complaints({ params: { lang } }: Params) {
         <div className="mt-12 w-full text-left">
           {dict.complaintsPolicy.sections.map((section: any, index: any) => (
             <div key={index}>
-              <h3 className="text-xl font-medium">{section.title}</h3>
+              <h3 className="mt-12 text-xl font-medium">{section.title}</h3>
               <p className="mt-4">{section.content}</p>
 
               {section.subsections?.map((subsection: any, subIndex: any) => (
