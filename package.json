@@ -20,6 +20,7 @@
     "clsx": "^2.1.1",
     "cookies-next": "^4.2.1",
     "ga-gtag": "^1.2.0",
+    "hamburger-react": "^2.5.1",
     "lucide-react": "^0.394.0",
     "negotiator": "^0.6.3",
     "next": "14.1.4",

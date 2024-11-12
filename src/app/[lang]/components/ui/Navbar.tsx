@@ -1,6 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import { Squash as Hamburger } from "hamburger-react";
+      
 import { getDictionary } from "../../dictionaries";
 import LanguageSwitcher from "./LanguageSwitcher"; // Import the new LanguageSwitcher component
 import { useState, useEffect } from "react"; // Import useState and useEffect
@@ -162,31 +164,13 @@ export default function Navbar({
       </div>
 
       {/* Hamburger Icon */}
-      <div className="col-span-1 flex items-center justify-end lg:hidden">
-        <button
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="focus:outline-none"
-        >
-          <svg
-            className="h-6 w-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M4 6h16M4 12h16m-7 6h7"
-            ></path>
-          </svg>
-        </button>
+      <div className="col-span-1 flex items-center justify-end relative lg:hidden">
+        <Hamburger size={20} toggled={isMenuOpen} toggle={setIsMenuOpen} />
       </div>
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="absolute left-0 top-12 w-full bg-white shadow-md lg:hidden">
+        <div className="absolute left-0 top-16 w-full bg-white border-b border-zinc-100 lg:hidden">
           <div className="flex flex-col items-center gap-4 p-4">
             {pageType === "customer" ? (
               <>
