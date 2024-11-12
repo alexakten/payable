@@ -64,7 +64,7 @@ export default async function Home({ params: { lang } }: Params) {
 
         {/* Button */}
         <div className="mt-8 flex gap-4">
-          <Link href={"/login"}>
+          <Link href={`/${lang}/login`}>
             <button className="text-md group rounded-md bg-black px-4 py-3 font-normal text-white hover:bg-zinc-700">
               {dict.hero.ctaPayment}{" "}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
@@ -72,7 +72,7 @@ export default async function Home({ params: { lang } }: Params) {
               </span>
             </button>
           </Link>
-          <Link href={"/kontakt"}>
+          <Link href={`/${lang}/kontakt`}>
             <button className="text-md group rounded-md bg-zinc-100 px-4 py-3 font-normal text-black hover:bg-zinc-200">
               {dict.hero.ctaContact}{" "}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">

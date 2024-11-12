@@ -4,8 +4,11 @@
 
 @font-face {
   font-family: "Inter";
-  src: url("/fonts/InterVariable.ttf") format("truetype");
-  font-weight: 100 900; /* Supports variable font weights */
+  src:
+    url("/fonts/InterVariable.woff2") format("woff2"),
+    url("/fonts/InterVariable.woff") format("woff"),
+    url("/fonts/InterVariable.ttf") format("truetype");
+  font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }

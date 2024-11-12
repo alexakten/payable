@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Squash as Hamburger } from "hamburger-react";
-      
+
 import { getDictionary } from "../../dictionaries";
 import LanguageSwitcher from "./LanguageSwitcher"; // Import the new LanguageSwitcher component
 import { useState, useEffect } from "react"; // Import useState and useEffect
@@ -51,11 +51,19 @@ export default function Navbar({
 
   if (!dict) return null; // Render nothing or a loader until dict is fetched
 
+  const handleLinkClick = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <nav className="fixed top-0 z-50 grid w-full grid-cols-2 items-center justify-between border-b border-zinc-100 bg-white px-3 pb-3 pt-4 sm:px-8 sm:pt-3 lg:grid-cols-3">
       {/* Logo */}
       <div className="col-span-1 flex items-center justify-start">
-        <Link href={`/${lang}`} className="flex items-center gap-1">
+        <Link
+          href={`/${lang}`}
+          className="flex items-center gap-1"
+          onClick={handleLinkClick}
+        >
           <svg
             width="25"
             height="20"
@@ -87,22 +95,38 @@ export default function Navbar({
       <div className="col-span-1 hidden justify-center whitespace-nowrap lg:flex">
         {pageType === "customer" ? (
           <>
-            <Link href={`/${lang}/#about-us`} className="hidden lg:block">
+            <Link
+              href={`/${lang}/#about-us`}
+              className="hidden lg:block"
+              onClick={handleLinkClick}
+            >
               <button className="rounded-md px-3 py-2 text-sm font-normal hover:bg-zinc-100">
                 {dict.navbar.aboutUs}
               </button>
             </Link>
-            <Link href={`/${lang}/#pay`} className="hidden lg:block">
+            <Link
+              href={`/${lang}/#pay`}
+              className="hidden lg:block"
+              onClick={handleLinkClick}
+            >
               <button className="rounded-md px-3 py-2 text-sm font-normal hover:bg-zinc-100">
                 {dict.navbar.howToPay}
               </button>
             </Link>
-            <Link href={`/${lang}/#faq`} className="hidden lg:block">
+            <Link
+              href={`/${lang}/#faq`}
+              className="hidden lg:block"
+              onClick={handleLinkClick}
+            >
               <button className="rounded-md px-3 py-2 text-sm font-normal hover:bg-zinc-100">
                 {dict.navbar.faq}
               </button>
             </Link>
-            <Link href={`/${lang}/creditors`} className="hidden lg:block">
+            <Link
+              href={`/${lang}/creditors`}
+              className="hidden lg:block"
+              onClick={handleLinkClick}
+            >
               <button className="rounded-md px-3 py-2 text-sm font-normal hover:bg-zinc-100">
                 {dict.navbar.creditGivers}
               </button>
@@ -113,6 +137,7 @@ export default function Navbar({
             <Link
               href={`/${lang}/creditors#about-us`}
               className="hidden lg:block"
+              onClick={handleLinkClick}
             >
               <button className="rounded-md px-3 py-2 text-sm font-normal hover:bg-zinc-100">
                 {dict.navbar.aboutUs}
@@ -121,6 +146,7 @@ export default function Navbar({
             <Link
               href={`/${lang}/creditors#services`}
               className="hidden lg:block"
+              onClick={handleLinkClick}
             >
               <button className="rounded-md px-3 py-2 text-sm font-normal hover:bg-zinc-100">
                 {dict.navbar.ourServices}
@@ -129,6 +155,7 @@ export default function Navbar({
             <Link
               href={`/${lang}/creditors#benefits`}
               className="hidden lg:block"
+              onClick={handleLinkClick}
             >
               <button className="rounded-md px-3 py-2 text-sm font-normal hover:bg-zinc-100">
                 {dict.navbar.benefitsSell}
@@ -137,6 +164,7 @@ export default function Navbar({
             <Link
               href={`/${lang}/creditors#process`}
               className="hidden lg:block"
+              onClick={handleLinkClick}
             >
               <button className="rounded-md px-3 py-2 text-sm font-normal hover:bg-zinc-100">
                 {dict.navbar.process}
@@ -164,13 +192,13 @@ export default function Navbar({
       </div>
 
       {/* Hamburger Icon */}
-      <div className="col-span-1 flex items-center justify-end relative lg:hidden">
+      <div className="relative col-span-1 flex items-center justify-end lg:hidden">
         <Hamburger size={20} toggled={isMenuOpen} toggle={setIsMenuOpen} />
       </div>
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="absolute left-0 top-16 w-full bg-white border-b border-zinc-100 lg:hidden">
+        <div className="absolute left-0 top-16 w-full border-b border-zinc-100 bg-white lg:hidden">
           <div className="flex flex-col items-center gap-4 p-4">
             {pageType === "customer" ? (
               <>
