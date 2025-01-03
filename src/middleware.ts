@@ -26,7 +26,12 @@ export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   // Exclude paths for static assets (like images)
-  const isStaticAsset = pathname.startsWith("/images/");
+  const isStaticAsset =
+    pathname.startsWith("/_next/") ||
+    pathname.startsWith("/fonts/") ||
+    pathname.startsWith("/images/") ||
+    pathname.startsWith("/static/") ||
+    pathname.startsWith("/favicon.ico");
 
   // Check if the request already includes a locale
   const pathnameHasLocale = locales.some(
