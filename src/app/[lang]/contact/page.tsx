@@ -4,7 +4,7 @@ import Footer from "../components/ui/Footer";
 import { Headset, EnvelopeSimple, User } from "@phosphor-icons/react/dist/ssr";
 import Link from "next/link";
 
-type Locale = "en" | "sv";
+type Locale = "en" | "se";
 
 interface Params {
   params: {

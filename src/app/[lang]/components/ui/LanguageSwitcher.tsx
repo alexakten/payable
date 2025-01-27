@@ -1,16 +1,16 @@
-"use client"; // Ensure this is a client component
+"use client";
 
+import "flag-icons/css/flag-icons.min.css";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
-type Locale = "en" | "sv";
+type Locale = "en" | "se";
 
 export default function LanguageSwitcher({ lang }: { lang: Locale }) {
-  const pathname = usePathname(); // Get the current path
+  const pathname = usePathname();
 
   // Function to switch the language in the current URL
   const switchLanguage = (newLang: Locale) => {
-    // Replace the current lang part in the URL with the newLang
     return pathname.replace(`/${lang}`, `/${newLang}`);
   };
 
@@ -18,15 +18,17 @@ export default function LanguageSwitcher({ lang }: { lang: Locale }) {
     <div className="flex items-center gap-2">
       {lang !== "en" && (
         <Link href={switchLanguage("en")}>
-          <button className="px-3 py-2 text-sm hover:underline">
-            🇬🇧 En
+          <button className="flex items-center gap-1 px-3 py-2 text-sm hover:underline">
+            <span className="fi fi-gb"></span>
+            EN
           </button>
         </Link>
       )}
-      {lang !== "sv" && (
-        <Link href={switchLanguage("sv")}>
-          <button className="px-3 py-2 text-sm hover:underline">
-            🇸🇪 Sv
+      {lang !== "se" && (
+        <Link href={switchLanguage("se")}>
+          <button className="flex items-center gap-1 px-3 py-2 text-sm hover:underline">
+            <span className="fi fi-se"></span>
+            SE
           </button>
         </Link>
       )}

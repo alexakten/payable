@@ -3,7 +3,7 @@ import { getDictionary } from "../dictionaries";
 import Navbar from "../components/ui/Navbar";
 import Footer from "../components/ui/Footer";
 import LoginModal from "../components/ui/LoginModal";
-type Locale = "en" | "sv";
+type Locale = "en" | "se";
 
 interface Params {
   params: {

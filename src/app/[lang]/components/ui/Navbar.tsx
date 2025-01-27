@@ -7,7 +7,7 @@ import { getDictionary } from "../../dictionaries";
 import LanguageSwitcher from "./LanguageSwitcher"; // Import the new LanguageSwitcher component
 import { useState, useEffect } from "react"; // Import useState and useEffect
 
-type Locale = "en" | "sv"; // Correct type for language
+type Locale = "en" | "se"; // Correct type for language
 
 interface Params {
   params: {

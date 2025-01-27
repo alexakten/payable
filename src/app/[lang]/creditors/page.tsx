@@ -9,7 +9,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 
-type Locale = "en" | "sv";
+type Locale = "en" | "se";
 
 interface Params {
   params: {

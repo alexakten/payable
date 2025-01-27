@@ -15,7 +15,7 @@ import {
 
 import { getDictionary } from "./dictionaries";
 
-type Locale = "en" | "sv";
+type Locale = "en" | "se";
 
 interface Params {
   params: {
