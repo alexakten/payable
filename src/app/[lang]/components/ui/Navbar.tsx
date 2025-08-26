@@ -85,8 +85,14 @@ export default function Navbar({
             />
           </svg>
 
-          <p className="relative text-[20px] font-[450] tracking-tighter" translate="no">
-            Pay<span className="" translate="no">able</span>
+          <p
+            className="relative text-[20px] font-[450] tracking-tighter"
+            translate="no"
+          >
+            Pay
+            <span className="" translate="no">
+              able
+            </span>
           </p>
         </Link>
       </div>

@@ -283,26 +283,47 @@
     "sections": [
       {
         "title": "1. Purpose",
-        "content": "The purpose of this policy is to ensure that Payable AB handles customer complaints in an efficient, fair, and transparent manner. We strive to ensure that all complaints are taken seriously and resolved in a way that benefits both the customer and the company."
+        "content": "The purpose of this policy is to ensure that Payable AB handles customer complaints in an effective, fair, and transparent manner. We strive to treat all complaints seriously and resolve them in a way that benefits both the customer and the company."
       },
       {
-        "title": "2. Definition of a Complaint",
-        "content": "A complaint is an expression of dissatisfaction from a customer regarding our service, product, or the treatment they received from our employees. This can include, but is not limited to, complaints about incorrect billing, unsatisfactory service, poor communication, and handling of personal data."
+        "title": "2. Definition of Complaint",
+        "content": "A complaint is an expression of dissatisfaction from a customer regarding our service, product, or the treatment they have received from our employees. This may include, but is not limited to, complaints about incorrect billing, unsatisfactory service, lack of communication, and handling of personal data."
       },
       {
-        "title": "3. Complaints Handling Principles",
-        "content": "· Accessibility: We will make it easy for customers to submit complaints. \n· Impartiality: Complaints will be handled fairly and objectively. \n· Confidentiality: The customer's privacy will be protected during the handling of complaints. \n· Responsibility: We will take responsibility for resolving complaints quickly and efficiently. \n· Continuous improvement: We use feedback from complaints to continuously improve our services."
-      },
-      {
-        "title": "4. Complaints Handling Process",
+        "title": "3. Principles of Complaint Handling",
         "subsections": [
           {
-            "subTitle": "4.1 Submission of Complaints",
-            "content": "Customers can submit complaints in the following ways:"
+            "subTitle": "3.1 Accessibility",
+            "content": "We will make it easy for customers to submit complaints."
           },
           {
-            "subTitle": "4.2 Acknowledgment of Receipt",
-            "content": "When we receive a complaint, we will acknowledge receipt within 2 business days. The acknowledgment will include information on how the complaint will be handled and an expected time frame for resolution."
+            "subTitle": "3.2 Impartiality",
+            "content": "Complaints will be handled in a fair and objective manner."
+          },
+          {
+            "subTitle": "3.3 Confidentiality",
+            "content": "Customer privacy will be protected when handling complaints."
+          },
+          {
+            "subTitle": "3.4 Responsibility",
+            "content": "We will take responsibility to address and resolve complaints quickly and effectively."
+          },
+          {
+            "subTitle": "3.5 Continuous Improvement",
+            "content": "We use feedback from complaints to continuously improve our services."
+          }
+        ]
+      },
+      {
+        "title": "4. Complaint Handling Process",
+        "subsections": [
+          {
+            "subTitle": "4.1 Submitting a Complaint",
+            "content": "Customers can submit complaints in the following ways:\n• Email: kundservice@payable.se\n• Mail: Payable AB, Falugatan 8, 113 32 Stockholm\n\nPlease include the following information in your complaint:\n• Your full name and contact details\n• Case number\n• A clear description of your complaint\n• Any relevant documentation that supports your complaint"
+          },
+          {
+            "subTitle": "4.2 Acknowledgement of Receipt",
+            "content": "When we receive a complaint, we will acknowledge it within 2 working days. The acknowledgement will include information on how the complaint will be handled and an expected timeline for resolution."
           },
           {
             "subTitle": "4.3 Investigation",
@@ -314,21 +335,21 @@
           },
           {
             "subTitle": "4.5 Feedback",
-            "content": "We aim to resolve complaints within 14 business days of receipt. If more time is needed, we will inform the customer of the reason for the delay and provide a new expected resolution date."
+            "content": "We aim to resolve complaints within 14 working days from the date of receipt. If more time is needed, we will inform the customer of the reason for the delay and provide a new expected resolution timeframe."
           }
         ]
       },
       {
         "title": "5. Escalation of Complaints",
-        "content": "If the customer is not satisfied with how the complaint has been handled, the matter can be escalated to a higher manager or complaints officer. If necessary, the customer can also refer the complaint to an external dispute resolution body, such as the Swedish National Board for Consumer Disputes (ARN) or the relevant regulatory authority."
+        "content": "If the customer is not satisfied with how the complaint has been handled, the matter can be escalated to a senior manager or the person responsible for customer complaints. If necessary, the customer may also refer the complaint to an external dispute resolution body, such as the National Board for Consumer Disputes (ARN) or the relevant supervisory authority."
       },
       {
         "title": "6. Documentation and Reporting",
-        "content": "All complaints and actions taken will be thoroughly documented. We will regularly review and analyze complaints to identify patterns and opportunities for improvement."
+        "content": "All complaints and actions taken will be carefully documented. We will regularly review and analyze complaints to identify patterns and opportunities for improvement."
       },
       {
         "title": "7. Training and Awareness",
-        "content": "All employees will receive training on this complaints handling policy and how to handle complaints effectively. We will ensure that all staff are aware of the importance of handling complaints professionally and respectfully."
+        "content": "All employees will receive training on this complaints handling policy and how to effectively manage complaints. We will ensure that all employees are aware of the importance of handling complaints professionally and respectfully."
       },
       {
         "title": "8. Review and Updates",

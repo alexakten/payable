@@ -291,14 +291,35 @@
       },
       {
         "title": "3. Principer för Klagomålshantering",
-        "content": "· Tillgänglighet: Vi ska göra det enkelt för kunder att framföra klagomål. \n· Opartiskhet: Klagomål ska hanteras på ett rättvist och objektivt sätt. \n· Konfidentialitet: Kundens integritet ska skyddas vid hantering av klagomål. \n· Ansvar: Vi ska ta ansvar för att åtgärda och lösa klagomål snabbt och effektivt. \n· Ständig förbättring: Vi använder feedback från klagomål för att kontinuerligt förbättra våra tjänster."
+        "subsections": [
+          {
+            "subTitle": "3.1 Tillgänglighet",
+            "content": "Vi ska göra det enkelt för kunder att framföra klagomål."
+          },
+          {
+            "subTitle": "3.2 Opartiskhet",
+            "content": "Klagomål ska hanteras på ett rättvist och objektivt sätt."
+          },
+          {
+            "subTitle": "3.3 Konfidentialitet",
+            "content": "Kundens integritet ska skyddas vid hantering av klagomål."
+          },
+          {
+            "subTitle": "3.4 Ansvar",
+            "content": "Vi ska ta ansvar för att åtgärda och lösa klagomål snabbt och effektivt."
+          },
+          {
+            "subTitle": "3.5 Ständig förbättring",
+            "content": "Vi använder feedback från klagomål för att kontinuerligt förbättra våra tjänster."
+          }
+        ]
       },
       {
         "title": "4. Process för Klagomålshantering",
         "subsections": [
           {
             "subTitle": "4.1 Inlämning av Klagomål",
-            "content": "Kunder kan lämna in klagomål på följande sätt:"
+            "content": "Kunder kan lämna in klagomål på följande sätt:\n• E-post: kundservice@payable.se\n• Post: Payable AB, Falugatan 8, 113 32 Stockholm\n\nVänligen inkludera följande information i ditt klagomål:\n• Ditt fullständiga namn och kontaktuppgifter\n• Ärendenummer\n• En tydlig beskrivning av ditt klagomål\n• Eventuell relevant dokumentation som stödjer ditt klagomål"
           },
           {
             "subTitle": "4.2 Bekräftelse av Mottagande",

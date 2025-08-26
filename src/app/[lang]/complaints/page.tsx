@@ -21,17 +21,36 @@ export default async function Complaints({ params: { lang } }: Params) {
           {dict.complaintsPolicy.heading}
         </h2>
         <div className="mt-12 w-full text-left">
-          {dict.complaintsPolicy.sections.map((section: any, index: any) => (
+          {dict.complaintsPolicy.sections.map((section: any, index: number) => (
             <div key={index}>
               <h3 className="mt-12 text-xl font-medium">{section.title}</h3>
-              <p className="mt-4">{section.content}</p>
+
+              {section.content && (
+                <div className="mt-4 space-y-2">
+                  {section.content
+                    .split("\n")
+                    .map((line: string, i: number) => (
+                      <p key={i}>{line}</p>
+                    ))}
+                </div>
+              )}
 
               {section.subsections?.map((subsection: any, subIndex: any) => (
                 <div key={subIndex}>
                   <h4 className="mt-8 text-lg font-medium">
                     {subsection.subTitle}
                   </h4>
-                  <p className="mt-4">{subsection.content}</p>
+                  <div className="mt-4 space-y-2">
+                    {subsection.content
+                      .split("\n")
+                      .map((line: string, i: number) =>
+                        line.trim() === "" ? (
+                          <div key={i} className="h-4" />
+                        ) : (
+                          <p key={i}>{line}</p>
+                        ),
+                      )}
+                  </div>
                 </div>
               ))}
             </div>
