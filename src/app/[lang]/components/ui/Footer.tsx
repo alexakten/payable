@@ -86,7 +86,7 @@ export default async function Footer({ lang }: { lang: Locale }) {
 
       <div className="flex w-full max-w-6xl justify-between px-3 sm:px-8">
         <div className="text-sm opacity-40">
-          <p className="">© 2024 Payable AB</p>
+          <p className="">© 2026 Payable AB</p>
         </div>
 
         <div className="flex flex-col gap-3 text-right font-normal">
