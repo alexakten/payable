@@ -55,8 +55,7 @@ export default async function Footer({ lang }: { lang: Locale }) {
           <p className="opacity-40">{dict.footer.companyInfo}</p>
           <p className="text-sm">
             Payable AB <br />
-            Falugatan 8 <br />
-            113 32 Stockholm
+            Box 43, 191 21 Sollentuna
           </p>
           <Link
             className="text-sm hover:underline"
