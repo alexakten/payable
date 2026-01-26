@@ -29,7 +29,10 @@ export default async function Footer({ lang }: { lang: Locale }) {
         </div>
         <div className="flex flex-col gap-3 text-sm">
           <p className="opacity-40">{dict.footer.lenders}</p>
-          <Link className="hover:underline" href={`/${lang}/creditors#about-us`}>
+          <Link
+            className="hover:underline"
+            href={`/${lang}/creditors#about-us`}
+          >
             {dict.footer.aboutUs}
           </Link>
           <Link

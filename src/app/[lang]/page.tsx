@@ -50,7 +50,7 @@ export default async function Home({ params: { lang } }: Params) {
         </div>
 
         {/* H1 */}
-        <h1 className="mt-6 max-w-5xl text-[clamp(44px,6vw,72px)] font-[460] leading-[1.05] tracking-tighter">
+        <h1 className="mt-6 max-w-5xl text-[clamp(44px,6vw,72px)] font-[400] leading-[1.05] tracking-tighter">
           {dict.hero.title.split(" ").slice(0, 3).join(" ")} <br />
           <span className="text-blue-600">
             {dict.hero.title.split(" ").slice(3).join(" ")}

@@ -3,6 +3,8 @@ import { Analytics } from "@vercel/analytics/react";
 import Cookie from "./components/ui/Cookie";
 import { getCookie } from "cookies-next";
 
+import { Inter } from "next/font/google";
+
 import "../globals.css";
 
 // Define metadata (if it's dynamic based on locale, you can extend this to use 'lang')
@@ -27,6 +29,11 @@ export const metadata: Metadata = {
   },
 };
 
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
+
 export default function RootLayout({
   children,
   params: { lang }, // Accept the 'lang' parameter from URL
@@ -40,7 +47,7 @@ export default function RootLayout({
     <html lang={lang}>
       {" "}
       {/* Set the 'lang' attribute dynamically */}
-      <body>
+      <body className={inter.className}>
         {children}
         {cookieConsent === "granted" && <Analytics />}
         {/* <Cookie />  */}
