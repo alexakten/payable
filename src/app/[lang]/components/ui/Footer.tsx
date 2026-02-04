@@ -17,7 +17,10 @@ export default async function Footer({ lang }: { lang: Locale }) {
       <div className="grid w-full max-w-6xl grid-cols-2 gap-12 px-3 font-normal sm:px-8 md:grid-cols-4">
         <div className="flex flex-col gap-3 text-sm">
           <p className="opacity-40">{dict.footer.borrowers}</p>
-          <Link className="hover:underline" href={`/${lang}/login`}>
+          <Link
+            className="hover:underline"
+            href="https://portal.payable.se/login.php"
+          >
             {dict.footer.myPages}
           </Link>
           <Link className="hover:underline" href={`/${lang}/#why-pay`}>

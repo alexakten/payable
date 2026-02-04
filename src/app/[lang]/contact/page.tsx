@@ -53,7 +53,10 @@ export default async function Contact({ params: { lang } }: Params) {
                   {section.linkText}
                 </Link>
               ) : (
-                <Link className="mt-4 hover:underline" href="/login">
+                <Link
+                  className="mt-4 hover:underline"
+                  href="https://portal.payable.se/login.php"
+                >
                   {section.linkText}
                 </Link>
               )}

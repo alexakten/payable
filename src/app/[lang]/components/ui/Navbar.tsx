@@ -190,7 +190,7 @@ export default function Navbar({
             {dict.navbar.contactUs}
           </button>
         </Link>
-        <Link href={`/${lang}/login`}>
+        <Link href="https://portal.payable.se/login.php">
           <button className="group rounded-md bg-black px-3 py-2 text-sm font-normal text-white hover:bg-zinc-700">
             {dict.navbar.myPages}
           </button>
@@ -258,7 +258,7 @@ export default function Navbar({
                 {dict.navbar.contactUs}
               </button>
             </Link>
-            <Link href={`/${lang}/login`}>
+            <Link href="https://portal.payable.se/login.php">
               <button className="group rounded-md bg-black px-3 py-2 text-sm font-normal text-white hover:bg-zinc-700">
                 {dict.navbar.myPages}
               </button>

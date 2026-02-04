@@ -38,7 +38,7 @@ export default async function Home({ params: { lang } }: Params) {
             <p>
               <span className="opacity-50">{dict.notification.message}</span>
             </p>
-            <Link href={`/${lang}/login`}>
+            <Link href="https://portal.payable.se/login.php"> 
               <button className="group ml-2 border-l pl-2 font-normal">
                 {dict.notification.ctaLogin}{" "}
                 <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
@@ -64,7 +64,7 @@ export default async function Home({ params: { lang } }: Params) {
 
         {/* Button */}
         <div className="mt-8 flex gap-4">
-          <Link href={`/${lang}/login`}>
+          <Link href="https://portal.payable.se/login.php">
             <button className="text-md group rounded-md bg-black px-4 py-3 font-normal text-white hover:bg-zinc-700">
               {dict.hero.ctaPayment}{" "}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
@@ -121,7 +121,7 @@ export default async function Home({ params: { lang } }: Params) {
         </h2>
 
         <div className="mt-12 flex gap-4">
-          <Link href={`/${lang}/login`}>
+          <Link href="https://portal.payable.se/login.php">
             <button className="text-md group rounded-md bg-black px-4 py-3 font-normal text-white hover:bg-zinc-700">
               {dict.helpSection.ctaPayment}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
@@ -175,7 +175,7 @@ export default async function Home({ params: { lang } }: Params) {
           ))}
         </div>
         <div className="flex gap-4">
-          <Link href={`/${lang}/login`}>
+          <Link href="https://portal.payable.se/login.php">
             <button className="text-md group rounded-md bg-black px-4 py-3 font-normal text-white hover:bg-zinc-700">
               {dict.helpSection.ctaPayment}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
