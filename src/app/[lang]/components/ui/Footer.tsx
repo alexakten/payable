@@ -77,8 +77,9 @@ export default async function Footer({ lang }: { lang: Locale }) {
             <Link className="hover:underline" href={"tel:08-500 824 00"}>
               08-500 824 00
             </Link>
+            {/* <span className="opacity-50">{dict.footer.openHoursTitle}</span> */}
             <br />
-            {dict.footer.openHours}
+            <span className="opacity-50">{dict.footer.openHours}</span>
           </p>
           <Link
             className="text-sm hover:underline"
