@@ -201,7 +201,7 @@
       "items": [
         {
           "title": "One-Off",
-          "description": "One-off-transaktion innebär att Payable köper en befintlig portfölj med nödlidande problemkrediter. Priset baseras på en analys av portföljens framtida kassaflöde. Kreditgivaren slipper framtida hantering, stärker finansiella nyckeltal och för betalt vid överlämnandet av portföljen."
+          "description": "One-off-transaktion innebär att Payable köper en befintlig portfölj med nödlidande problemkrediter. Priset baseras på en analys av portföljens framtida kassaflöde. Kreditgivaren slipper framtida hantering, stärker finansiella nyckeltal och får betalt vid överlämnandet av portföljen."
         },
         {
           "title": "Forward Flow",
