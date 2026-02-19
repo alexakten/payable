@@ -68,14 +68,18 @@ export default async function Footer({ lang }: { lang: Locale }) {
           </Link>
           <p className="text-sm">
             {dict.footer.orgNr}: 559484-8672 <br />
-            {dict.footer.registeredSeat}: Stockholm
+            {/* {dict.footer.registeredSeat}: Stockholm */}
           </p>
         </div>
         <div className="flex flex-col gap-3 text-sm">
           <p className="opacity-40">{dict.footer.contact}</p>
-          <Link className="text-sm hover:underline" href={"tel:08-500 824 00"}>
-            08-500 824 00
-          </Link>
+          <p className="text-sm">
+            <Link className="hover:underline" href={"tel:08-500 824 00"}>
+              08-500 824 00
+            </Link>
+            <br />
+            {dict.footer.openHours}
+          </p>
           <Link
             className="text-sm hover:underline"
             href={"mailto:kundservice@payable.se"}
