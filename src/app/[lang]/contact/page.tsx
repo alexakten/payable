@@ -48,7 +48,7 @@ export default async function Contact({ params: { lang } }: Params) {
               ) : index === 1 ? (
                 <Link
                   className="mt-4 hover:underline"
-                  href="mailto:info@payable.se"
+                  href="mailto:kundservice@payable.se"
                 >
                   {section.linkText}
                 </Link>
