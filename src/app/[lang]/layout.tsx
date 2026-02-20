@@ -49,7 +49,8 @@ export default function RootLayout({
       {/* Set the 'lang' attribute dynamically */}
       <body className={inter.className}>
         {children}
-        {cookieConsent === "granted" && <Analytics />}
+        {/* {cookieConsent === "granted" && <Analytics />} */}
+        <Analytics />
         {/* <Cookie />  */}
       </body>
     </html>
