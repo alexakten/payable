@@ -58,7 +58,7 @@ export default async function Footer({ lang }: { lang: Locale }) {
           <p className="opacity-40">{dict.footer.companyInfo}</p>
           <p className="text-sm">
             Payable AB <br />
-            Box 43, 191 21 Sollentuna
+            Box 2005, 750 02 Uppsala
           </p>
           <Link
             className="text-sm hover:underline"
@@ -86,6 +86,12 @@ export default async function Footer({ lang }: { lang: Locale }) {
             href={"mailto:kundservice@payable.se"}
           >
             kundservice@payable.se
+          </Link>
+          <Link
+            className="text-sm hover:underline"
+            href="https://portal.payable.se/login.php"
+          >
+            {dict.footer.myPages}
           </Link>
         </div>
       </div>
