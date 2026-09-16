@@ -25,6 +25,17 @@ function getLocale(request: NextRequest): string {
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
+  if (pathname === "/payable-logo.png") {
+    return NextResponse.redirect(
+      new URL("/payable-logo-lightmode.png", request.url),
+    );
+  }
+  if (pathname === "/payable-logo.svg") {
+    return NextResponse.redirect(
+      new URL("/payable-logo-lightmode.svg", request.url),
+    );
+  }
+
   // Exclude paths for static assets (like images)
   const isStaticAsset =
     pathname.startsWith("/_next/") ||
@@ -32,8 +43,10 @@ export function middleware(request: NextRequest) {
     pathname.startsWith("/images/") ||
     pathname.startsWith("/static/") ||
     pathname.startsWith("/favicon.ico") ||
-    pathname === "/payable-logo.png" ||
-    pathname === "/payable-logo.svg";
+    pathname === "/payable-logo-lightmode.png" ||
+    pathname === "/payable-logo-lightmode.svg" ||
+    pathname === "/payable-logo-darkmode.png" ||
+    pathname === "/payable-logo-darkmode.svg";
 
   // Check if the request already includes a locale
   const pathnameHasLocale = locales.some(
