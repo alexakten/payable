@@ -31,7 +31,8 @@ export function middleware(request: NextRequest) {
     pathname.startsWith("/fonts/") ||
     pathname.startsWith("/images/") ||
     pathname.startsWith("/static/") ||
-    pathname.startsWith("/favicon.ico");
+    pathname.startsWith("/favicon.ico") ||
+    pathname === "/payable-logo.png";
 
   // Check if the request already includes a locale
   const pathnameHasLocale = locales.some(
