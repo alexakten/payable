@@ -1,25 +1,20 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
-import { match } from "@formatjs/intl-localematcher";
-import Negotiator from "negotiator";
 
-// Define the locales you support
-const locales = ["en", "se"];
-const defaultLocale = "se"; // Default to Swedish
+const publicToInternal: Record<string, string> = {
+  "/integritetspolicy": "/privacy",
+};
 
-// Function to get the user's preferred locale
-function getLocale(request: NextRequest): string {
-  const negotiator = new Negotiator({
-    headers: {
-      "accept-language": request.headers.get("accept-language") || "",
-    },
-  });
+const internalToPublic: Record<string, string> = {
+  "/privacy": "/integritetspolicy",
+};
 
-  // Get the preferred languages from the request
-  const languages = negotiator.languages();
+function hasFileExtension(pathname: string) {
+  return /\.[a-zA-Z0-9]+$/.test(pathname);
+}
 
-  // Match the user's preferred languages to the available locales
-  return match(languages, locales, defaultLocale);
+function swedishPublicPath(pathname: string) {
+  return internalToPublic[pathname] ?? pathname;
 }
 
 export function middleware(request: NextRequest) {
@@ -36,37 +31,45 @@ export function middleware(request: NextRequest) {
     );
   }
 
-  // Exclude paths for static assets (like images)
-  const isStaticAsset =
+  if (
     pathname.startsWith("/_next/") ||
     pathname.startsWith("/fonts/") ||
     pathname.startsWith("/images/") ||
     pathname.startsWith("/static/") ||
-    pathname.startsWith("/favicon.ico") ||
-    pathname === "/payable-logo-lightmode.png" ||
-    pathname === "/payable-logo-lightmode.svg" ||
-    pathname === "/payable-logo-darkmode.png" ||
-    pathname === "/payable-logo-darkmode.svg";
-
-  // Check if the request already includes a locale
-  const pathnameHasLocale = locales.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
-  );
-
-  // If the path does not contain a locale and is not a static asset, redirect to the preferred locale
-  if (!pathnameHasLocale && !isStaticAsset) {
-    const locale = getLocale(request); // Get the preferred or default locale
-    const url = new URL(`/${locale}${pathname}`, request.url);
-    return NextResponse.redirect(url);
+    hasFileExtension(pathname)
+  ) {
+    return NextResponse.next();
   }
 
-  // Allow request to proceed if it already contains a locale or is a static asset
-  return NextResponse.next();
+  if (pathname === "/en/integritetspolicy") {
+    const url = request.nextUrl.clone();
+    url.pathname = "/en/privacy";
+    return NextResponse.redirect(url, 308);
+  }
+
+  if (pathname === "/en" || pathname.startsWith("/en/")) {
+    return NextResponse.next();
+  }
+
+  if (pathname === "/se" || pathname.startsWith("/se/")) {
+    const stripped = pathname === "/se" ? "/" : pathname.slice(3) || "/";
+    const url = request.nextUrl.clone();
+    url.pathname = swedishPublicPath(stripped);
+    return NextResponse.redirect(url, 308);
+  }
+
+  if (pathname === "/privacy") {
+    const url = request.nextUrl.clone();
+    url.pathname = "/integritetspolicy";
+    return NextResponse.redirect(url, 308);
+  }
+
+  const url = request.nextUrl.clone();
+  const internal = publicToInternal[pathname] ?? pathname;
+  url.pathname = internal === "/" ? "/se" : `/se${internal}`;
+  return NextResponse.rewrite(url);
 }
 
-// Apply the middleware to all routes, including the root `/` path
 export const config = {
-  matcher: [
-    "/((?!_next).*)", // Apply middleware to all paths, excluding Next.js internals (_next/*)
-  ],
+  matcher: ["/((?!_next).*)"],
 };

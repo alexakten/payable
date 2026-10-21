@@ -3,15 +3,13 @@
 import "flag-icons/css/flag-icons.min.css";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-
-type Locale = "en" | "se";
+import { switchLocalePath, type Locale } from "@/lib/localePath";
 
 export default function LanguageSwitcher({ lang }: { lang: Locale }) {
   const pathname = usePathname();
 
-  // Function to switch the language in the current URL
   const switchLanguage = (newLang: Locale) => {
-    return pathname.replace(`/${lang}`, `/${newLang}`);
+    return switchLocalePath(pathname, newLang);
   };
 
   return (

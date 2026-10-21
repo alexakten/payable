@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { getDictionary } from "../../dictionaries";
-
-type Locale = "en" | "se";
+import { localeHref, type Locale } from "@/lib/localePath";
 
 interface Params {
   params: {
@@ -23,10 +22,10 @@ export default async function Footer({ lang }: { lang: Locale }) {
           >
             {dict.footer.myPages}
           </Link>
-          <Link className="hover:underline" href={`/${lang}/#why-pay`}>
+          <Link className="hover:underline" href={localeHref(lang, "/#why-pay")}>
             {dict.footer.howToPay}
           </Link>
-          <Link className="hover:underline" href={`/${lang}/#faq`}>
+          <Link className="hover:underline" href={localeHref(lang, "/#faq")}>
             {dict.footer.faq}
           </Link>
         </div>
@@ -34,23 +33,23 @@ export default async function Footer({ lang }: { lang: Locale }) {
           <p className="opacity-40">{dict.footer.lenders}</p>
           <Link
             className="hover:underline"
-            href={`/${lang}/creditors#about-us`}
+            href={localeHref(lang, "/creditors#about-us")}
           >
             {dict.footer.aboutUs}
           </Link>
           <Link
             className="hover:underline"
-            href={`/${lang}/creditors#services`}
+            href={localeHref(lang, "/creditors#services")}
           >
             {dict.footer.ourServices}
           </Link>
           <Link
             className="hover:underline"
-            href={`/${lang}/creditors#benefits`}
+            href={localeHref(lang, "/creditors#benefits")}
           >
             {dict.footer.benefitsSell}
           </Link>
-          <Link className="hover:underline" href={`/${lang}/creditors#process`}>
+          <Link className="hover:underline" href={localeHref(lang, "/creditors#process")}>
             {dict.footer.salesProcess}
           </Link>
         </div>
@@ -108,20 +107,20 @@ export default async function Footer({ lang }: { lang: Locale }) {
         <div className="flex flex-col gap-3 text-right font-normal">
           <Link
             className="text-sm hover:underline"
-            href={`/${lang}/code-of-conduct`}
+            href={localeHref(lang, "/code-of-conduct")}
           >
             {dict.footer.codeOfConduct}
           </Link>
           <Link
             className="text-sm hover:underline"
-            href={`/${lang}/complaints`}
+            href={localeHref(lang, "/complaints")}
           >
             {dict.footer.complaints}
           </Link>
-          <Link className="text-sm hover:underline" href={`/${lang}/privacy`}>
+          <Link className="text-sm hover:underline" href={localeHref(lang, "/privacy")}>
             {dict.footer.privacyPolicy}
           </Link>
-          <Link className="text-sm hover:underline" href={`/${lang}/cookie`}>
+          <Link className="text-sm hover:underline" href={localeHref(lang, "/cookie")}>
             {dict.footer.cookiePolicy}
           </Link>
         </div>

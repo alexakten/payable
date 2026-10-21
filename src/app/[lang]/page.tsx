@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 import { getDictionary } from "./dictionaries";
+import { localeHref } from "@/lib/localePath";
 
 type Locale = "en" | "se";
 
@@ -72,7 +73,7 @@ export default async function Home({ params: { lang } }: Params) {
               </span>
             </button>
           </Link>
-          <Link href={`/${lang}/contact`}>
+          <Link href={localeHref(lang, "/contact")}>
             <button className="text-md group rounded-md bg-zinc-100 px-4 py-3 font-normal text-black hover:bg-zinc-200">
               {dict.hero.ctaContact}{" "}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
@@ -129,7 +130,7 @@ export default async function Home({ params: { lang } }: Params) {
               </span>
             </button>
           </Link>
-          <Link href={`/${lang}/contact`}>
+          <Link href={localeHref(lang, "/contact")}>
             <button className="text-md group rounded-md bg-zinc-100 px-4 py-3 font-normal text-black hover:bg-zinc-200">
               {dict.helpSection.ctaContact}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">
@@ -183,7 +184,7 @@ export default async function Home({ params: { lang } }: Params) {
               </span>
             </button>
           </Link>
-          <Link href={`/${lang}/contact`}>
+          <Link href={localeHref(lang, "/contact")}>
             <button className="text-md group rounded-md bg-zinc-100 px-4 py-3 font-normal text-black hover:bg-zinc-200">
               {dict.helpSection.ctaContact}
               <span className="inline-block translate-x-0 tracking-normal transition-transform duration-200 group-hover:translate-x-1">

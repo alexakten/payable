@@ -4,10 +4,9 @@ import Link from "next/link";
 import { Squash as Hamburger } from "hamburger-react";
 
 import { getDictionary } from "../../dictionaries";
-import LanguageSwitcher from "./LanguageSwitcher"; // Import the new LanguageSwitcher component
+import LanguageSwitcher from "./LanguageSwitcher";
+import { localeHref, type Locale } from "@/lib/localePath";
 import { useState, useEffect } from "react"; // Import useState and useEffect
-
-type Locale = "en" | "se"; // Correct type for language
 
 interface Params {
   params: {
@@ -60,7 +59,7 @@ export default function Navbar({
       {/* Logo */}
       <div className="col-span-1 flex items-center justify-start">
         <Link
-          href={`/${lang}`}
+          href={localeHref(lang, "/")}
           className="flex items-center gap-1"
           onClick={handleLinkClick}
         >
@@ -102,7 +101,7 @@ export default function Navbar({
         {pageType === "customer" ? (
           <>
             <Link
-              href={`/${lang}/#about-us`}
+              href={localeHref(lang, "/#about-us")}
               className="hidden lg:block"
               onClick={handleLinkClick}
             >
@@ -111,7 +110,7 @@ export default function Navbar({
               </button>
             </Link>
             <Link
-              href={`/${lang}/#pay`}
+              href={localeHref(lang, "/#pay")}
               className="hidden lg:block"
               onClick={handleLinkClick}
             >
@@ -120,7 +119,7 @@ export default function Navbar({
               </button>
             </Link>
             <Link
-              href={`/${lang}/#faq`}
+              href={localeHref(lang, "/#faq")}
               className="hidden lg:block"
               onClick={handleLinkClick}
             >
@@ -129,7 +128,7 @@ export default function Navbar({
               </button>
             </Link>
             <Link
-              href={`/${lang}/creditors`}
+              href={localeHref(lang, "/creditors")}
               className="hidden lg:block"
               onClick={handleLinkClick}
             >
@@ -141,7 +140,7 @@ export default function Navbar({
         ) : (
           <>
             <Link
-              href={`/${lang}/creditors#about-us`}
+              href={localeHref(lang, "/creditors#about-us")}
               className="hidden lg:block"
               onClick={handleLinkClick}
             >
@@ -150,7 +149,7 @@ export default function Navbar({
               </button>
             </Link>
             <Link
-              href={`/${lang}/creditors#services`}
+              href={localeHref(lang, "/creditors#services")}
               className="hidden lg:block"
               onClick={handleLinkClick}
             >
@@ -159,7 +158,7 @@ export default function Navbar({
               </button>
             </Link>
             <Link
-              href={`/${lang}/creditors#benefits`}
+              href={localeHref(lang, "/creditors#benefits")}
               className="hidden lg:block"
               onClick={handleLinkClick}
             >
@@ -168,7 +167,7 @@ export default function Navbar({
               </button>
             </Link>
             <Link
-              href={`/${lang}/creditors#process`}
+              href={localeHref(lang, "/creditors#process")}
               className="hidden lg:block"
               onClick={handleLinkClick}
             >
@@ -185,7 +184,7 @@ export default function Navbar({
         <div className="hidden sm:block">
           <LanguageSwitcher lang={lang} />
         </div>
-        <Link href={`/${lang}/contact`} className="hidden lg:block">
+        <Link href={localeHref(lang, "/contact")} className="hidden lg:block">
           <button className="rounded-md px-3 py-2 text-sm font-normal hover:bg-zinc-100">
             {dict.navbar.contactUs}
           </button>
@@ -208,22 +207,22 @@ export default function Navbar({
           <div className="flex flex-col items-center gap-4 p-4">
             {pageType === "customer" ? (
               <>
-                <Link href={`/${lang}/#about-us`}>
+                <Link href={localeHref(lang, "/#about-us")}>
                   <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
                     {dict.navbar.aboutUs}
                   </button>
                 </Link>
-                <Link href={`/${lang}/#pay`}>
+                <Link href={localeHref(lang, "/#pay")}>
                   <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
                     {dict.navbar.howToPay}
                   </button>
                 </Link>
-                <Link href={`/${lang}/#faq`}>
+                <Link href={localeHref(lang, "/#faq")}>
                   <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
                     {dict.navbar.faq}
                   </button>
                 </Link>
-                <Link href={`/${lang}/creditors`}>
+                <Link href={localeHref(lang, "/creditors")}>
                   <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
                     {dict.navbar.creditGivers}
                   </button>
@@ -231,29 +230,29 @@ export default function Navbar({
               </>
             ) : (
               <>
-                <Link href={`/${lang}/creditors#about-us`}>
+                <Link href={localeHref(lang, "/creditors#about-us")}>
                   <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
                     {dict.navbar.aboutUs}
                   </button>
                 </Link>
-                <Link href={`/${lang}/creditors#services`}>
+                <Link href={localeHref(lang, "/creditors#services")}>
                   <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
                     {dict.navbar.ourServices}
                   </button>
                 </Link>
-                <Link href={`/${lang}/creditors#benefits`}>
+                <Link href={localeHref(lang, "/creditors#benefits")}>
                   <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
                     {dict.navbar.benefitsSell}
                   </button>
                 </Link>
-                <Link href={`/${lang}/creditors#process`}>
+                <Link href={localeHref(lang, "/creditors#process")}>
                   <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
                     {dict.navbar.process}
                   </button>
                 </Link>
               </>
             )}
-            <Link href={`/${lang}/contact`}>
+            <Link href={localeHref(lang, "/contact")}>
               <button className="rounded-md px-3 py-2 text-sm hover:bg-zinc-100">
                 {dict.navbar.contactUs}
               </button>
