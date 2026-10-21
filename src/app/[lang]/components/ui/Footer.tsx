@@ -121,10 +121,9 @@ export default async function Footer({ lang }: { lang: Locale }) {
           <Link className="text-sm hover:underline" href={`/${lang}/privacy`}>
             {dict.footer.privacyPolicy}
           </Link>
-          {/* Uncomment when needed */}
-          {/* <Link className="text-sm hover:underline" href={`/${lang}/cookie`}>
-            {dict.footer.cookieSettings}
-          </Link> */}
+          <Link className="text-sm hover:underline" href={`/${lang}/cookie`}>
+            {dict.footer.cookiePolicy}
+          </Link>
         </div>
       </div>
     </div>

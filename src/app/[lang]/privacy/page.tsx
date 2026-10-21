@@ -14,17 +14,28 @@ export default async function Privacy({ params: { lang } }: Params) {
   const dict = await getDictionary(lang);
 
   return (
-    <main className="flex flex-col items-center">
+    <main className="flex min-h-screen w-full flex-col items-center bg-white text-black">
       <Navbar pageType="customer" lang={lang} />
-      <section className="m-32 flex w-full max-w-4xl scroll-mt-56 flex-col items-center px-3 sm:px-8">
-        <h2 className="max-w-2xl text-4xl font-medium tracking-tighter md:text-5xl">
+      <section className="flex w-full max-w-4xl scroll-mt-56 flex-col items-center px-3 py-24 sm:px-8">
+        <h2 className="max-w-2xl text-center text-4xl font-medium tracking-tighter md:text-5xl">
           {dict.privacyPolicy.heading}
         </h2>
+        {dict.privacyPolicy.updated ? (
+          <p className="mt-4 text-sm opacity-60">{dict.privacyPolicy.updated}</p>
+        ) : null}
         <div className="mt-12 w-full text-left">
           {dict.privacyPolicy.sections.map((section: any, index: any) => (
             <div key={index}>
               <h3 className="mt-12 text-xl font-medium">{section.title}</h3>
-              <p className="mt-4">{section.content}</p>
+              <div className="mt-4 space-y-2">
+                {section.content.split("\n").map((line: string, i: number) =>
+                  line.trim() === "" ? (
+                    <div key={i} className="h-2" />
+                  ) : (
+                    <p key={i}>{line}</p>
+                  ),
+                )}
+              </div>
             </div>
           ))}
         </div>

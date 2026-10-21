@@ -1,7 +1,4 @@
 import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/react";
-import Cookie from "./components/ui/Cookie";
-import { getCookie } from "cookies-next";
 
 import { Inter } from "next/font/google";
 
@@ -41,18 +38,11 @@ export default function RootLayout({
   children: React.ReactNode;
   params: { lang: string }; // Ensure `lang` is part of the parameters
 }) {
-  const cookieConsent = getCookie("cookie_consent");
-
   return (
     <html lang={lang}>
       {" "}
       {/* Set the 'lang' attribute dynamically */}
-      <body className={inter.className}>
-        {children}
-        {/* {cookieConsent === "granted" && <Analytics />} */}
-        <Analytics />
-        {/* <Cookie />  */}
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }

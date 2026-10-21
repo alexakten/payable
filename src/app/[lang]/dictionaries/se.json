@@ -127,46 +127,105 @@
   },
   "privacyPolicy": {
     "heading": "Integritetspolicy",
+    "updated": "Senast uppdaterad: 21 oktober 2026",
     "sections": [
       {
-        "title": "1. Introduktion",
-        "content": "Denna integritetspolicy beskriver hur Payable AB samlar in, använder, lagrar och skyddar personuppgifter i samband med vår inkassoverksamhet. Vi är fast beslutna att skydda din integritet och säkerställa att dina personuppgifter behandlas i enlighet med gällande dataskyddslagar, inklusive EU allmänna dataskyddsförordning (GDPR)."
+        "title": "1. Inledning",
+        "content": "Payable AB värnar om den personliga integriteten och behandlar personuppgifter i enlighet med Europaparlamentets och rådets förordning (EU) 2016/679 (GDPR), svensk kompletterande dataskyddslagstiftning och övriga tillämpliga bestämmelser.\nDenna integritetspolicy beskriver hur Payable AB samlar in, använder, lagrar, skyddar och i förekommande fall lämnar ut personuppgifter inom ramen för bolagets verksamhet.\nPolicyn gäller i första hand personer vars fordringar hanteras av Payable AB, men även andra personer vars personuppgifter behandlas inom verksamheten.\nPayable använder inte analysverktyg och samlar inte in besöksstatistik på webbplatsen."
       },
       {
-        "title": "2. Personuppgifter vi samlar in",
-        "content": "Vi kan samla in följande typer av personuppgifter: Identifikationsuppgifter: Namn, personnummer, födelsedatum, ID-nummer. Kontaktuppgifter: Adress, telefonnummer, e-postadress. Finansiella uppgifter: Bankkontouppgifter, skuldinformation, betalningshistorik. Kundserviceuppgifter: Kommunikation med kundtjänst, ärendehistorik. Tekniska uppgifter: IP-adress, webbläsaruppgifter, cookies och liknande teknologier."
+        "title": "2. Personuppgiftsansvarig",
+        "content": "Payable AB är personuppgiftsansvarigt för den behandling av personuppgifter som bolaget själv bestämmer ändamål och medel för.\nNär Payable AB utför inkassotjänster för en annan fordringsägare fastställs personuppgiftsansvaret utifrån parternas faktiska roller och ansvar vid behandlingen.\n\nBolagsuppgifter\nFöretagsnamn: Payable AB\nOrganisationsnummer: 559484-8672\nPostadress: Box 2005, 750 02 Uppsala\nE-post: kundservice@payable.se\nWebbplats: www.payable.se\nKontakt för dataskyddsfrågor: kundservice@payable.se"
       },
       {
-        "title": "3. Syften med behandlingen av personuppgifter",
-        "content": "Vi behandlar dina personuppgifter för följande ändamål: Skuldförvaltning: Hantera och inkassera obetalda skulder. Kommunikation: Kontakta dig via telefon, e-post, brev eller andra kanaler angående din skuld. Kundservice: Svara på dina frågor och hantera dina ärenden. Juridiska ändamål: Uppfylla rättsliga skyldigheter, såsom att följa lagar och regler samt besvara rättsliga krav. Förbättring av tjänster: Analysera och förbättra våra tjänster och kundupplevelse."
+        "title": "3. Vilka personuppgifter behandlas?",
+        "content": "Payable AB behandlar de personuppgifter som är nödvändiga för att administrera, förvalta och driva in fordringar samt fullgöra rättsliga skyldigheter.\nDet kan bland annat omfatta:\n• Namn, personnummer och andra identifikationsuppgifter.\n• Folkbokföringsadress, postadress, telefonnummer och e-postadress.\n• Uppgifter om kreditavtal, skulder, kapitalbelopp, räntor och avgifter.\n• Betalningshistorik, betalningsöverenskommelser och amorteringsplaner.\n• Uppgifter om inkassoärenden, betalningsförelägganden och rättsliga processer.\n• Uppgifter från Kronofogdemyndigheten, domstolar och andra behöriga myndigheter.\n• Uppgifter om skuldsanering, utmätning, konkurs och andra förhållanden som är relevanta för fordringshanteringen.\n• Kommunikation mellan den registrerade och Payable AB.\nUppgifter som omfattas av särskilda skyddsregler behandlas endast när det finns lagligt stöd och behandlingen är nödvändig."
       },
       {
-        "title": "4. Rättslig grund för behandling",
-        "content": "Vi behandlar dina personuppgifter baserat på följande rättsliga grunder: Avtal: För att fullgöra våra avtalsförpliktelser gentemot dig. Rättslig förpliktelse: För att uppfylla rättsliga skyldigheter som vi är föremål för. Berättigat intresse: För att driva vår verksamhet, inklusive inkassering av skulder, och förbättra våra tjänster. Samtycke: När det är tillämpligt, exempelvis vid marknadsföring."
+        "title": "4. Varifrån kommer personuppgifterna?",
+        "content": "Personuppgifter kan erhållas direkt från den registrerade eller från andra källor, exempelvis:\n• Ursprungliga kreditgivare och fordringsägare.\n• Företag från vilka Payable AB förvärvar fordringar eller kreditportföljer.\n• Uppdragsgivare som anlitar Payable AB för inkassohantering.\n• Kronofogdemyndigheten och domstolar.\n• Offentliga register och folkbokföringsuppgifter.\n• Kreditupplysningsföretag och andra behöriga informationsleverantörer.\nPayable AB behandlar endast sådana uppgifter som är relevanta och nödvändiga för respektive ändamål."
       },
       {
-        "title": "5. Delning av personuppgifter",
-        "content": "Vi kan dela dina personuppgifter med: Tjänsteleverantörer: Företag som tillhandahåller tjänster åt oss, såsom IT-support, betaltjänster och kundtjänst. Myndigheter: Rättsliga instanser och tillsynsmyndigheter när det krävs enligt lag. Affärspartners: Företag som vi samarbetar med för att utföra våra tjänster."
+        "title": "5. Ändamål med behandlingen",
+        "content": "Personuppgifter behandlas för att Payable AB ska kunna:\n• Identifiera gäldenärer och administrera fordringar.\n• Förvärva, överta och förvalta kreditfordringar.\n• Skicka betalningspåminnelser, inkassokrav och annan ärenderelaterad kommunikation.\n• Registrera och administrera betalningar, räntor och avgifter.\n• Hantera betalningsuppgörelser, invändningar och bestridanden.\n• Vidta rättsliga åtgärder för att fastställa eller driva in fordringar.\n• Kommunicera med Kronofogdemyndigheten, domstolar och andra behöriga aktörer.\n• Fullgöra skyldigheter enligt lag och tillämpliga myndighetsföreskrifter.\n• Säkerställa korrekt dokumentation, redovisning, intern kontroll och uppföljning.\nPersonuppgifter används inte för ändamål som är oförenliga med de ursprungliga ändamålen utan erforderligt rättsligt stöd. Uppgifterna används inte för att analysera hur webbplatsen används."
       },
       {
-        "title": "6. Överföring av personuppgifter utanför EU/EES",
-        "content": "Dina personuppgifter kan överföras till och behandlas i länder utanför EU/EES. I dessa fall säkerställer vi att lämpliga skyddsåtgärder vidtas, såsom standardavtalsklausuler godkända av EU-kommissionen."
+        "title": "6. Rättslig grund för behandlingen",
+        "content": "Payable AB behandlar personuppgifter med stöd av tillämpliga rättsliga grunder enligt artikel 6 i GDPR.\n\nBerättigat intresse – artikel 6.1 f\nBehandling kan vara nödvändig för Payable AB:s eller en annan fordringsägares berättigade intresse av att administrera, fastställa, bevaka och driva in rättsligt grundade fordringar.\nSådan behandling föregås av en bedömning av om intresset väger tyngre än den registrerades intressen och grundläggande rättigheter.\n\nRättslig förpliktelse – artikel 6.1 c\nBehandling sker när det är nödvändigt för att uppfylla skyldigheter enligt exempelvis bokföringslagstiftning, inkassoreglering och andra tillämpliga författningar.\n\nAvtal – artikel 6.1 b\nNär Payable AB är avtalspart kan personuppgifter behandlas i den utsträckning som är nödvändig för att fullgöra avtalet med den registrerade.\n\nBehandling av personuppgifter inom inkassoverksamheten förutsätter normalt inte den registrerades samtycke."
       },
       {
-        "title": "7. Lagring av personuppgifter",
-        "content": "Vi lagrar dina personuppgifter så länge det är nödvändigt för de ändamål som de samlades in för eller så länge som krävs enligt lag. När dina personuppgifter inte längre behövs kommer de att raderas eller anonymiseras."
+        "title": "7. Utlämnande av personuppgifter",
+        "content": "Payable AB kan lämna ut personuppgifter när det är nödvändigt och lagligt tillåtet.\nMottagare kan exempelvis vara:\n• Kronofogdemyndigheten och domstolar.\n• Juridiska ombud och andra behöriga rådgivare.\n• Banker och betaltjänstleverantörer.\n• IT-leverantörer och leverantörer av ärendehanteringssystem.\n• Uppdragsgivare, kreditgivare och andra fordringsägare.\n• Myndigheter som har rätt att begära uppgifterna.\nLeverantörer som behandlar personuppgifter för Payable AB:s räkning ska omfattas av lämpliga avtal och säkerhetskrav.\nPersonuppgifter lämnas inte ut för fristående marknadsföringsändamål utan erforderligt rättsligt stöd."
       },
       {
-        "title": "8. Dina rättigheter",
-        "content": "Du har rätt att: Få tillgång till dina personuppgifter: Begära en kopia av de personuppgifter vi har om dig. Rätta felaktiga uppgifter: Begära att felaktiga eller ofullständiga uppgifter rättas. Radera dina personuppgifter: Begära att dina personuppgifter raderas under vissa omständigheter. Begränsa behandlingen: Begära att behandlingen av dina personuppgifter begränsas under vissa omständigheter. Invända mot behandling: Invända mot behandlingen av dina personuppgifter baserat på berättigat intresse eller för direktmarknadsföring. Dataportabilitet: Begära att få dina personuppgifter överförda till en annan tjänsteleverantör."
+        "title": "8. Lagring och gallring",
+        "content": "Payable AB lagrar personuppgifter endast så länge det är nödvändigt för de ändamål för vilka uppgifterna behandlas eller så länge lagring krävs enligt tillämplig lagstiftning.\nLagringstiden bedöms bland annat utifrån:\n• Om fordran fortfarande är aktiv.\n• Om fordran behöver bevakas med hänsyn till preskriptionsregler.\n• Om rättsliga förfaranden pågår eller kan aktualiseras.\n• Tillämpliga bokförings- och dokumentationskrav.\n• Behovet av att fastställa, göra gällande eller försvara rättsliga anspråk.\nNär uppgifterna inte längre behövs raderas eller anonymiseras de enligt bolagets fastställda gallringsrutiner."
       },
       {
-        "title": "9. Kontaktuppgifter",
-        "content": "Om du har frågor om denna integritetspolicy eller vill utöva dina rättigheter, vänligen kontakta oss."
+        "title": "9. Säkerhet och sekretess",
+        "content": "Payable AB vidtar lämpliga tekniska och organisatoriska säkerhetsåtgärder för att skydda personuppgifter mot obehörig åtkomst, förlust, förändring och otillåten spridning.\nTillgång till personuppgifter begränsas till behöriga personer som behöver uppgifterna för sina arbetsuppgifter.\nPersonuppgifter hanteras med särskild hänsyn till den integritetskänslighet som kan förekomma vid inkasso- och fordringshantering."
       },
       {
-        "title": "10. Ändringar i integritetspolicyn",
-        "content": "Vi kan uppdatera denna integritetspolicy vid behov. Den senaste versionen kommer alltid att finnas tillgänglig på vår webbplats. Vi uppmuntrar dig att regelbundet granska denna policy för att hålla dig informerad om hur vi skyddar dina personuppgifter. Datum för senaste uppdatering: 2024-06-10. Genom att använda våra tjänster samtycker du till denna integritetspolicy."
+        "title": "10. Överföring till länder utanför EU/EES",
+        "content": "Payable använder inte analysverktyg. Besöksstatistik samlas inte in och överförs inte till något land.\nPersonuppgifter i fordringshanteringen lagras inom EU/EES och överförs inte till länder utanför EU/EES."
+      },
+      {
+        "title": "11. Automatiserat beslutsfattande",
+        "content": "Payable AB använder inte automatiserat individuellt beslutsfattande, inklusive profilering, som omfattas av artikel 22 i GDPR."
+      },
+      {
+        "title": "12. Den registrerades rättigheter",
+        "content": "Den som får sina personuppgifter behandlade av Payable AB har enligt GDPR, under de förutsättningar som anges i förordningen, rätt att:\n• Få information och tillgång: Begära besked om vilka personuppgifter som behandlas och få tillgång till dessa.\n• Begära rättelse: Få felaktiga eller ofullständiga uppgifter rättade eller kompletterade.\n• Begära radering: Begära att uppgifter raderas när förutsättningarna för detta är uppfyllda.\n• Begära begränsning: Begära att behandlingen begränsas i vissa situationer.\n• Invända mot behandling: Invända mot behandling som grundas på berättigat intresse.\n• Begära dataportabilitet: I de fall GDPR medger detta få ut uppgifter i ett strukturerat och maskinläsbart format.\nDessa rättigheter är inte absoluta. Payable AB kan i vissa fall behöva fortsätta behandla personuppgifter för att fullgöra rättsliga skyldigheter eller fastställa, göra gällande eller försvara rättsliga anspråk.\nEn begäran om radering eller invändning mot behandling innebär därför inte automatiskt att en fordran upphör eller att nödvändig fordringshantering måste avslutas."
+      },
+      {
+        "title": "13. Begäran och klagomål",
+        "content": "Den som vill utöva sina rättigheter eller har frågor om Payable AB:s behandling av personuppgifter kan kontakta bolaget genom kontaktuppgifterna ovan.\nPayable AB besvarar begäranden inom de tidsfrister som följer av GDPR, normalt inom en månad från mottagandet.\nDen registrerade har även rätt att lämna klagomål till Integritetsskyddsmyndigheten (IMY).\nWebbplats: www.imy.se"
+      },
+      {
+        "title": "14. Ändringar av integritetspolicyn",
+        "content": "Payable AB kan uppdatera denna integritetspolicy när verksamheten, lagstiftningen eller behandlingen av personuppgifter förändras.\nDen senaste versionen finns alltid tillgänglig på bolagets webbplats.\n\nIntegritet och korrekt hantering av personuppgifter är en grundläggande del av vår verksamhet."
+      }
+    ]
+  },
+  "cookiePolicy": {
+    "heading": "Cookiepolicy",
+    "updated": "Senast uppdaterad: 21 oktober 2026",
+    "sections": [
+      {
+        "title": "Vad är cookies?",
+        "content": "Denna cookiepolicy beskriver hur Payable AB (\"Payable\") använder cookies på webbplatsen och i de digitala tjänsterna.\nCookies är små textfiler som lagras på din enhet när du besöker en webbplats. En cookie kan användas för att en tjänst ska fungera, till exempel för att hålla dig inloggad.\nPayable använder inte cookies för analys och samlar inte in besöksstatistik."
+      },
+      {
+        "title": "Besök på webbplatsen",
+        "content": "När du besöker www.payable.se sätts inga cookies. Det krävs inget samtycke och ingen cookie-ruta, eftersom ingen cookie placeras."
+      },
+      {
+        "title": "Nödvändig cookie vid inloggning",
+        "content": "När du loggar in i Payables tjänst med BankID sätts en cookie för att hålla dig inloggad och för att identifiera din aktiva session. Cookien gör att du inte behöver logga in på nytt varje gång du går till en ny sida under samma inloggade session.\nCookien är nödvändig för att tillhandahålla den inloggning du själv har begärt. Den kräver inte samtycke.\n\nTyp: Inloggnings- och sessionscookie\nNamn: payable_session\nSyfte: Håller användaren inloggad efter autentisering med BankID och upprätthåller användarens session.\nLeverantör: Payable AB\nKategori: Nödvändig\nLagringstid: 2 timmar, eller tills du loggar ut"
+      },
+      {
+        "title": "Rättslig grund",
+        "content": "Den nödvändiga cookien används eftersom den krävs för att den digitala tjänsten ska fungera och för att tillhandahålla inloggningen du själv har efterfrågat.\nPayable använder inga analyscookies och inhämtar inte samtycke till analys."
+      },
+      {
+        "title": "Hur länge sparas cookien?",
+        "content": "Sessionscookien sparas i upp till 2 timmar. Den tas bort när du loggar ut, eller när tiden löpt ut."
+      },
+      {
+        "title": "Webbläsarinställningar",
+        "content": "Du kan ställa in din webbläsare så att cookies blockeras eller tas bort. Om du blockerar den nödvändiga cookien kan inloggningen sluta fungera."
+      },
+      {
+        "title": "Personuppgifter och cookies",
+        "content": "En sessionscookie kan kopplas till din inloggning och därmed utgöra en personuppgift.\nMer information om hur Payable behandlar personuppgifter, vilka rättigheter du har och hur du kontaktar oss finns i integritetspolicyn."
+      },
+      {
+        "title": "Ändringar i denna cookiepolicy",
+        "content": "Vi kan uppdatera denna cookiepolicy när våra tjänster, vår användning av cookies eller tillämpliga regler förändras. Den senaste versionen finns alltid tillgänglig på vår webbplats."
+      },
+      {
+        "title": "Kontakta oss",
+        "content": "Om du har frågor om vår användning av cookies eller behandlingen av personuppgifter är du välkommen att kontakta Payable AB via kundservice@payable.se."
       }
     ]
   },
@@ -426,6 +485,7 @@
     "codeOfConduct": "Code of Conduct",
     "complaints": "Kundklagomål",
     "privacyPolicy": "Integritetspolicy",
+    "cookiePolicy": "Cookiepolicy",
     "cookieSettings": "Cookie-inställningar",
     "openHoursTitle": "Öppettider",
     "openHours": "Öppettider: Vardagar 09:00-12:00"
